@@ -1,0 +1,212 @@
+body {
+    background-color: #08000f !important;
+}
+
+div {
+    display: block;
+}
+
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #09035f;
+    color: #fff !important;
+    cursor: pointer;
+    display: none;
+    border-radius: 50px;
+}
+
+.back_to_top:hover {
+    border: 1px solid white;
+}
+
+.back_to_top-show {
+    display: block;
+}
+
+.containers {
+    display: grid;
+    grid-template-columns: 1200px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+@media (max-width:2000px) {
+    .containers {
+        grid-template-columns: 100%;
+    }
+}
+
+@media (max-width:1400px) {
+    .containers {
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+}
+
+@media (max-width:1110px) {
+    .training {
+        background: url(/image/game/modes/no-ratingme.jpg) no-repeat !important;
+    }
+    .quick {
+        background: url(/image/game/modes/quick-gameme.jpg) no-repeat !important;
+    }
+    .brawl {
+        background: url(/image/game/modes/brawlme.jpg) no-repeat !important;
+    }
+}
+
+@media (max-width:899px) {
+    p, h3 {
+        text-align: center !important;
+    }
+    h3 {
+        padding-top: 30% !important;
+    }
+    .txt-min {
+        padding-right: 0 !important;
+    }
+    .head {
+        background: url(/image/game/modes/mode-game.jpg) top center no-repeat !important;
+        background-size: 80% !important;
+    }
+    .training {
+        background: url(/image/game/modes/no-ratingm.jpg) top center no-repeat !important;
+        background-size: 80% !important;
+    }
+    .quick {
+        background: url(/image/game/modes/quick-gamem.jpg) top center no-repeat !important;
+        background-size: 80% !important;
+    }
+    .ii {
+        background: url(/image/game/modes/ii.jpg) top center no-repeat !important;
+        background-size: 60% !important;
+    }
+    .brawl {
+        background: url(/image/game/modes/brawlm.jpg) top center no-repeat !important;
+        background-size: 80% !important;
+    }
+    .nexus {
+        padding-right: 10% !important;
+        padding-left: 10% !important;
+    }
+}
+
+.head {
+    background: url(/image/game/modes/mode-game.jpg) center no-repeat;
+}
+
+.header {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: #bdd3ff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+}
+
+.big-con {
+    background: url(/image/game/modes/divider.png) top center no-repeat;
+}
+
+.training {
+    background: url(/image/game/modes/no-rating.jpg) no-repeat;
+}
+
+.ii {
+    background: url(/image/game/modes/ii.jpg) right top no-repeat;
+}
+
+.quick {
+    background: url(/image/game/modes/quick-game.jpg) no-repeat;
+}
+
+.brawl {
+    background: url(/image/game/modes/brawl.jpg) no-repeat;
+}
+
+.nexus {
+    text-align: center;
+    padding-right: 35%;
+    padding-left: 35%;
+}
+
+.own-game {
+    background: url(/image/game/modes/own-game-b.jpg) bottom center no-repeat;
+    padding-bottom: 2em;
+}
+
+.img-own-game {
+    max-width: 600px;
+    width: 100%;
+    margin-top: 3em;
+    border: 2px solid #8332cd !important;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20%;
+    color: white !important;
+    font-size: 3.3em !important;
+    text-shadow: 0 0 1rem #009cff;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.4rem !important;
+    text-transform: uppercase;
+    color: white !important;
+    text-shadow: 0 0 1rem #009cff;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5%;
+}
+
+h3 {
+    font-size: 2rem !important;
+    text-transform: uppercase;
+    color: white !important;
+    text-shadow: 0 0 1rem #009cff;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5%;
+}
+
+h4 {
+    font-size: 1.35rem !important;
+    color: #58baff !important;
+    font-style: italic;
+    font-weight: 400 !important;
+}
+
+p {
+    text-align: left;
+    color: #bdd3ff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+}
+
+em {
+    font-style: italic;
+    font-size: 1.4rem;
+    color: #58baff;
+}
+
+.txt-min {
+    padding-right: 50%;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10em;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}

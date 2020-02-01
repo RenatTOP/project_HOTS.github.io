@@ -1,0 +1,373 @@
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #09035f;
+    color: #fff !important;
+    cursor: pointer;
+    display: none;
+    border-radius: 50px;
+}
+
+.back_to_top:hover {
+    border: 1px solid white;
+}
+
+.back_to_top-show {
+    display: block;
+}
+
+body {
+    background: url(/image/game/bg.jpg) top center no-repeat;
+    background-size: auto;
+    background-color: #000d1a !important;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #cce5ff !important;
+    text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+}
+
+section {
+    background: url(/image/game/bg-bot.jpg);
+    background-size: auto;
+    padding-top: 29rem;
+}
+
+@media (max-width: 900px) {
+    section {
+        background: url(/image/game/min-bg-bot.jpg) no-repeat;
+        position: relative;
+    }
+}
+
+.col {
+    text-align: center;
+    color: #cce5ff;
+    font-family: "Source Sans pro";
+    padding: 1em;
+}
+
+img:hover {
+    border: rgba(34, 34, 241, 0.829) 3px solid;
+    border-radius: 200px;
+    box-shadow: rgb(43, 43, 224) 0 0 25px 10px;
+    transition: all .3s ease;
+}
+
+img {
+    width: 140px;
+    height: 140px;
+    box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.5);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+a {
+    color: #cce5ff !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-shadow: 0px 1px 1px rgba(229, 234, 255, 1);
+}
+
+.icons {
+    display: grid;
+    grid-template-areas: 'i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 i13 i14 i15';
+    text-align: center;
+    color: #cce5ff;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 700px) {
+    .icons {
+        grid-template-areas: 'i1 i2 i3 i4 i5 i6 i7 i8' 'i9 i10 i11 i12 i13 i14 i15 .';
+    }
+}
+
+@media (max-width: 400px) {
+    .icons {
+        grid-template-areas: '. i1 .' 'i2 i3 i4' 'i5 i6 i7' '. i8 .' '. i9 . ' 'i10 i11 i12' 'i13 i14 i15';
+    }
+}
+#searchb {
+    cursor: pointer;
+    border-radius: 5px;
+}
+#searcho {
+    display: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#search {
+    display: none;
+}
+.search {
+    color: #fff;
+}
+
+#logo {
+    max-width: 290px;
+    max-height: 290px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+svg {
+    cursor: pointer;
+}
+
+.all svg:hover * {
+    fill: blue !important;
+    transition: all .7s ease;
+}
+
+.i3 svg:hover * {
+    fill: rgb(255, 215, 0) !important;
+    transition: all .7s ease;
+}
+
+.i4 svg:hover * {
+    fill: rgb(255, 140, 0) !important;
+    transition: all .7s ease;
+}
+
+.i5 svg:hover * {
+    fill: rgb(220, 20, 60) !important;
+    transition: all .7s ease;
+}
+
+.i6 svg:hover * {
+    fill: rgb(153, 50, 204) !important;
+    transition: all .7s ease;
+}
+
+.i7 svg:hover * {
+    fill: rgb(65, 105, 225) !important;
+    transition: all .7s ease;
+}
+
+.i8 svg:hover * {
+    fill: rgb(0, 255, 0) !important;
+    transition: all .7s ease;
+}
+
+.i11 svg:hover #war1col {
+    fill: #92611e !important;
+    transition: all .7s ease;
+}
+
+.i11 svg:hover #war2col {
+    fill: #dba801 !important;
+    transition: all .7s ease;
+}
+
+.i12 svg:hover #sc1col {
+    fill: #8A9597 !important;
+    transition: all .7s ease;
+}
+
+.i12 svg:hover #sc2col {
+    fill: rgb(212, 210, 210) !important;
+    transition: all .7s ease;
+}
+
+.i12 svg:hover #sc3col {
+    fill: rgb(212, 210, 210) !important;
+    transition: all .7s ease;
+}
+
+.i12 svg:hover #sc4col {
+    fill: #7891a7 !important;
+    transition: all .7s ease;
+}
+
+.i12 svg:hover #sc7col {
+    fill: #7891a7 !important;
+    transition: all .7s ease;
+}
+
+.i12 svg:hover #sc5col {
+    fill: #577889 !important;
+    transition: all .7s ease;
+}
+
+.i12 svg:hover #sc6col {
+    fill: #577889 !important;
+    transition: all .7s ease;
+}
+
+.i13 svg:hover #diablo1col {
+    fill: #B32428 !important;
+    transition: all .7s ease;
+}
+
+.i13 svg:hover #diablo2col {
+    fill: #d89953 !important;
+    transition: all .7s ease;
+}
+
+.i14 svg:hover #over1col {
+    fill: #f99d2a !important;
+    transition: all .7s ease;
+}
+
+.i14 svg:hover #over2col {
+    fill: #c4c4c4 !important;
+    transition: all .7s ease;
+}
+
+.i15 svg:hover #nexus1col {
+    fill: #6250ff !important;
+    transition: all .7s ease;
+}
+
+.i15 svg:hover #nexus2col {
+    fill: #be9665 !important;
+    transition: all .7s ease;
+}
+
+.i15 svg:hover #nexus3col {
+    fill: #be9665 !important;
+    transition: all .7s ease;
+}
+
+.i15 svg:hover #nexus4col {
+    fill: #be9665 !important;
+    transition: all .7s ease;
+}
+
+/*Navbar options*/
+
+.navbar-light .navbar-toggler-icon {
+    background: url(/image/home/gamburger.png) !important;
+}
+
+.navbar {
+    background: url(/image/game/brawl/navbar.jpg);
+}
+
+#logo {
+    box-shadow: none;
+    border-radius: 0px;
+    height: 130px;
+    width: 300px;
+}
+
+@media (max-width: 450px) {
+    #logo {
+        box-shadow: none;
+        border-radius: 0px;
+        height: 65px;
+        width: 150px;
+    }
+}
+
+#logo:hover {
+    border: none !important;
+}
+
+.dropdown-menu {
+    background: #191970!important;
+    background-size: 100% !important;
+}
+
+.dropdown-item {
+    background: #191970!important;
+    color: #fff!important;
+}
+
+.dropdown-item:hover {
+    font-size: 1.2rem;
+    text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+}
+
+#navbarDropdown {
+    color: #cce5ff;
+    font-family: MetronicforBlizzard, Metronic, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #cce5ff !important;
+    font-family: MetronicforBlizzard, Metronic, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+}
+
+/*End*/
+
+.i1 {
+    grid-area: i1;
+    padding: 10px;
+}
+
+.i2 {
+    grid-area: i2;
+}
+
+.i3 {
+    grid-area: i3;
+    ;
+}
+
+.i4 {
+    grid-area: i4;
+}
+
+.i5 {
+    grid-area: i5;
+}
+
+.i6 {
+    grid-area: i6;
+}
+
+.i7 {
+    grid-area: i7;
+}
+
+.i8 {
+    grid-area: i8;
+}
+
+.i9 {
+    grid-area: i9;
+}
+
+.i10 {
+    grid-area: i10;
+}
+
+.i11 {
+    grid-area: i11;
+}
+
+.i12 {
+    grid-area: i12;
+}
+
+.i13 {
+    grid-area: i13;
+}
+
+.i14 {
+    grid-area: i14;
+}
+
+.i15 {
+    grid-area: i15;
+}

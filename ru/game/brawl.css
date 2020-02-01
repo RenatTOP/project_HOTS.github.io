@@ -1,0 +1,228 @@
+body {
+    background-color: #08000f !important;
+}
+
+div {
+    display: block;
+}
+
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #09035f;
+    color: #fff !important;
+    cursor: pointer;
+    display: none;
+    border-radius: 50px;
+}
+
+.back_to_top:hover {
+    border: 1px solid white;
+}
+
+.back_to_top-show {
+    display: block;
+}
+
+.page-container {
+    display: grid;
+    grid-template-columns: 3000px;
+    margin-right: 0;
+    margin-left: 0;
+    background: #08000f;
+    ;
+}
+
+@media (max-width:2300px) {
+    .page-container {
+        grid-template-columns: 100%;
+    }
+}
+
+.head {
+    background: url(/image/game/brawl/intro-bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:800px) {
+    .head {
+        background: url(/image/game/brawl/intro-bg-tablet.jpg) top center no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width:400px) {
+    .head {
+        background: url(/image/game/brawl/intro-bg-mobile.jpg) top center no-repeat;
+        background-size: cover;
+    }
+}
+
+.arena {
+    background: url(/image/game/brawl/new-to-game-bg-top.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.mutators {
+    background: url(/image/game/brawl/mutators-bg.jpg) top left no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:780px) {
+    .mutators {
+        background: url(/image/game/brawl/mutators-bgm.jpg) top center no-repeat;
+        background-size: cover;
+    }
+}
+
+.heroes {
+    background: url(/image/game/brawl/navbar.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:1184px) {
+    .heroes-header {
+        text-align: center !important;
+    }
+}
+
+.event {
+    background: url(/image/game/brawl/rewards-bg-top.jpg) top center no-repeat;
+}
+
+h1 {
+    padding-top: 1em !important;
+    text-align: center;
+    font-size: 3.5rem !important;
+    color: white !important;
+    text-shadow: 0 0 1rem #009cff;
+    text-transform: uppercase;
+}
+
+@media (max-width:400px) {
+    h1 {
+        font-size: 2.5rem !important;
+    }
+}
+
+h2 {
+    text-align: center;
+    color: white !important;
+    text-shadow: 0 0 1rem #009cff;
+    font-size: 3.2rem !important;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+@media (max-width:400px) {
+    h2 {
+        font-size: 2.1rem !important;
+    }
+}
+
+p {
+    margin-left: 2%;
+    text-align: center;
+    color: #bdd3ff;
+    font-size: 1.3rem;
+}
+
+.header {
+    font-size: 2rem;
+    color: white;
+}
+
+.heading {
+    padding-top: 17em;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.arena-header {
+    padding-top: 8em;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.arena-text {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.mutators-header {
+    padding-left: 2% !important;
+    text-align: left !important;
+    padding-top: 2em;
+}
+
+@media (max-width:780px) {
+    .mutators-header {
+        text-align: center !important;
+    }
+}
+
+.mutators-heading {
+    text-align: left;
+    padding-bottom: 10%;
+}
+
+@media (max-width:780px) {
+    .mutators-heading {
+        text-align: center !important;
+        color: #73a2ff;
+    }
+}
+
+.heroes-header {
+    padding-left: 2% !important;
+    text-align: left;
+    padding-top: 10%;
+}
+
+.hero {
+    float: right;
+    margin-top: -30px !important;
+    margin: 7px 0 7px 7px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.event-header {
+    vertical-align: bottom !important;
+}
+
+@media (max-width:400px) {
+    .event-header {
+        font-size: 1.8rem !important;
+    }
+}
+
+.event-heading {
+    padding-bottom: 10%;
+}
+
+.loot-top {
+    width: 100%;
+}
+
+.loot {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10em;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}

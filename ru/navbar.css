@@ -1,0 +1,48 @@
+.navbar-light .navbar-toggler-icon {
+   background: url(/image/home/gamburger.png) !important;
+}
+.navbar {
+    background:url(/image/game/brawl/navbar.jpg) !important;
+    z-index: 1;
+}
+ #logo {
+    box-shadow: none;
+    border-radius: 0px;
+    height: 130px;
+    width: 300px;
+ }
+ @media (max-width: 450px) {
+    #logo {
+       box-shadow: none;
+       border-radius: 0px;
+       height: 65px;
+       width: 150px;
+    }
+ }
+ .dropdown-menu {
+    background: #191970!important;
+    background-size: 100% !important;
+ }
+ .dropdown-item {
+    background: #191970!important;
+    color: #fff!important;
+    
+ }
+ .dropdown-item:hover {
+    font-size: 1.2rem;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+ }
+ #navbarDropdown {
+    color:#cce5ff;
+    font-family: MetronicforBlizzard,Metronic,Helvetica,Arial,sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+ }
+ .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link  {
+    color: #cce5ff !important;
+    font-family: MetronicforBlizzard,Metronic,Helvetica,Arial,sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+ }

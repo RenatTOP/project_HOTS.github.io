@@ -1,0 +1,343 @@
+div {
+    display: block;
+}
+
+.container-fluid {
+    background-color: #08000f;
+    padding: 3% !important;
+}
+
+.col-3 {
+    background: linear-gradient(to top, #0e0520, #1b1146);
+    padding: 5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid black;
+}
+
+.col {
+    background: linear-gradient(to top, #0e0520, #1b1146);
+    padding: 5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 3.5rem;
+    border: 1px solid black;
+}
+
+.zero {
+    background: transparent !important;
+    border: none !important;
+}
+
+@media (max-width:800px) {
+    .zero {
+        display: none;
+    }
+}
+h1 {
+    color: #cce5ff !important;
+    font-size: 1.5rem;
+    font-family: 'Lora', serif;
+    text-align: center;
+    text-transform: uppercase !important;
+}
+
+ul {
+    list-style-type: none !important;
+    margin: 0;
+    display: block;
+    margin-block-start: -4em !important;
+    margin-block-end: -3em !important;
+    margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important;
+    padding-inline-start: 0px !important;
+}
+
+span {
+    vertical-align: top !important;
+    color: #cce5ff;
+    font: 1.1rem;
+}
+#cho {
+    text-shadow: 0 0 1rem #009cff;
+}
+#gall {
+    text-shadow: 0 0 1rem #009cff;
+}
+.text {
+    vertical-align: bottom !important;
+    margin-left: 40% !important;
+    text-shadow: 0 0 1rem #009cff;
+    font-size: 1.4rem;
+}
+
+@media (max-width:1150px) {
+    .text {
+        vertical-align: bottom !important;
+        margin-left: 40% !important;
+        text-shadow: 0 0 1rem #009cff;
+        font-size: 0.9rem;
+    }
+}
+@media (max-width:350px) {
+    .text {
+        vertical-align: bottom !important;
+        margin-left: 40% !important;
+        text-shadow: 0 0 1rem #009cff;
+        font-size: 1rem;
+    }
+}
+
+.icon {
+    display: block;
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 25%;
+}
+
+@media (max-width:350px) {
+    .icon {
+        display: block;
+        max-width: 150px;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+.headt {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 600px !important;
+    text-align: center;
+}
+.header {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.headerm {
+    display: none;
+}
+
+@media (max-width:750px) {
+    .headerm {
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width:750px) {
+    .header {
+        display: none;
+    }
+}
+
+.stat-icon {
+    max-width: 80px;
+    width: auto;
+    height: auto;
+    padding-right: 15px;
+}
+
+@media (max-width:1030px) {
+    .stat-icon {
+        max-width: 60px;
+        width: auto;
+        height: auto;
+        padding-right: 10px;
+    }
+}
+@media (max-width:350px) {
+    .stat-icon {
+        max-width: 50px;
+        width: auto;
+        height: auto;
+        padding-right: 10px;
+    }
+}
+
+p {
+    width: 13px;
+    height: 9px;
+    display: inline-block;
+    margin-right: 3px;
+    background-color: rgb(50, 51, 51);
+    opacity: 0.6;
+}
+
+@media (max-width:1450px) {
+    p {
+        width: 12px;
+        height: 9px;
+        display: inline-block;
+        margin-right: -2px;
+        background-color: rgb(50, 51, 51);
+        vertical-align: text-bottom;
+        opacity: 0.6;
+    }
+}
+@media (max-width:1150px) {
+    p {
+        width: 10px;
+        height: 8px;
+        display: inline-block;
+        margin-right:  -2px;
+        background-color: rgb(50, 51, 51);
+        vertical-align: text-bottom;
+        opacity: 0.6;
+    }
+}
+@media (max-width:350px) {
+    p {
+        width: 8px;
+        height: 7px;
+        display: inline-block;
+        margin-right: -2px;
+        background-color: rgb(50, 51, 51);
+        vertical-align: text-bottom;
+        opacity: 0.6;
+    }
+}
+
+.stats-damage {
+    background-color: #ec1919 !important;
+    box-shadow: 0 0 1rem #ff0909;
+}
+
+.stats-support {
+    background-color: #58baff !important;
+    box-shadow: 0 0 1rem #009cff;
+}
+
+.stats-hp {
+    background-color: #0fbb09 !important;
+    box-shadow: 0 0 1rem #1eff00;
+}
+
+.stats-difficult {
+    background-color: #ffffff !important;
+    box-shadow: 0 0 1rem #ffffff;
+}
+
+.class {
+    text-align: top;
+}
+
+.heroic {
+    max-width: 120px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.ab, .bicon {
+    color: #cce5ff;
+    font-size: 1.5rem;
+    font-family: 'Lora', serif;
+    text-shadow: 0 0 1rem #009cff;
+    text-align: center;
+}
+
+.bicon {
+    text-align: center;
+}
+
+.skill {
+    text-align: left !important;
+}
+
+li {
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+}
+
+.base {
+    max-width: 100px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.img-ab {
+    max-width: 460px;
+    min-width: 200px;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(#14324e, #6316d6);
+    padding: 3px;
+    display: block;
+    margin: 0 auto;
+}
+
+.mab {
+    max-width: 100px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width:1000px) {
+    .mab {
+        max-width: 75px;
+    }
+}
+
+h3 {
+    color: #cce5ff !important;
+    font-size: 1rem;
+    font-family: 'Lora', serif;
+    text-shadow: 0 0 1rem #009cff;
+    text-align: center;
+}
+
+em {
+    color: #7f7de9;
+    font-size: 1rem;
+    font-family: 'Lora', serif;
+    text-shadow: 0 0 1rem #57b1e9;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: none
+}
+
+.switch {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    max-width: 300px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,#4f6cff,#48069c);
+    text-align: center;
+    color: #fff !important;
+    font-size: 1.9rem;
+    cursor: pointer !important;
+    border-radius: 40px;
+    text-decoration: none !important;
+}
+
+.switch:hover {
+    background: linear-gradient(to bottom,#4f6cff,#48069c);
+    color: #fff !important;
+    font-size: 1.9rem;
+    cursor: pointer !important;
+    box-shadow: 0px 0px 40px #9640fe;
+}

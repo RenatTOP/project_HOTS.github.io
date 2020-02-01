@@ -1,0 +1,194 @@
+body {
+    background-color: #08000f !important;
+}
+
+div {
+    display: block;
+}
+
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #09035f;
+    color: #fff !important;
+    cursor: pointer;
+    display: none;
+    border-radius: 50px;
+}
+
+.back_to_top:hover {
+    border: 1px solid white;
+}
+
+.back_to_top-show {
+    display: block;
+}
+
+.page-container {
+    display: grid;
+    grid-template-columns: 3000px;
+    margin-right: 0;
+    margin-left: 0;
+    background: #08000f;
+    ;
+}
+
+@media (max-width:2300px) {
+    .page-container {
+        grid-template-columns: 100%;
+    }
+}
+
+h1 {
+    padding-top: 3em !important;
+    text-align: center;
+    font-size: 3.5rem !important;
+    color: white !important;
+    text-shadow: 0 0 1rem #009cff;
+    text-transform: uppercase;
+}
+
+@media (max-width:400px) {
+    h1 {
+        font-size: 2.5rem !important;
+    }
+}
+
+h2 {
+    text-align: center;
+    color: white !important;
+    text-shadow: 0 0 1rem #009cff;
+    font-size: 3rem !important;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+@media (max-width:400px) {
+    h2 {
+        font-size: 2rem !important;
+    }
+}
+
+p {
+    padding-top: 6%;
+    margin: 10%;
+    text-align: center;
+    color: #bdd3ff;
+    font-size: 1.3rem;
+}
+
+.heading {
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    color: rgb(73, 183, 238);
+    font-size: 1.5rem;
+}
+
+.head {
+    background: url(/image/game/rating_matches/bg.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.basics {
+    background: url(/image/game/rating_matches/bg2.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.draft {
+    background: url(/image/game/rating_matches/bg3.jpg) top center no-repeat;
+    background-size: cover;
+    max-height: 600px;
+}
+
+@media (max-width:1159px) {
+    .head {
+        background-size: unset;
+    }
+}
+
+@media (max-width:1159px) {
+    .basics, .draft {
+        background-size: 1500px;
+    }
+}
+
+@media (max-width:925px) {
+    .basics {
+        background: url(/image/game/rating_matches/bg2m.png) top center no-repeat;
+        background-size: 1000px;
+    }
+}
+
+@media (max-width:925px) {
+    .draft {
+        background: url(/image/game/rating_matches/bg3m.jpg)  center no-repeat;
+        background-size: contain;
+    }
+}
+
+.basics-header {
+    padding-top: 0%;
+    text-align: center;
+    color: rgb(73, 183, 238);
+    font-size: 1.5rem;
+}
+
+.basics-heading {
+    margin-top: 15%;
+    text-align: center;
+    color: #bdd3ff;
+    font-size: 1.3rem;
+}
+
+@media (max-width:1200px) {
+    .basics-heading {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width:925px) {
+    .basics-heading {
+        margin-top: 20em;
+    }
+}
+
+.draft-header {
+    padding-top: 0%;
+    text-align: center;
+    color: rgb(73, 183, 238);
+    font-size: 1.5rem;
+}
+
+.draft-heading {
+    margin-top: 18em;
+    text-align: center;
+    color: #bdd3ff;
+    font-size: 1.3rem;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10em;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+@media (max-width:700px) {
+    .logo {
+        margin-top: 30em;
+    }
+}
+@media (max-width:350px) {
+    .logo {
+        margin-top: 45em;
+    }
+}
