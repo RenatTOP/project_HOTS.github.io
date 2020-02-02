@@ -1,6 +1,7 @@
 div {
     display: block;
 }
+
 img {
     max-width: 850px;
     width: 100%;
@@ -8,27 +9,29 @@ img {
     display: block;
     margin: 0 auto;
 }
+
 ul {
-    list-style-type:none !important;
+    list-style-type: none !important;
     margin: 0;
     display: block;
-
     margin-inline-start: 0px !important;
     margin-inline-end: 0px !important;
     padding-inline-start: 0px !important;
 }
+
 h1 {
     font-size: 3.5rem !important;
     text-align: center;
     padding-top: 3em;
     padding-bottom: 6.5em;
-    color:white;
+    color: white;
     font-size: 3rem;
     font-weight: 700;
     text-shadow: 0 0 1rem #009cff;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
 }
+
 h2 {
     font-size: 2.5rem;
     color: white;
@@ -37,6 +40,7 @@ h2 {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
 }
+
 h3 {
     color: white;
     text-shadow: 0 0 1rem #009cff;
@@ -45,28 +49,41 @@ h3 {
     font-family: 'Open Sans', sans-serif;
     margin-top: 15px;
 }
+
 p {
     color: rgb(210, 210, 223);
     text-shadow: 0 0 1rem #89d2ff;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
 }
+
 .obj {
     max-width: 400px;
 }
+
 .col {
     background-color: #0b1133;
-    border: 1px solid #225999;  
+    border: 1px solid #225999;
     margin-top: 35px;
     margin-left: 35px;
     margin-right: 35px;
 }
+
 .image {
     border: 2px solid #225999;
     max-width: 60%;
     margin-bottom: 20px;
-    
 }
+
 a {
-    text-decoration:none !important;
+    text-decoration: none !important;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10em;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
 }

@@ -129,7 +129,7 @@ p {
 
 @media (max-width:925px) {
     .draft {
-        background: url(/image/game/rating_matches/bg3m.jpg)  center no-repeat;
+        background: url(/image/game/rating_matches/bg3m.jpg) center no-repeat;
         background-size: contain;
     }
 }
@@ -182,13 +182,19 @@ p {
     width: 100%;
     height: auto;
 }
+
+.com {
+    margin-top: 10em;
+}
+
 @media (max-width:700px) {
-    .logo {
+    .com {
         margin-top: 30em;
     }
 }
+
 @media (max-width:350px) {
-    .logo {
+    .com {
         margin-top: 45em;
     }
 }
