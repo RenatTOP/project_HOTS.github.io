@@ -1,20 +1,22 @@
 body {
     background-color: #08000f !important;
 }
+
 .head {
     display: block;
 }
+
 .videobg {
-    display:block;
-    width:110%;
-    height:120%;
+    display: block;
+    width: 110%;
+    height: 120%;
     position: relative;
-    top: 20%;
     right: 0;
     bottom: 0;
     left: -10%;
     z-index: 0;
 }
+
 .header {
     z-index: 1;
     display: block;
@@ -25,6 +27,44 @@ body {
     color: white;
     text-shadow: 0 0 1rem #009cff;
 }
+
+.headm {
+    display: none;
+}
+
+@media (max-width:1250px) {
+    .header {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:1000px) {
+    .header {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:750px) {
+    .header {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:550px) {
+    .videobg {
+        display: none;
+    }
+    .headm {
+        display: block;
+        max-width: 550px !important;
+        width: 100%;
+        height: auto;
+    }
+    .header {
+        margin-left: 25%;
+    }
+}
+
 a {
     text-decoration: none !important;
     color: white !important;
