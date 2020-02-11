@@ -70,10 +70,10 @@ a {
     color: white !important;
 }
 .col {
-    text-align: center;
+    text-align: center !important;
     margin-top: 1em;
 }
 .image {
-    max-height: 280px;
-    height: 100%;
+    max-height: 280px !important;
+    height: 100% !important;
 }
