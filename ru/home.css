@@ -8,7 +8,7 @@ body {
 
 .videobg {
     display: block;
-    width: 110%;
+    width: 111%;
     height: 120%;
     position: relative;
     right: 0;
@@ -68,4 +68,12 @@ body {
 a {
     text-decoration: none !important;
     color: white !important;
+}
+.col {
+    text-align: center;
+    margin-top: 1em;
+}
+.image {
+    max-height: 280px;
+    height: 100%;
 }
