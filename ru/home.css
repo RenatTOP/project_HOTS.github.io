@@ -69,11 +69,18 @@ a {
     text-decoration: none !important;
     color: white !important;
 }
+
 .col {
     text-align: center !important;
     margin-top: 1em;
 }
-img {
+
+#one {
+    max-height: 280px;
+    height: 100%;
+}
+
+#two {
     max-height: 280px;
     height: 100%;
 }
