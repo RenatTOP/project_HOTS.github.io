@@ -73,3 +73,7 @@ a {
     text-align: center !important;
     margin-top: 1em;
 }
+.img1 {
+    max-height: 280px;
+    height: 100%;
+}
