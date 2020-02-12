@@ -64,7 +64,10 @@ body {
         margin-left: 25%;
     }
 }
-
+img {
+    max-height: 280px;
+    height: 100%;
+}
 a {
     text-decoration: none !important;
     color: white !important;
@@ -72,8 +75,4 @@ a {
 .col {
     text-align: center !important;
     margin-top: 1em;
-}
-img {
-    max-height: 280px;
-    height: 100%;
 }
