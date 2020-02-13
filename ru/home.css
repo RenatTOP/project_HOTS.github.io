@@ -90,3 +90,7 @@ a {
     text-align: center !important;
     margin-top: 1em;
 }
+
+#disqus_thread {
+    margin-top: 10em;
+}
