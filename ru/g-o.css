@@ -1,0 +1,86 @@
+body {
+    background-color: #0e001a !important;
+}
+
+.head {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+    background-color: #0a0012;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.perelik {
+    font-size: 2rem !important;
+    text-align: center;
+    color: white !important;
+    text-shadow: 0 0 1rem #009cff;
+}
+
+h1 {
+    text-align: center;
+    color: white !important;
+    text-shadow: 0 0 1rem #009cff;
+    font-size: 3.5rem !important;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+h2 {
+    padding-top: 5%;
+    font-size: 1.8rem !important;
+    text-align: center;
+    color: white !important;
+    text-shadow: 0 0 1rem #009cff;
+}
+
+.header {
+    display: block;
+    margin: 0 auto;
+    padding: 2%;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.phishing {
+    max-width: 50%;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    padding-right: 5%;
+    padding-left: 5%;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(211, 207, 207);
+    text-shadow: 0 0 1rem #009cff;
+}
+
+@media (max-width:499px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+    .perelik {
+        font-size: 1.7rem !important;
+    }
+    h2 {
+        font-size: 1.5rem !important;
+    }
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10em;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
