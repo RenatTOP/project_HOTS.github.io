@@ -1,2 +1,3 @@
 Sitemap: https://renattop.me/sitemap.xml
 Disallow: /404.html
+
