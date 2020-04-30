@@ -1,1 +1,2 @@
 Sitemap: https://renattop.me/sitemap.xml
+Disallow: /err404.html
