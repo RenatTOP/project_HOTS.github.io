@@ -1,13 +1,13 @@
 //Поиск
 jQuery(document).ready(function() {
-    var minlen = 2;
-    var paddingtop = 150;
-    var scrollspeed = 200;
-    var keyint = 1000;
-    var term = '';
-    var n = 0;
-    var time_keyup = 0;
-    var time_search = 0;
+    let minlen = 2;
+    let paddingtop = 150;
+    let scrollspeed = 200;
+    let keyint = 1000;
+    let term = '';
+    let n = 0;
+    let time_keyup = 0;
+    let time_search = 0;
 
     jQuery('body').delegate('#spgo', 'click', function() {
         jQuery('body,html').animate({ scrollTop: jQuery('span.highlight:first').offset().top - paddingtop }, scrollspeed);
@@ -18,7 +18,7 @@ jQuery(document).ready(function() {
         jQuery('span.highlight').each(function() {
             jQuery(this).after(jQuery(this).html()).remove();
         });
-        var t = '';
+        let t = '';
         jQuery('div#content').each(function() {
             jQuery(this).html(jQuery(this).html().replace(new RegExp(term, 'ig'), '<span class="highlight">$&</span>'));
             n = jQuery('span.highlight').length;
@@ -28,7 +28,7 @@ jQuery(document).ready(function() {
             else
                 jQuery('#spresult').html('Результатов: ' + n + '. <br> <span class="splink" id="spgo">&nbsp;&nbsp;&nbsp;Перейти</span > ');
             if (n > 1) {
-                var i = 0;
+                let i = 0;
                 jQuery('span.highlight').each(function(i) {
                     jQuery(this).attr('n', i++);
                 });
@@ -43,12 +43,12 @@ jQuery(document).ready(function() {
     }
 
     jQuery('#spterm').keyup(function() {
-        var d1 = new Date();
+        let d1 = new Date();
         time_keyup = d1.getTime();
         if (jQuery('#spterm').val() != term)
             if (jQuery('#spterm').val().length >= minlen) {
                 setTimeout(function() {
-                    var d2 = new Date();
+                    let d2 = new Date();
                     time_search = d2.getTime();
                     if (time_search - time_keyup >= keyint)
                         dosearch();
@@ -58,7 +58,7 @@ jQuery(document).ready(function() {
     });
 
     if (window.location.hash != "") {
-        var t = window.location.hash.substr(1, 50);
+        let t = window.location.hash.substr(1, 50);
         jQuery('#spterm').val(t).keyup();
         jQuery('#spgo').click();
     }
@@ -118,8 +118,8 @@ $('#nexus').on('click', () => {
     'use strict';
 
     function trackScroll() {
-        var scrolled = window.pageYOffset;
-        var coords = document.documentElement.clientHeight;
+        let scrolled = window.pageYOffset;
+        let coords = document.documentElement.clientHeight;
 
         if (scrolled > coords) {
             goTopBtn.classList.add('back_to_top-show');
@@ -136,7 +136,7 @@ $('#nexus').on('click', () => {
         }
     }
 
-    var goTopBtn = document.querySelector('.back_to_top');
+    let goTopBtn = document.querySelector('.back_to_top');
 
     window.addEventListener('scroll', trackScroll);
     goTopBtn.addEventListener('click', backToTop);
