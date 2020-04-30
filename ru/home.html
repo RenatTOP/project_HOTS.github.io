@@ -8,12 +8,13 @@
     <meta name="description" content="Главная страница фан-сайта по игре Heroes of the Storm">
     <link rel="shortcut icon" href="/image/hots.png" type="image/png">
     <link rel="stylesheet" href="/ru/navbar.css">
-    <link rel="stylesheet" href="home.css?v=$HOUR$">
+    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Главная</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="/ru/home.html"><img src="/image/home/logo.png" alt="" id="logo"></a>
@@ -56,52 +57,54 @@
                 <source src="/image/home/video-bg.webm" type="video/webm">
             </video>
         </div>
-        <div class="row">
-            <div class="col">
-                <a href="/ru/heroes/heroes.html"><img src="/image/home/heroesmin.png" alt="">
-                    <h3>Герои</h3>
-                </a>
+        <div class="body">
+            <div class="row">
+                <div class="col">
+                    <a href="/ru/heroes/heroes.html"><img src="/image/home/heroesmin.png" alt="">
+                        <h3>Герои</h3>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="/ru/game/roles.html"><img src="/image/home/rolesmin.png" alt="">
+                        <h3>Роли</h3>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="/ru/game/brawl.html"><img src="/image/home/brawlmin.png" alt="">
+                        <h3>Потасовка</h3>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="/ru/game/battlefield.html"><img src="/image/home/battlefieldmin.png" alt="">
+                        <h3>Поля боя</h3>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="/ru/game/rating_matches.html"><img src="/image/home/ratingmin.png" alt="">
+                        <h3>Рейтинговые матчи</h3>
+                    </a>
+                </div>
             </div>
-            <div class="col">
-                <a href="/ru/game/roles.html"><img src="/image/home/rolesmin.png" alt="">
-                    <h3>Роли</h3>
-                </a>
-            </div>
-            <div class="col">
-                <a href="/ru/game/brawl.html"><img src="/image/home/brawlmin.png" alt="">
-                    <h3>Потасовка</h3>
-                </a>
-            </div>
-            <div class="col">
-                <a href="/ru/game/battlefield.html"><img src="/image/home/battlefieldmin.png" alt="">
-                    <h3>Поля боя</h3>
-                </a>
-            </div>
-            <div class="col">
-                <a href="/ru/game/rating_matches.html"><img src="/image/home/ratingmin.png" alt="">
-                    <h3>Рейтинговые матчи</h3>
-                </a>
-            </div>
-        </div>
-        <div id="disqus_thread"></div>
-        <script>
+            <div id="disqus_thread"></div>
+            <script>
 
-            /**
-            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-            /*
-            var disqus_config = function () {
-            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-            };
-            */
-            (function () { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-                s.src = 'https://renattop-me.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://renattop-me.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+        </div>
     </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -114,4 +117,5 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
