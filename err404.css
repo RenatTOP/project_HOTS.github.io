@@ -1,5 +1,5 @@
 body {
-    background: url(/image/404/bg.jpg) no-repeat;
+    background: url(/image/404/bg.jpg);
     background-size: cover;
 }
 h1 {
@@ -15,4 +15,6 @@ p {
 img {
     display: block;
     margin: 0 auto;
+    max-width: 450px;
+    width: 100%;
 }
