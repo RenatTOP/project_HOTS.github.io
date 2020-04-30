@@ -1,0 +1,18 @@
+body {
+    background: url(/image/404/bg.jpg) no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: white !important;
+    font-size: 6rem !important;
+}
+p {
+    text-align: center;
+    color: white !important;
+    font-size: 3rem;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
