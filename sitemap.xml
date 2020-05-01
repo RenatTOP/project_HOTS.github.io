@@ -627,22 +627,22 @@
   <lastmod>2020-02-12T11:57:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
- <url>
-   <loc>https://renattop.me/ru/</loc>
-   <xhtml:link
+<url>
+  <loc>https://renattop.me/ru/</loc>
+  <xhtml:link
 
-                rel="alternate"
-                hreflang="ru"
+              rel="alternate"
+              hreflang="ru"
 
-                href="https://renattop.me/ru/"
-                />
-   <xhtml:link
+              href="https://renattop.me/ru/"
+              />
+  <xhtml:link
 
-                rel="alternate"
-                hreflang="en"
+              rel="alternate"
+              hreflang="en"
 
-                href="https://renattop.me/en-us/"
-                />
-
+              href="https://renattop.me/en-us/"
+              />
+</url>
 
 </urlset>
