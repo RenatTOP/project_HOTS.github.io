@@ -627,12 +627,6 @@
   <lastmod>2020-02-12T11:57:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
-
-
-</urlset>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
- xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
  <url>
    <loc>https://renattop.me/ru/</loc>
    <xhtml:link
@@ -649,4 +643,6 @@
 
                 href="https://renattop.me/en-us/"
                 />
+
+
 </urlset>
