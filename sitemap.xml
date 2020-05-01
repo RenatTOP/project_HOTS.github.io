@@ -627,9 +627,10 @@
   <lastmod>2020-02-12T11:57:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
+xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url>
   <loc>https://renattop.me/ru/</loc>
-xmlns:xhtml="http://www.w3.org/1999/xhtml"
+
   <xhtml:link
 
               rel="alternate"
