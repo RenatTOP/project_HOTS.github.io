@@ -88,6 +88,10 @@ div {
         background: url(/image/game/modes/ii.jpg) top center no-repeat !important;
         background-size: 60% !important;
     }
+    .ii_en {
+        background: url(/image/game/modes/iien.jpg) top center no-repeat !important;
+        background-size: 60% !important;
+    }
     .brawl {
         background: url(/image/game/modes/brawlm.jpg) top center no-repeat !important;
         background-size: 80% !important;
@@ -121,6 +125,9 @@ div {
 
 .ii {
     background: url(/image/game/modes/ii.jpg) right top no-repeat;
+}
+.ii_en {
+    background: url(/image/game/modes/iien.jpg) right top no-repeat;
 }
 
 .quick {
