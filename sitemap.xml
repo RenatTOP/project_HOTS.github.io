@@ -3,8 +3,7 @@
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-      xmlns:xhtml="http://www.w3.org/1999/xhtml">
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
@@ -627,24 +626,6 @@
   <loc>https://renattop.me/ru/game/battlefield/warhead-junction-hd.html</loc>
   <lastmod>2020-02-12T11:57:22+00:00</lastmod>
   <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://renattop.me/ru/</loc>
-
-  <xhtml:link
-
-              rel="alternate"
-              hreflang="ru"
-
-              href="https://renattop.me/ru/"
-              />
-  <xhtml:link
-
-              rel="alternate"
-              hreflang="en"
-
-              href="https://renattop.me/en-us/"
-              />
 </url>
 
 </urlset>
