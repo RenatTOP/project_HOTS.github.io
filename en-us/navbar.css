@@ -7,6 +7,11 @@
    z-index: 1;
 }
 
+a {
+   text-decoration: none !important;
+   color: white !important;
+}
+
 #logo {
    border: none !important;
    box-shadow: none;
