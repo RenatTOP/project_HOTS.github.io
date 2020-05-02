@@ -1,8 +1,1 @@
 ErrorDocument 404 /404.html
-
-RewriteEngine on
-RewriteCond %{REQUEST_URI} ^/$ [NC]
-RewriteCond %{HTTP:Accept-Language} (ru|uk) [NC]
-RewriteRule .* https://renattop.me/ru/home.html [R=302,L]
-RewriteCond %{REQUEST_URI} ^/$ [NC]
-RewriteRule .* https://renattop.me/en-us/home.html [R=302,L]
