@@ -5,10 +5,7 @@ body {
 .head {
     display: block;
 }
-.body {
-    background: url(/image/home/bg.jpg) no-repeat;
-    background-size: contain;
-}
+
 h1 {
     color: rgb(4, 0, 255) !important;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
@@ -91,6 +88,7 @@ img:hover {
         width: 100%;
         height: auto;
     }
+    
 }
 
 @media (max-width:380px) {
