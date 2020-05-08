@@ -7,6 +7,57 @@ div {
     padding: 3% !important;
 }
 
+.headt {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 600px !important;
+    text-align: center;
+}
+
+.header {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:750px) {
+    .header {
+        display: none;
+    }
+}
+
+.headerm {
+    display: none;
+}
+
+@media (max-width:750px) {
+    .headerm {
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+    }
+}
+
+h1 {
+    color: #cce5ff !important;
+    font-size: 1.5rem;
+    font-family: 'Lora', serif;
+    text-align: center;
+    text-transform: uppercase !important;
+}
+
+h3 {
+    color: #cce5ff !important;
+    font-size: 1rem;
+    font-family: 'Lora', serif;
+    text-shadow: 0 0 1rem #009cff;
+    text-align: center;
+}
+
 .col-3 {
     background: linear-gradient(to top, #0e0520, #1b1146);
     padding: 5rem;
@@ -35,13 +86,6 @@ div {
         display: none;
     }
 }
-h1 {
-    color: #cce5ff !important;
-    font-size: 1.5rem;
-    font-family: 'Lora', serif;
-    text-align: center;
-    text-transform: uppercase !important;
-}
 
 ul {
     list-style-type: none !important;
@@ -54,17 +98,18 @@ ul {
     padding-inline-start: 0px !important;
 }
 
+li {
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+}
+
 span {
     vertical-align: top !important;
     color: #cce5ff;
     font: 1.1rem;
-}
-#cho {
     text-shadow: 0 0 1rem #009cff;
 }
-#gall {
-    text-shadow: 0 0 1rem #009cff;
-}
+
 .text {
     vertical-align: bottom !important;
     margin-left: 40% !important;
@@ -80,6 +125,7 @@ span {
         font-size: 0.9rem;
     }
 }
+
 @media (max-width:350px) {
     .text {
         vertical-align: bottom !important;
@@ -87,6 +133,42 @@ span {
         text-shadow: 0 0 1rem #009cff;
         font-size: 1rem;
     }
+}
+
+.stat-icon {
+    max-width: 80px;
+    width: auto;
+    height: auto;
+    padding-right: 15px;
+}
+
+@media (max-width:350px) {
+    .stat-icon {
+        max-width: 50px;
+        width: auto;
+        height: auto;
+        padding-right: 10px;
+    }
+}
+
+.stats-damage {
+    background-color: #ec1919 !important;
+    box-shadow: 0 0 1rem #ff0909;
+}
+
+.stats-support {
+    background-color: #58baff !important;
+    box-shadow: 0 0 1rem #009cff;
+}
+
+.stats-hp {
+    background-color: #0fbb09 !important;
+    box-shadow: 0 0 1rem #1eff00;
+}
+
+.stats-difficult {
+    background-color: #ffffff !important;
+    box-shadow: 0 0 1rem #ffffff;
 }
 
 .icon {
@@ -103,63 +185,6 @@ span {
         max-width: 150px;
         height: auto;
         margin: 0 auto;
-    }
-}
-.headt {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    max-width: 600px !important;
-    text-align: center;
-}
-.header {
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-}
-
-.headerm {
-    display: none;
-}
-
-@media (max-width:750px) {
-    .headerm {
-        display: block;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-width:750px) {
-    .header {
-        display: none;
-    }
-}
-
-.stat-icon {
-    max-width: 80px;
-    width: auto;
-    height: auto;
-    padding-right: 15px;
-}
-
-@media (max-width:1030px) {
-    .stat-icon {
-        max-width: 60px;
-        width: auto;
-        height: auto;
-        padding-right: 10px;
-    }
-}
-@media (max-width:350px) {
-    .stat-icon {
-        max-width: 50px;
-        width: auto;
-        height: auto;
-        padding-right: 10px;
     }
 }
 
@@ -183,21 +208,11 @@ p {
         opacity: 0.6;
     }
 }
+
 @media (max-width:1150px) {
     p {
         width: 10px;
         height: 8px;
-        display: inline-block;
-        margin-right:  -2px;
-        background-color: rgb(50, 51, 51);
-        vertical-align: text-bottom;
-        opacity: 0.6;
-    }
-}
-@media (max-width:350px) {
-    p {
-        width: 8px;
-        height: 7px;
         display: inline-block;
         margin-right: -2px;
         background-color: rgb(50, 51, 51);
@@ -206,24 +221,51 @@ p {
     }
 }
 
-.stats-damage {
-    background-color: #ec1919 !important;
-    box-shadow: 0 0 1rem #ff0909;
+@media (max-width:620px) {
+    p {
+        width: 10px !important;
+        height: 8px !important;
+        display: inline-block;
+        margin-right: -2px !important;
+    }
 }
 
-.stats-support {
-    background-color: #58baff !important;
-    box-shadow: 0 0 1rem #009cff;
+@media (max-width:350px) {
+    p {
+        width: 8px !important;
+        height: 7px !important;
+        display: inline-block;
+        margin-right: -2px !important;
+        background-color: rgb(50, 51, 51);
+        vertical-align: text-bottom;
+        opacity: 0.6;
+    }
 }
 
-.stats-hp {
-    background-color: #0fbb09 !important;
-    box-shadow: 0 0 1rem #1eff00;
+.min1030 {
+    display: none;
 }
 
-.stats-difficult {
-    background-color: #ffffff !important;
-    box-shadow: 0 0 1rem #ffffff;
+@media (max-width:1030px) {
+    .min1030 {
+        display: block;
+    }
+    p {
+        width: 13px !important;
+        height: 10px !important;
+        display: inline-block;
+        margin-right: 0px !important;
+    }
+}
+
+.min510 {
+    display: none;
+}
+
+@media (max-width:510px) {
+    .min510 {
+        display: block;
+    }
 }
 
 .class {
@@ -253,11 +295,6 @@ p {
     text-align: left !important;
 }
 
-li {
-    text-transform: uppercase;
-    font-family: 'Lora', serif;
-}
-
 .base {
     max-width: 100px;
     width: auto;
@@ -267,7 +304,7 @@ li {
 
 .img-ab {
     max-width: 460px;
-    min-width: 200px;
+    min-width: 250px;
     width: 100%;
     height: auto;
     background: linear-gradient(#14324e, #6316d6);
@@ -290,27 +327,11 @@ li {
     }
 }
 
-h3 {
-    color: #cce5ff !important;
-    font-size: 1rem;
-    font-family: 'Lora', serif;
-    text-shadow: 0 0 1rem #009cff;
-    text-align: center;
-}
-
 em {
     color: #7f7de9;
     font-size: 1rem;
     font-family: 'Lora', serif;
     text-shadow: 0 0 1rem #57b1e9;
-}
-
-.logo {
-    display: block;
-    margin: 0 auto;
-    max-width: 200px;
-    width: 100%;
-    height: auto;
 }
 
 .hidden {
@@ -325,7 +346,7 @@ em {
     max-height: 50px;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom,#4f6cff,#48069c);
+    background: linear-gradient(to bottom, #4f6cff, #48069c);
     text-align: center;
     color: #fff !important;
     font-size: 1.9rem;
@@ -335,7 +356,7 @@ em {
 }
 
 .switch:hover {
-    background: linear-gradient(to bottom,#4f6cff,#48069c);
+    background: linear-gradient(to bottom, #4f6cff, #48069c);
     color: #fff !important;
     font-size: 1.9rem;
     cursor: pointer !important;

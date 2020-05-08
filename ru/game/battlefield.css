@@ -1,32 +1,8 @@
 body {
-    background-color: black !important;
+    background-color: #0a0114 !important;
 }
 
 div {
-    display: block;
-}
-
-.back_to_top {
-    position: fixed;
-    bottom: 80px;
-    right: 40px;
-    z-index: 9999;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    background: #09035f;
-    color: #fff !important;
-    cursor: pointer;
-    display: none;
-    border-radius: 50px;
-}
-
-.back_to_top:hover {
-    border: 1px solid white;
-}
-
-.back_to_top-show {
     display: block;
 }
 
@@ -74,18 +50,6 @@ a {
     }
 }
 
-@media (max-width:450px) {
-    .container-fluid {
-        top: 720px !important;
-    }
-}
-
-.container-fluid {
-    position: absolute;
-    top: 780px;
-    background-color: #0f0716;
-}
-
 .col {
     max-width: 360px !important;
     padding: 10px !important;
@@ -106,13 +70,4 @@ p {
     box-shadow: 0 0 5rem rgb(5, 122, 218);
     background: url(/image/game/brawl/1.png);
     background-size: 100%;
-}
-
-.logo {
-    display: block;
-    margin: 0 auto;
-    margin-top: 10em;
-    max-width: 200px;
-    width: 100%;
-    height: auto;
 }

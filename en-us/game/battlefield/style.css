@@ -1,3 +1,7 @@
+body {
+    background-color: #08000f !important;
+}
+
 div {
     display: block;
 }
@@ -6,7 +10,6 @@ img {
     max-width: 850px;
     width: 100%;
     height: auto;
-    display: block;
     margin: 0 auto;
 }
 
@@ -24,7 +27,7 @@ h1 {
     text-align: center;
     padding-top: 3em;
     padding-bottom: 6.5em;
-    color: white;
+    color: white !important;
     font-size: 3rem;
     font-weight: 700;
     text-shadow: 0 0 1rem #009cff;
@@ -32,9 +35,14 @@ h1 {
     font-family: 'Open Sans', sans-serif;
 }
 
+@media(max-width:400px) {
+    h1 {
+        font-size: 2.8rem !important;
+    }
+}
 h2 {
     font-size: 2.5rem;
-    color: white;
+    color: white !important;
     text-shadow: 0 0 1rem #009cff;
     text-align: center;
     text-transform: uppercase;
@@ -42,7 +50,7 @@ h2 {
 }
 
 h3 {
-    color: white;
+    color: white !important;
     text-shadow: 0 0 1rem #009cff;
     text-align: center;
     text-transform: uppercase;
@@ -73,17 +81,9 @@ p {
     border: 2px solid #225999;
     max-width: 60%;
     margin-bottom: 20px;
+    display: block;
 }
 
 a {
     text-decoration: none !important;
-}
-
-.logo {
-    display: block;
-    margin: 0 auto;
-    margin-top: 10em;
-    max-width: 200px;
-    width: 100%;
-    height: auto;
 }

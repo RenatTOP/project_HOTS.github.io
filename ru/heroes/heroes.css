@@ -1,25 +1,8 @@
-.back_to_top {
-    position: fixed;
-    bottom: 80px;
-    right: 40px;
-    z-index: 9999;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    background: #09035f;
-    color: #fff !important;
-    cursor: pointer;
-    display: none;
-    border-radius: 50px;
-}
-
-.back_to_top:hover {
-    border: 1px solid white;
-}
-
-.back_to_top-show {
-    display: block;
+body {
+    background: url(/image/game/bg.jpg) top center no-repeat;
+    background-size: auto;
+    background-color: #000d1a !important;
+    padding: 0;
 }
 
 span.highlight {
@@ -33,33 +16,15 @@ span.splink {
     color: #0A5794;
     cursor: pointer;
 }
+
 #spresult {
     color: white;
-}
-body {
-    background: url(/image/game/bg.jpg) top center no-repeat;
-    background-size: auto;
-    background-color: #000d1a !important;
-    padding: 0;
 }
 
 h1 {
     text-align: center;
     color: #cce5ff !important;
     text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
-}
-
-section {
-    background: url(/image/game/bg-bot.jpg);
-    background-size: auto;
-    padding-top: 29rem;
-}
-
-@media (max-width: 900px) {
-    section {
-        background: url(/image/game/min-bg-bot.jpg) no-repeat;
-        position: relative;
-    }
 }
 
 .col {
@@ -135,14 +100,6 @@ p {
 
 .search {
     color: #fff;
-}
-
-#logo {
-    max-width: 290px;
-    max-height: 290px;
-    width: 100%;
-    height: auto;
-    display: block;
 }
 
 svg {
