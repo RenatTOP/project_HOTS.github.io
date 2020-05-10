@@ -1,3 +1,4 @@
+/*Кнопка "Наверх"*/
 (function() {
     'use strict';
   
