@@ -1,6 +1,4 @@
-jQuery.ajax({
-    success: function(response) {
-    document.getElementById('navbar').insertAdjacentHTML("afterbegin", `<a class="navbar-brand" href="/ru/home.html"><img src="/image/home/logo.png" alt="" id="logo"></a>
+   document.getElementById('navbar').insertAdjacentHTML("afterbegin", `<a class="navbar-brand" href="/ru/home.html"><img src="/image/home/logo.png" alt="" id="logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,8 +24,7 @@ jQuery.ajax({
             </li>
         </ul>
     </div>`);
-    }
-    });
+
 
 jQuery.ajax({
     url: "/ru/footer.html",
