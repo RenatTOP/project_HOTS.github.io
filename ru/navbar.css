@@ -4,7 +4,7 @@
 
 .navbar {
    background: url(/image/game/brawl/navbar.jpg) !important;
-   z-index: 1;
+   z-index: 2;
 }
 
 a {
