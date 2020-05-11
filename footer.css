@@ -1,6 +1,6 @@
 footer {
     background: linear-gradient(#08000f, #150c3b);
-    height: 210px;
+    height: 225px;
 }
 
 .footermin {
@@ -15,8 +15,15 @@ footer {
     border-radius: 0px;
 }
 
-.logo:hover {
-    animation: none;
+.liveinternet {
+    max-width: 31px;
+    width: 100%;
+    height: auto;
+    box-shadow: none;
+    border-radius: 0px;
+}
+.logo:hover, .liveinternet:hover {
+    animation: none !important;
     border: none;
     border-radius: none;
     box-shadow: none;
@@ -71,9 +78,15 @@ footer {
     }
 }
 
+@media(max-width:860px) {
+    footer {
+        height: 250px;
+    }
+}
+
 @media(max-width:630px) {
     footer {
-        height: 400px;
+        height: 470px;
     }
     .terms {
         top: 160%;
