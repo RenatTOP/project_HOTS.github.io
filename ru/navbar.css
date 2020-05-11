@@ -78,6 +78,7 @@ a {
 .dropdown-menu {
    background: #191970!important;
    background-size: 100% !important;
+   opacity: 90% !important;
 }
 
 .dropdown-item {
