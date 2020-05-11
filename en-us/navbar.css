@@ -92,6 +92,10 @@ a {
    text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
 }
 
+.nav-item:hover {
+   text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+}
+
 #navbarDropdown {
    color: #cce5ff;
    font-family: MetronicforBlizzard, Metronic, Helvetica, Arial, sans-serif;
