@@ -34,7 +34,10 @@
       <div class="col-12 target target-1">
         <img src="/image/heroes/Valeera/bgm.jpg" alt="" class="headerm">
       </div>
-      <div class="col-12" id="top">
+      <div class="col-12 target target-2">
+        <img src="/image/heroes/ValeeraInvis/bgm.jpg" alt="" class="headerm">
+      </div>
+      <div class="col-12">
         <h1>Valeera</h1>
         <h3>Shadow of the Uncrowned</h3><em>For a time, the gladiator Valeera Sanguinar served dutifully as one of
           Varian Wrynn's personal bodyguards. Now, her shadowy skills find her a natural fit within the secretive rogue
@@ -45,27 +48,22 @@
           <video src="/image/heroes/Valeera/bg.webm" class="header" loop muted autoplay>
           </video>
         </div>
-      </div>
-      <div>
-        <a href="#top" class="source source-2 target target-1 switch">Stealth</a>
-      </div>
-      <div class="col-12 target target-2">
-        <img src="/image/heroes/ValeeraInvis/bgm.jpg" alt="" class="headerm">
-      </div>
-      <div>
         <div class="col-12 target target-2">
           <video src="/image/heroes/ValeeraInvis/bg.webm" class="header" loop muted autoplay>
           </video>
         </div>
       </div>
       <div>
-        <a href="#top" class="source source-1 target target-2 switch">Standart</a>
+        <a class="source source-2 target target-1 switch">Stealth</a>
+      </div>
+      <div>
+        <a class="source source-1 target target-2 switch">Standart</a>
       </div>
       <div class="w-100"></div>
       <div class="col">
         <ul>
           <li>
-            <span class="text">Damage</span>
+            <span class="text" id="dmg"></span>
           </li>
           <li>
             <img src="/image/home/stat-icons.png" alt="" class="stat-icon">
@@ -81,7 +79,7 @@
             <p>&#8291;</p>
           </li>
           <li>
-            <span class="text">Utility</span>
+            <span class="text" id="spt"></span>
           </li>
           <li>
             <img src="/image/home/stat-icons0.png" alt="" class="stat-icon">
@@ -97,7 +95,7 @@
             <p>&#8291;</p>
           </li>
           <li>
-            <span class="text">Survivability</span>
+            <span class="text" id="hp"></span>
           </li>
           <li>
             <img src="/image/home/stat-icons1.png" alt="" class="stat-icon">
@@ -113,7 +111,7 @@
             <p>&#8291;</p>
           </li>
           <li>
-            <span class="text">Complexity</span>
+            <span class="text" id="dfct"></span>
           </li>
           <li>
             <img src="/image/home/stat-icons2.png" alt="" class="stat-icon">
@@ -144,54 +142,35 @@
       <div class="w-100 min1030"></div>
       <div class="col">
         <ul>
-          <li class="ab">
-            Heroic Abilities
-          </li>
+          <li class="ab" id="heroic"></li>
           <li>
             <a href="#h1"><img src="/image/heroes/Valeera/h1.png" alt="" class="heroic"></a>
             <a href="#h2"><img src="/image/heroes/Valeera/h2.png" alt="" class="heroic"></a>
           </li>
         </ul>
       </div>
-      <div class="col target target-1">
+      <div class="col">
         <ul>
-          <li class="ab">
-            Primary Abilities
-          </li>
-          <li>
+          <li class="ab" id="basic"></li>
+          <li class="target target-1">
             <a href="#ab1"><img src="/image/heroes/Valeera/a1.png" alt="" class="base"></a>
             <a href="#ab2"><img src="/image/heroes/Valeera/a2.png" alt="" class="base"></a>
             <a href="#ab3"><img src="/image/heroes/Valeera/a3.png" alt="" class="base"></a>
           </li>
-          <li class="ab">
-            Trait
-          </li>
-          <li>
-            <a href="#ab"><img src="/image/heroes/Valeera/ab.png" alt="" class="base"></a>
-          </li>
-        </ul>
-      </div>
-      <div class="col target target-2">
-        <ul>
-          <li class="ab">
-            Primary Abilities
-          </li>
-          <li>
+          <li class="target target-2">
             <a href="#ab1"><img src="/image/heroes/ValeeraInvis/a1.png" alt="" class="base"></a>
             <a href="#ab2"><img src="/image/heroes/ValeeraInvis/a2.png" alt="" class="base"></a>
             <a href="#ab3"><img src="/image/heroes/ValeeraInvis/a3.png" alt="" class="base"></a>
           </li>
-          <li class="ab">
-            Trait
-          </li>
+          <li class="ab" id="trait"></li>
           <li>
             <a href="#ab"><img src="/image/heroes/Valeera/ab.png" alt="" class="base"></a>
           </li>
         </ul>
       </div>
       <div class="w-100"></div>
-      <div class="col target target-1" id="ab1">
-        <ul>
+      <div class="col" id="ab1">
+        <ul class="target target-1">
           <li>
             <img src="/image/heroes/Valeera/img-a1.jpg" alt="" class="img-ab">
           </li>
@@ -204,9 +183,7 @@
               Point. Stealth: Ambush Heavily damage an enemy and reduce their Armor.</em>
           </li>
         </ul>
-      </div>
-      <div class="col target target-2" id="ab1">
-        <ul>
+        <ul class="target target-2">
           <li>
             <img src="/image/heroes/ValeeraInvis/img-a1.jpg" alt="" class="img-ab">
           </li>
@@ -218,8 +195,8 @@
           </li>
         </ul>
       </div>
-      <div class="col target target-1" id="ab2">
-        <ul>
+      <div class="col" id="ab2">
+        <ul class="target target-1">
           <li>
             <img src="/image/heroes/Valeera/img-a2.jpg" alt="" class="img-ab">
           </li>
@@ -231,9 +208,7 @@
               Stealth: Cheap Shot Stun, Blind, and damage an enemy.</em>
           </li>
         </ul>
-      </div>
-      <div class="col target target-2" id="ab2">
-        <ul>
+        <ul class="target target-2">
           <li>
             <img src="/image/heroes/ValeeraInvis/img-a2.jpg" alt="" class="img-ab">
           </li>
@@ -247,8 +222,8 @@
           </li>
         </ul>
       </div>
-      <div class="col target target-1" id="ab3">
-        <ul>
+      <div class="col" id="ab3">
+        <ul class="target target-1">
           <li>
             <img src="/image/heroes/Valeera/img-a3.jpg" alt="" class="img-ab">
           </li>
@@ -260,9 +235,7 @@
               Points: 255 Stealth: Garrote Silence and damage an enemy over time.</em>
           </li>
         </ul>
-      </div>
-      <div class="col target target-2" id="ab3">
-        <ul>
+        <ul class="target target-2">
           <li>
             <img src="/image/heroes/ValeeraInvis/img-a3.jpg" alt="" class="img-ab">
           </li>

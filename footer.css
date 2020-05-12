@@ -15,14 +15,7 @@ footer {
     border-radius: 0px;
 }
 
-.liveinternet {
-    max-width: 31px;
-    width: 100%;
-    height: auto;
-    box-shadow: none;
-    border-radius: 0px;
-}
-.logo:hover, .liveinternet:hover {
+.logo:hover {
     animation: none !important;
     border: none;
     border-radius: none;

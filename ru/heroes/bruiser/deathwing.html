@@ -49,16 +49,16 @@
         </div>
       </div>
       <div>
-        <a href="#Smasher" class="source source-2 target target-1 switch">Сокрушитель</a>
+        <a class="source source-2 target target-1 switch">Сокрушитель</a>
       </div>
       <div>
-        <a href="#World_Destroyer" class="source source-1 target target-2 switch">Разрушитель миров</a>
+        <a class="source source-1 target target-2 switch">Разрушитель миров</a>
       </div>
       <div class="w-100"></div>
       <div class="col">
         <ul>
           <li>
-            <span class="text">Урон</span>
+            <span class="text" id="dmg"></span>
           </li>
           <li>
             <img src="/image/home/stat-icons.png" alt="" class="stat-icon">
@@ -74,7 +74,7 @@
             <p>&#8291;</p>
           </li>
           <li>
-            <span class="text">Поддержка</span>
+            <span class="text" id="spt"></span>
           </li>
           <li>
             <img src="/image/home/stat-icons0.png" alt="" class="stat-icon">
@@ -90,7 +90,7 @@
             <p>&#8291;</p>
           </li>
           <li>
-            <span class="text">Живучесть</span>
+            <span class="text" id="hp"></span>
           </li>
           <li>
             <img src="/image/home/stat-icons1.png" alt="" class="stat-icon">
@@ -106,7 +106,7 @@
             <p class="stats-hp">&#8291;</p>
           </li>
           <li>
-            <span class="text">Сложность</span>
+            <span class="text" id="dfct"></span>
           </li>
           <li>
             <img src="/image/home/stat-icons2.png" alt="" class="stat-icon">
@@ -137,46 +137,26 @@
       <div class="w-100 min1030"></div>
       <div class="col">
         <ul>
-          <li class="ab">
-            Героические
-          </li>
+          <li class="ab" id="heroic"></li>
           <li>
             <a href="#h1"><img src="/image/heroes/Deathwing/h1.png" alt="" class="heroic"></a>
           </li>
         </ul>
       </div>
-      <div class="col target target-1">
+      <div class="col">
         <ul>
-          <li class="ab">
-            Базовые
-          </li>
-          <li>
+          <li class="ab" id="basic"></li>
+          <li class="target target-1">
             <a href="#ab1"><img src="/image/heroes/Deathwing/a1.png" alt="" class="base"></a>
             <a href="#ab2"><img src="/image/heroes/Deathwing/a2r.png" alt="" class="base"></a>
             <a href="#ab3"><img src="/image/heroes/Deathwing/a3r.png" alt="" class="base"></a>
           </li>
-          <li class="ab">
-            Умения
-          </li>
-          <li>
-            <a href="#ab"><img src="/image/heroes/Deathwing/ab.png" alt="" class="base"></a>
-            <a href="#z"><img src="/image/heroes/Deathwing/z.png" alt="" class="base"></a>
-          </li>
-        </ul>
-      </div>
-      <div class="col target target-2">
-        <ul>
-          <li class="ab">
-            Базовые
-          </li>
-          <li>
+          <li class="target target-2">
             <a href="#ab1"><img src="/image/heroes/Deathwing/a1.png" alt="" class="base"></a>
             <a href="#ab2"><img src="/image/heroes/Deathwing/a2s.png" alt="" class="base"></a>
             <a href="#ab3"><img src="/image/heroes/Deathwing/a3s.png" alt="" class="base"></a>
           </li>
-          <li class="ab">
-            Умения
-          </li>
+          <li class="ab" id="trait"></li>
           <li>
             <a href="#ab"><img src="/image/heroes/Deathwing/ab.png" alt="" class="base"></a>
             <a href="#z"><img src="/image/heroes/Deathwing/z.png" alt="" class="base"></a>
@@ -199,8 +179,8 @@
           </li>
         </ul>
       </div>
-      <div class="col target target-1" id="ab2">
-        <ul>
+      <div class="col" id="ab2">
+        <ul class="target target-1">
           <li>
             <img src="/image/heroes/Deathwing/img-a2r.png" alt="" class="img-ab">
           </li>
@@ -211,9 +191,7 @@
             <h3>Выброс лавы</h3><em>Создает область лавы, которая наносит урон и замедляет противников.</em>
           </li>
         </ul>
-      </div>
-      <div class="col target target-2" id="ab2">
-        <ul>
+        <ul class="target target-2">
           <li>
             <img src="/image/heroes/Deathwing/img-a2s.png" alt="" class="img-ab">
           </li>
@@ -226,8 +204,8 @@
           </li>
         </ul>
       </div>
-      <div class="col target target-1" id="ab3">
-        <ul>
+      <div class="col" id="ab3">
+        <ul class="target target-1">
           <li>
             <img src="/image/heroes/Deathwing/img-a3r.png" alt="" class="img-ab">
           </li>
@@ -238,9 +216,7 @@
             <h3>Разлом</h3><em>Оглушает противников на двух прямых линиях и наносит им урон.</em>
           </li>
         </ul>
-      </div>
-      <div class="col target target-2" id="ab3">
-        <ul>
+        <ul class="target target-2">
           <li>
             <img src="/image/heroes/Deathwing/img-a3s.png" alt="" class="img-ab">
           </li>
@@ -339,6 +315,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   <script src="/top.js"></script>
 </body>
 

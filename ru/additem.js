@@ -1,3 +1,4 @@
+// Navbar
 jQuery.ajax({
     success: function(response) {
     document.getElementById('navbar').insertAdjacentHTML("afterbegin", `<a class="navbar-brand" href="/ru/home.html"><img src="/image/home/logo.png" alt="" id="logo"></a>
@@ -22,20 +23,14 @@ jQuery.ajax({
                 </div>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="/ru/heroes/heroes.html">Герои <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/ru/heroes/heroes.html">Герои<span class="sr-only">(current)</span></a>
             </li>
         </ul>
-    </div>
-    <!--LiveInternet counter--><script>
-new Image().src = "//counter.yadro.ru/hit?r"+
-escape(document.referrer)+((typeof(screen)=="undefined")?"":
-";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
-screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
-";h"+escape(document.title.substring(0,150))+
-";"+Math.random();</script><!--/LiveInternet-->`);
+    </div>`);
     }
     });
 
+//Footer
 jQuery.ajax({
     url: "/ru/footer.html",
     dataType: "html",
@@ -43,3 +38,13 @@ jQuery.ajax({
     document.getElementById('footer').innerHTML = response;
     }
     });
+
+//Stats
+document.getElementById('dmg').textContent = "Урон";
+document.getElementById('spt').textContent = "Поддержка";
+document.getElementById('hp').textContent = "Живучесть";
+document.getElementById('dfct').textContent = "Сложность";
+//Abilities
+document.getElementById('heroic').textContent = "Героические";
+document.getElementById('basic').textContent = "Базовые";
+document.getElementById('trait').textContent = "Умение";

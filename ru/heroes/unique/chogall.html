@@ -35,8 +35,8 @@
                 <img src="/image/heroes/Cho/bgm.jpg" alt="" class="headerm">
             </div>
             <div class="col-12">
-                <h1 class="target target-1"><span id="cho">Чо</span>'Галл</h1>
-                <h1 class="target target-2">Чо'<span id="gall">Галл</span></h1>
+                <h1 class="target target-1"><span>Чо</span>'Галл</h1>
+                <h1 class="target target-2">Чо'<span>Галл</span></h1>
                 <h3>Вождь клана Сумеречного Молота</h3><em>Чо'Галл – один из сильнейших, хитрейших и безумнейших
                     огров-магов в истории. Два брата, вставшие во главе клана Сумеречного Молота, стремятся приблизить
                     наступление эры хаоса и разрушения... в свободное от перебранок время.</em>
@@ -46,28 +46,26 @@
                     <video src="/image/heroes/Cho/bg.webm" class="header" loop muted autoplay>
                     </video>
                 </div>
-            </div>
-            <div>
-                <a href="#gall" class="source source-2 target target-1 switch">Галл</a>
-            </div>
-            <div class="col-12 target target-2">
-                <img src="/image/heroes/Gall/bgm.jpg" alt="" class="headerm">
-            </div>
-            <div>
                 <div class="col-12 target target-2">
                     <video src="/image/heroes/Gall/bg.webm" id="gall" class="header" loop muted autoplay>
                     </video>
                 </div>
             </div>
             <div>
-                <a href="#cho" class="source source-1 target target-2 switch">Чо</a>
+                <a class="source source-2 target target-1 switch">Галл</a>
             </div>
-            <div class="col target target-1">
+            <div class="col-12 target target-2">
+                <img src="/image/heroes/Gall/bgm.jpg" alt="" class="headerm">
+            </div>
+            <div>
+                <a class="source source-1 target target-2 switch">Чо</a>
+            </div>
+            <div class="col">
                 <ul>
                     <li>
-                        <span class="text">Урон</span>
+                        <span class="text" id="dmg"></span>
                     </li>
-                    <li>
+                    <li class="target target-1">
                         <img src="/image/home/stat-icons.png" alt="" class="stat-icon">
                         <p class="stats-damage">&#8291;</p>
                         <p class="stats-damage">&#8291;</p>
@@ -80,10 +78,23 @@
                         <p>&#8291;</p>
                         <p>&#8291;</p>
                     </li>
-                    <li>
-                        <span class="text">Поддержка</span>
+                    <li class="target target-2">
+                        <img src="/image/home/stat-icons.png" alt="" class="stat-icon">
+                        <p class="stats-damage">&#8291;</p>
+                        <p class="stats-damage">&#8291;</p>
+                        <p class="stats-damage">&#8291;</p>
+                        <p class="stats-damage">&#8291;</p>
+                        <p class="stats-damage">&#8291;</p>
+                        <p class="stats-damage">&#8291;</p>
+                        <p class="stats-damage">&#8291;</p>
+                        <p class="stats-damage">&#8291;</p>
+                        <p class="stats-damage">&#8291;</p>
+                        <p>&#8291;</p>
                     </li>
                     <li>
+                        <span class="text" id="spt"></span>
+                    </li>
+                    <li class="target target-1">
                         <img src="/image/home/stat-icons0.png" alt="" class="stat-icon">
                         <p class="stats-support">&#8291;</p>
                         <p class="stats-support">&#8291;</p>
@@ -96,8 +107,21 @@
                         <p>&#8291;</p>
                         <p>&#8291;</p>
                     </li>
+                    <li class="target target-2">
+                        <img src="/image/home/stat-icons0.png" alt="" class="stat-icon">
+                        <p class="stats-support">&#8291;</p>
+                        <p class="stats-support">&#8291;</p>
+                        <p class="stats-support">&#8291;</p>
+                        <p class="stats-support">&#8291;</p>
+                        <p>&#8291;</p>
+                        <p>&#8291;</p>
+                        <p>&#8291;</p>
+                        <p>&#8291;</p>
+                        <p>&#8291;</p>
+                        <p>&#8291;</p>
+                    </li>
                     <li>
-                        <span class="text">Живучесть</span>
+                        <span class="text" id="hp"></span>
                     </li>
                     <li>
                         <img src="/image/home/stat-icons1.png" alt="" class="stat-icon">
@@ -112,10 +136,11 @@
                         <p class="stats-hp">&#8291;</p>
                         <p class="stats-hp">&#8291;</p>
                     </li>
+                    
                     <li>
-                        <span class="text">Сложность</span>
+                        <span class="text" id="dfct"></span>
                     </li>
-                    <li>
+                    <li class="target target-1">
                         <img src="/image/home/stat-icons2.png" alt="" class="stat-icon">
                         <p class="stats-difficult">&#8291;</p>
                         <p class="stats-difficult">&#8291;</p>
@@ -128,63 +153,7 @@
                         <p>&#8291;</p>
                         <p>&#8291;</p>
                     </li>
-                </ul>
-            </div>
-            <div class="w-100 min510"></div>
-            <div class="col target target-2">
-                <ul>
-                    <li>
-                        <span class="text">Урон</span>
-                    </li>
-                    <li>
-                        <img src="/image/home/stat-icons.png" alt="" class="stat-icon">
-                        <p class="stats-damage">&#8291;</p>
-                        <p class="stats-damage">&#8291;</p>
-                        <p class="stats-damage">&#8291;</p>
-                        <p class="stats-damage">&#8291;</p>
-                        <p class="stats-damage">&#8291;</p>
-                        <p class="stats-damage">&#8291;</p>
-                        <p class="stats-damage">&#8291;</p>
-                        <p class="stats-damage">&#8291;</p>
-                        <p class="stats-damage">&#8291;</p>
-                        <p>&#8291;</p>
-                    </li>
-                    <li>
-                        <span class="text">Поддержка</span>
-                    </li>
-                    <li>
-                        <img src="/image/home/stat-icons0.png" alt="" class="stat-icon">
-                        <p class="stats-support">&#8291;</p>
-                        <p class="stats-support">&#8291;</p>
-                        <p class="stats-support">&#8291;</p>
-                        <p class="stats-support">&#8291;</p>
-                        <p>&#8291;</p>
-                        <p>&#8291;</p>
-                        <p>&#8291;</p>
-                        <p>&#8291;</p>
-                        <p>&#8291;</p>
-                        <p>&#8291;</p>
-                    </li>
-                    <li>
-                        <span class="text">Живучесть</span>
-                    </li>
-                    <li>
-                        <img src="/image/home/stat-icons1.png" alt="" class="stat-icon">
-                        <p class="stats-hp">&#8291;</p>
-                        <p class="stats-hp">&#8291;</p>
-                        <p class="stats-hp">&#8291;</p>
-                        <p class="stats-hp">&#8291;</p>
-                        <p class="stats-hp">&#8291;</p>
-                        <p class="stats-hp">&#8291;</p>
-                        <p class="stats-hp">&#8291;</p>
-                        <p class="stats-hp">&#8291;</p>
-                        <p class="stats-hp">&#8291;</p>
-                        <p class="stats-hp">&#8291;</p>
-                    </li>
-                    <li>
-                        <span class="text">Сложность</span>
-                    </li>
-                    <li>
+                    <li class="target target-2">
                         <img src="/image/home/stat-icons2.png" alt="" class="stat-icon">
                         <p class="stats-difficult">&#8291;</p>
                         <p class="stats-difficult">&#8291;</p>
@@ -200,8 +169,8 @@
                 </ul>
             </div>
             <div class="w-100 min510"></div>
-            <div class="col target target-1">
-                <ul>
+            <div class="col">
+                <ul class="target target-1">
                     <li class="bicon">
                         Танк
                     </li>
@@ -209,10 +178,7 @@
                         <img src="/image/heroes/tank.png" alt="" class="icon" title="Танк">
                     </li>
                 </ul>
-            </div>
-            <div class="w-100 min1030"></div>
-            <div class="col target target-2">
-                <ul>
+                <ul class="target target-2">
                     <li class="bicon">
                         Убийца дального боя
                     </li>
@@ -222,67 +188,44 @@
                 </ul>
             </div>
             <div class="w-100 min1030"></div>
-            <div class="col target target-1">
+            <div class="col">
                 <ul>
-                    <li class="ab">
-                        Героические
-                    </li>
-                    <li>
+          <li class="ab" id="heroic"></li>
+                    <li class="target target-1">
                         <a href="#h1"><img src="/image/heroes/Cho/h1.png" alt="" class="heroic"></a>
                         <a href="#h2"><img src="/image/heroes/Cho/h2.png" alt="" class="heroic"></a>
                     </li>
-                </ul>
-            </div>
-            <div class="col target target-2">
-                <ul>
-                    <li class="ab">
-                        Героические
-                    </li>
-                    <li>
+                    <li class="target target-2">
                         <a href="#h1"><img src="/image/heroes/Gall/h1.png" alt="" class="heroic"></a>
                         <a href="#h2"><img src="/image/heroes/Gall/h2.png" alt="" class="heroic"></a>
                     </li>
                 </ul>
             </div>
-            <div class="col target target-1">
+            <div class="col">
                 <ul>
-                    <li class="ab">
-                        Базовые
-                    </li>
-                    <li>
+                    <li class="ab" id="basic"></li>
+                    <li class="target target-1">
                         <a href="#ab1"><img src="/image/heroes/Cho/a1.png" alt="" class="base"></a>
                         <a href="#ab2"><img src="/image/heroes/Cho/a2.png" alt="" class="base"></a>
                         <a href="#ab3"><img src="/image/heroes/Cho/a3.png" alt="" class="base"></a>
                     </li>
-                    <li class="ab">
-                        Умение
-                    </li>
-                    <li>
-                        <a href="#ab"><img src="/image/heroes/Cho/ab.png" alt="" class="base"></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col target target-2">
-                <ul>
-                    <li class="ab">
-                        Базовые
-                    </li>
-                    <li>
+                    <li class="target target-2">
                         <a href="#ab1"><img src="/image/heroes/Gall/a1.png" alt="" class="base"></a>
                         <a href="#ab2"><img src="/image/heroes/Gall/a2.png" alt="" class="base"></a>
                         <a href="#ab3"><img src="/image/heroes/Gall/a3.png" alt="" class="base"></a>
                     </li>
-                    <li class="ab">
-                        Умение
+                    <li class="ab" id="trait"></li>
+                    <li class="target target-1">
+                        <a href="#ab"><img src="/image/heroes/Cho/ab.png" alt="" class="base"></a>
                     </li>
-                    <li>
+                    <li class="target target-2">
                         <a href="#ab"><img src="/image/heroes/Gall/ab.png" alt="" class="base"></a>
                     </li>
                 </ul>
             </div>
             <div class="w-100"></div>
-            <div class="col target target-1" id="ab1">
-                <ul>
+            <div class="col" id="ab1">
+                <ul class="target target-1">
                     <li>
                         <img src="/image/heroes/Cho/img-a1.jpg" alt="" class="img-ab">
                     </li>
@@ -296,9 +239,7 @@
                             250%).</em>
                     </li>
                 </ul>
-            </div>
-            <div class="col target target-2" id="ab1">
-                <ul>
+                <ul class="target target-2">
                     <li>
                         <img src="/image/heroes/Gall/img-a1.jpg" alt="" class="img-ab">
                     </li>
@@ -309,8 +250,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="col target target-1" id="ab2">
-                <ul>
+            <div class="col" id="ab2">
+                <ul class="target target-1">
                     <li>
                         <img src="/image/heroes/Cho/img-a2.jpg" alt="" class="img-ab">
                     </li>
@@ -323,9 +264,7 @@
                             поражающие подожженных врагов, обновляют эффект.</em>
                     </li>
                 </ul>
-            </div>
-            <div class="col target target-2" id="ab2">
-                <ul>
+                <ul class="target target-2">
                     <li>
                         <img src="/image/heroes/Gall/img-a2.jpg" alt="" class="img-ab">
                     </li>
@@ -338,8 +277,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="col target target-1" id="ab3">
-                <ul>
+            <div class="col" id="ab3">
+                <ul class="target target-1">
                     <li>
                         <img src="/image/heroes/Cho/img-a3.jpg" alt="" class="img-ab">
                     </li>
@@ -352,9 +291,7 @@
                             урона по области.</em>
                     </li>
                 </ul>
-            </div>
-            <div class="col target target-2" id="ab3">
-                <ul>
+                <ul class="target target-2">
                     <li>
                         <img src="/image/heroes/Gall/img-a3.jpg" alt="" class="img-ab">
                     </li>
@@ -368,8 +305,8 @@
                 </ul>
             </div>
             <div class="w-100"></div>
-            <div class="col target target-1" id="h1">
-                <ul>
+            <div class="col" id="h1">
+                <ul class="target target-1">
                     <li>
                         <img src="/image/heroes/Cho/img-h1.jpg" alt="" class="img-ab">
                     </li>
@@ -382,14 +319,12 @@
                             урон от автоатак Чо на 25%.</em>
                     </li>
                 </ul>
-            </div>
-            <div class="col target target-2" id="h1">
-                <ul>
+                <ul class="target target-2">
                     <li>
-                        <img src="/image/heroes/Cho/img-h1.jpg" alt="" class="img-ab">
+                        <img src="/image/heroes/Gall/img-h1.jpg" alt="" class="img-ab">
                     </li>
                     <li>
-                        <img src="/image/heroes/Cho/h1.png" alt="" class="mab">
+                        <img src="/image/heroes/Gall/h1.png" alt="" class="mab">
                     </li>
                     <li>
                         <h3>Залп стрел Тьмы</h3><em>После паузы в 1 сек. совершает залп из 20 стрел Тьмы в течение 4
@@ -398,8 +333,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="col target target-1" id="h2">
-                <ul>
+            <div class="col" id="h2">
+                <ul class="target target-1">
                     <li>
                         <img src="/image/heroes/Cho/img-h2.jpg" alt="" class="img-ab">
                     </li>
@@ -411,14 +346,12 @@
                             противников, замедляя их на 25% на 3 сек. и нанося им 175 ед. урона.</em>
                     </li>
                 </ul>
-            </div>
-            <div class="col target target-2" id="h2">
-                <ul>
+                <ul class="target target-2">
                     <li>
-                        <img src="/image/heroes/Cho/img-h2.jpg" alt="" class="img-ab">
+                        <img src="/image/heroes/Gall/img-h2.jpg" alt="" class="img-ab">
                     </li>
                     <li>
-                        <img src="/image/heroes/Cho/h2.png" alt="" class="mab">
+                        <img src="/image/heroes/Gall/h2.png" alt="" class="mab">
                     </li>
                     <li>
                         <h3>Круговерть Пустоты</h3><em>После паузы в 1 сек. начинает поддерживать эту способность вплоть
@@ -427,8 +360,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="col target target-1" id="ab">
-                <ul>
+            <div class="col" id="ab">
+                <ul class="target target-1">
                     <li>
                         <img src="/image/heroes/Cho/ab.png" alt="" class="mab">
                     </li>
@@ -436,11 +369,9 @@
                         <h3>Шкура огра</h3><em>При использовании дает 25 ед. брони, но снижает урон Галла на 25%.</em>
                     </li>
                 </ul>
-            </div>
-            <div class="col target target-2" id="ab">
-                <ul>
+                <ul class="target target-2">
                     <li>
-                        <img src="/image/heroes/Cho/ab.png" alt="" class="mab">
+                        <img src="/image/heroes/Gall/ab.png" alt="" class="mab">
                     </li>
                     <li>
                         <h3>Ярость огра</h3><em>При использовании увеличивает урон Галла на 25%, но ослабляет броню Чо
