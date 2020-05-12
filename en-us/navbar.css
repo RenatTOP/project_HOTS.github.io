@@ -12,6 +12,14 @@ a {
    color: white !important;
 }
 
+.nav-link, .nav-lang {
+   color: white !important;
+}
+
+.nav-link:hover {
+   text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+}
+
 #logo {
    border: none !important;
    box-shadow: none;
@@ -101,12 +109,10 @@ a {
    font-family: MetronicforBlizzard, Metronic, Helvetica, Arial, sans-serif;
    font-size: 2rem;
    text-transform: uppercase;
-   text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
    font-family: MetronicforBlizzard, Metronic, Helvetica, Arial, sans-serif;
    font-size: 2rem;
    text-transform: uppercase;
-   text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
 }
