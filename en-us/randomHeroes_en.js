@@ -17,7 +17,7 @@ heroes[2] = `<div class="rdmHeroes col-3">
     </a>
 </div>`;
 heroes[3] = `<div class="rdmHeroes col-3">
-    <a href="/en-us/heroes/support/abathur.html"><img src="/image/heroes/Abathur/Abathurbgm.jpg" alt="" class="rdmImg">
+    <a href="/en-us/heroes/support/abathur.html"><img src="/image/heroes/Abathur/abathurbgm.jpg" alt="" class="rdmImg">
         <h3>Abathur</h3>
     </a>
 </div>`;
