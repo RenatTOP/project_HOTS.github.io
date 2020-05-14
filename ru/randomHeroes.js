@@ -12,7 +12,7 @@ heroes[1] = `<div class="rdmHeroes col-3">
     </a>
 </div>`;
 heroes[2] = `<div class="rdmHeroes col-3">
-    <a href="/ru/heroes/bruiser/artanis.html"><img src="/image/heroes/Artanis/Artanisbgm.jpg" alt="" class="rdmImg">
+    <a href="/ru/heroes/bruiser/artanis.html"><img src="/image/heroes/Artanis/artanisbgm.jpg" alt="" class="rdmImg">
         <h3>Артанис</h3>
     </a>
 </div>`;
@@ -42,7 +42,7 @@ heroes[7] = `<div class="rdmHeroes col-3">
     </a>
 </div>`;
 heroes[8] = `<div class="rdmHeroes col-3">
-    <a href="/ru/heroes/tank/arthas.html"><img src="/image/heroes/Arthas/Arthasbgm.jpg" alt="" class="rdmImg">
+    <a href="/ru/heroes/tank/arthas.html"><img src="/image/heroes/Arthas/arthasbgm.jpg" alt="" class="rdmImg">
         <h3>Артас</h3>
     </a>
 </div>`;
