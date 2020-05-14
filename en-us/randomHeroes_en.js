@@ -47,7 +47,7 @@ heroes[8] = `<div class="rdmHeroes col-3">
     </a>
 </div>`;
 heroes[9] = `<div class="rdmHeroes col-3">
-    <a href="/en-us/heroes/heal/auriel.html"><img src="/image/heroes/Auriel/Aurielbgm.jpg" alt="" class="rdmImg">
+    <a href="/en-us/heroes/heal/auriel.html"><img src="/image/heroes/Auriel/aurielbgm.jpg" alt="" class="rdmImg">
         <h3>Auriel</h3>
     </a>
 </div>`;
