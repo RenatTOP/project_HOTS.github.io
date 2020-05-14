@@ -37,7 +37,7 @@ heroes[6] = `<div class="rdmHeroes col-3">
     </a>
 </div>`;
 heroes[7] = `<div class="rdmHeroes col-3">
-    <a href="/en-us/heroes/heal/ana.html"><img src="/image/heroes/Ana/Anabgm.jpg" alt="" class="rdmImg">
+    <a href="/en-us/heroes/heal/ana.html"><img src="/image/heroes/Ana/anabgm.jpg" alt="" class="rdmImg">
         <h3>Ana</h3>
     </a>
 </div>`;
