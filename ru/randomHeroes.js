@@ -27,7 +27,7 @@ heroes[4] = `<div class="rdmHeroes col-3">
     </a>
 </div>`;
 heroes[5] = `<div class="rdmHeroes col-3">
-    <a href="/ru/heroes/dd/alarak.html"><img src="/image/heroes/Alarak/Alarakbgm.jpg" alt="" class="rdmImg">
+    <a href="/ru/heroes/dd/alarak.html"><img src="/image/heroes/Alarak/alarakbgm.jpg" alt="" class="rdmImg">
         <h3>Аларак</h3>
     </a>
 </div>`;
