@@ -42,29 +42,12 @@ div {
     }
 }
 
-h1 {
-    color: #cce5ff !important;
-    font-size: 1.5rem;
-    font-family: 'Lora', serif;
-    text-align: center;
-    text-transform: uppercase !important;
-}
-
-h3 {
-    color: #cce5ff !important;
-    font-size: 1rem;
-    font-family: 'Lora', serif;
-    text-shadow: 0 0 1rem #009cff;
-    text-align: center;
-}
-
 .col-3 {
-    background: linear-gradient(to top, #0e0520, #1b1146);
-    padding: 5rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    margin-top: 0.5rem;
-    border: 1px solid black;
+    background: linear-gradient(to top, #170e3d, #08000f);
+    border-right: 15px solid #08000f;
+    border-left: 15px solid #08000f;
+    padding: 0px !important;
+    margin-bottom: 20px;
 }
 
 .col {
@@ -85,6 +68,60 @@ h3 {
     .zero {
         display: none;
     }
+}
+
+.randomHeroes {
+    font-size: 0;
+}
+
+.rdmHeroes {
+    float: left;
+    margin-top: 60px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    text-align: center;
+}
+
+.rdmImg {
+    background: linear-gradient(#08000f, #6316d6);
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    max-width: 300px;
+    max-height: 350px;
+    height: 100%;
+    width: 100%;
+}
+@media(max-width:749px) {
+    .randomHeroes {
+        display: none;
+    }
+}
+h1 {
+    color: #cce5ff !important;
+    font-size: 1.5rem;
+    font-family: 'Lora', serif;
+    text-align: center;
+    text-transform: uppercase !important;
+}
+
+h2 {
+    padding-top: 40px;
+    text-align: center;
+    color: #cce5ff !important;
+    text-shadow: 0 0 1rem #009cff;
+}
+h2 {
+    text-align: center;
+    color: #cce5ff;
+    text-shadow: 0 0 1rem #009cff;
+}
+h3 {
+    color: #cce5ff !important;
+    font-size: 1rem;
+    font-family: 'Lora', serif;
+    text-shadow: 0 0 1rem #009cff;
+    text-align: center;
 }
 
 ul {
@@ -255,6 +292,9 @@ p {
         height: 10px !important;
         display: inline-block;
         margin-right: 0px !important;
+    }
+    .rdmHeroes h3 {
+        font-size: 1.5rem !important;
     }
 }
 
