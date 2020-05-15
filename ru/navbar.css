@@ -17,7 +17,7 @@ a {
 }
 
 .nav-link:hover {
-   text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+   text-shadow: 0 0 1rem #009cff;
 }
 
 #logo {
@@ -97,11 +97,6 @@ a {
 
 .dropdown-item:hover {
    font-size: 1.2rem;
-   text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
-}
-
-.nav-item:hover {
-   text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
 }
 
 #navbarDropdown {

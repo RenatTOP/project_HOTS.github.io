@@ -23,17 +23,9 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-        <div>
-            <a href="/ru/heroes/unique/chogall.html">Русский</a>
-            <br>
-            <a href="/en-us/heroes/unique/chogall.html">English</a>
-        </div>
     </nav>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 target target-1">
-                <img src="/image/heroes/Cho/bgm.jpg" alt="" class="headerm">
-            </div>
             <div class="col-12">
                 <h1 class="target target-1"><span>Чо</span>'Галл</h1>
                 <h1 class="target target-2">Чо'<span>Галл</span></h1>
@@ -51,11 +43,14 @@
                     </video>
                 </div>
             </div>
-            <div>
-                <a class="source source-2 target target-1 switch">Галл</a>
+            <div class="col-12 target target-1">
+                <img src="/image/heroes/Cho/bgm.jpg" alt="" class="headerm">
             </div>
             <div class="col-12 target target-2">
                 <img src="/image/heroes/Gall/bgm.jpg" alt="" class="headerm">
+            </div>
+            <div>
+                <a class="source source-2 target target-1 switch">Галл</a>
             </div>
             <div>
                 <a class="source source-1 target target-2 switch">Чо</a>
@@ -136,7 +131,7 @@
                         <p class="stats-hp">&#8291;</p>
                         <p class="stats-hp">&#8291;</p>
                     </li>
-                    
+
                     <li>
                         <span class="text" id="dfct"></span>
                     </li>
@@ -190,7 +185,7 @@
             <div class="w-100 min1030"></div>
             <div class="col">
                 <ul>
-          <li class="ab" id="heroic"></li>
+                    <li class="ab" id="heroic"></li>
                     <li class="target target-1">
                         <a href="#h1"><img src="/image/heroes/Cho/h1.png" alt="" class="heroic"></a>
                         <a href="#h2"><img src="/image/heroes/Cho/h2.png" alt="" class="heroic"></a>
@@ -384,7 +379,14 @@
         <div class="randomHeroes">
             <h2>Другие герои</h2>
             <script src="/ru/randomHeroes.js"></script>
-          </div>
+        </div>
+        <div class="lang">
+            <a class="lang-item" href="javascript:void(0);" tabindex="1">Язык</a>
+            <ul class="lang-menu">
+                <li class="langLi"><a href="/en-us/heroes/unique/chogall.html">English</a></li>
+                <li class="langLi"><a href="/ru/heroes/unique/chogall.html">Русский</a></li>
+            </ul>
+        </div>
         <div id="disqus_thread"></div>
         <script>
 

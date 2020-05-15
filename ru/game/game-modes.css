@@ -1,5 +1,8 @@
 body {
     background-color: #08000f !important;
+    max-width: 2000px;
+    display: block !important;
+    margin: 0 auto !important;
 }
 
 div {
@@ -102,6 +105,7 @@ div {
 .ii {
     background: url(/image/game/modes/ii.jpg) right top no-repeat;
 }
+
 .ii_en {
     background: url(/image/game/modes/iien.jpg) right top no-repeat;
 }
@@ -183,4 +187,25 @@ em {
 
 .txt-min {
     padding-right: 50%;
+}
+
+.lang {
+    font-size: 1.5rem;
+    padding-top: 4em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 90px;
+}
+
+.lang-menu {
+    display: none;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 4px;
+}
+
+.lang-item:focus~.lang-menu, .lang-item:active~.lang-menu, .lang-menu:hover {
+    display: block;
 }

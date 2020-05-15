@@ -1,5 +1,8 @@
 body {
     background-color: #08000f !important;
+    max-width: 2000px;
+    display: block !important;
+    margin: 0 auto !important;
 }
 
 h1 {
@@ -25,7 +28,6 @@ p {
     }
 }
 
-
 h3 {
     margin: auto;
     padding: 10px;
@@ -42,28 +44,25 @@ h3 a {
     display: block;
 }
 
-
 #cont {
     position: relative;
     border-radius: 6px;
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-
     background: #f3f3f3;
-
     margin: -20px 30px 0px 30px;
     padding: 20px;
 }
 
-
 ul {
     margin: 0px;
-
     padding: 0px;
     list-style: none;
 }
+
 li {
     margin: 0px;
 }
+
 li ul {
     margin-left: 20px;
 }
@@ -82,9 +81,32 @@ li ul {
     border-bottom: #ddd 1px solid;
     padding: 5px;
 }
+
 .lpage a {
     color: #000 !important;
-    }
+}
+
 .last-page {
     border: none;
+}
+
+.lang {
+    font-size: 1.5rem;
+    padding-top: 4em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 90px;
+}
+
+.lang-menu {
+    display: none;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 4px;
+}
+
+.lang-item:focus~.lang-menu, .lang-item:active~.lang-menu, .lang-menu:hover {
+    display: block;
 }

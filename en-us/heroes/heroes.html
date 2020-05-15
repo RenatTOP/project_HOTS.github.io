@@ -21,14 +21,36 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <a class="navbar-brand" href="/en-us/home.html"><img src="/image/home/logo.png" alt="" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Game
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/en-us/game/roles.html">Roles</a>
+                        <a class="dropdown-item" href="/en-us/game/game-modes.html">Modes</a>
+                        <a class="dropdown-item" href="/en-us/game/brawl.html">Brawl</a>
+                        <a class="dropdown-item" href="/en-us/game/battlefield.html">Battlegrounds</a>
+                        <a class="dropdown-item" href="/en-us/game/rating_matches.html">Ranked: Storm League</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/en-us/heroes/heroes.html">Heroes<span
+                            class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
         <input id="spterm" type="text" name="spterm" placeholder="Search"><br />
         <br><br>
         <div id="spresult">&nbsp;</div>
-        <div>
-            <a href="/ru/heroes/heroes.html" class="nav-lang">Русский</a>
-            <br>
-            <a href="/en-us/heroes/heroes.html" class="nav-lang">English</a>
-        </div>
     </nav>
     <div>
         <h1>Heroes</h1>
@@ -601,6 +623,13 @@
                 </a>
             </div>
         </div>
+        <div class="lang">
+            <a class="lang-item" href="javascript:void(0);" tabindex="1">Language</a>
+            <ul class="lang-menu">
+                <li><a href="/en-us/heroes/heroes.html">English</a></li>
+                <li><a href="/ru/heroes/heroes.html">Русский</a></li>
+            </ul>
+        </div>
         <div id="disqus_thread"></div>
         <script>
             /**
@@ -620,6 +649,13 @@
                 (d.head || d.body).appendChild(s);
             })();
         </script>
+    </div>
+    <div class="lang">
+        <a class="lang-item" href="javascript:void(0);" tabindex="1">Language</a>
+        <ul class="lang-menu">
+            <li><a href="/en-us/heroes/heroes.html">English</a></li>
+            <li><a href="/ru/heroes/heroes.html">Русский</a></li>
+        </ul>
     </div>
     <footer id="footer">
     </footer>

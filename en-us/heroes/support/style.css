@@ -92,11 +92,13 @@ div {
     height: 100%;
     width: 100%;
 }
+
 @media(max-width:749px) {
     .randomHeroes {
         display: none;
     }
 }
+
 h1 {
     color: #cce5ff !important;
     font-size: 1.5rem;
@@ -112,11 +114,13 @@ h2 {
     color: #cce5ff !important;
     text-shadow: 0 0 1rem #009cff;
 }
+
 h2 {
     text-align: center;
     color: #cce5ff;
     text-shadow: 0 0 1rem #009cff;
 }
+
 h3 {
     color: #cce5ff !important;
     font-size: 1rem;
@@ -401,4 +405,25 @@ em {
     font-size: 1.9rem;
     cursor: pointer !important;
     box-shadow: 0px 0px 40px #9640fe;
+}
+
+.lang {
+    font-size: 1.5rem;
+    padding-top: 4em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 90px;
+}
+
+.lang-menu {
+    display: none;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 4px;
+}
+
+.lang-item:focus~.lang-menu, .lang-item:active~.lang-menu, .lang-menu:hover {
+    display: block;
 }

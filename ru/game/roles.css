@@ -1,5 +1,8 @@
 body {
     background-color: #0e001a !important;
+    max-width: 2000px;
+    display: block !important;
+    margin: 0 auto !important;
 }
 
 .head {
@@ -55,4 +58,25 @@ p {
     .type {
         max-width: 60px;
     }
+}
+
+.lang {
+    font-size: 1.5rem;
+    padding-top: 4em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 90px;
+}
+
+.lang-menu {
+    display: none;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 4px;
+}
+
+.lang-item:focus~.lang-menu, .lang-item:active~.lang-menu, .lang-menu:hover {
+    display: block;
 }

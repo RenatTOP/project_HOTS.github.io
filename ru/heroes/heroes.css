@@ -1,8 +1,11 @@
 body {
+    display: block;
     background: url(/image/game/bg.jpg) top center no-repeat;
     background-size: auto;
     background-color: #000d1a !important;
     padding: 0;
+    max-width: 2400px;
+    margin: 0 auto !important;
 }
 
 span.highlight {
@@ -100,6 +103,27 @@ p {
 
 .search {
     color: #fff;
+}
+
+.lang {
+    font-size: 1.5rem;
+    padding-top: 4em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 90px;
+}
+
+.lang-menu {
+    display: none;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 4px;
+}
+
+.lang-item:focus~.lang-menu, .lang-item:active~.lang-menu, .lang-menu:hover {
+    display: block;
 }
 
 svg {
