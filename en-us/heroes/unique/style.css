@@ -1,3 +1,10 @@
+body {
+    background-color: #08000f !important;
+    max-width: 2000px;
+    display: block !important;
+    margin: 0 auto !important;
+}
+
 div {
     display: block;
 }
@@ -408,20 +415,26 @@ em {
 }
 
 .lang {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding-top: 4em;
     display: block;
     margin: 0 auto;
     text-align: center;
     width: 90px;
+    text-shadow: 0 0 1rem #009cff;
 }
 
 .lang-menu {
+    margin: 8px !important;
     display: none;
     list-style-type: none;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: 4px;
+}
+
+.langLi {
+    text-transform: none;
 }
 
 .lang-item:focus~.lang-menu, .lang-item:active~.lang-menu, .lang-menu:hover {
