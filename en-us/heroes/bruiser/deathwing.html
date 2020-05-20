@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="/footer.css">
   <link rel="stylesheet" href="/en-us/navbar.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
@@ -23,15 +24,10 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-    <div>
-      <a href="/ru/heroes/bruiser/deathwing.html">Русский</a>
-      <br>
-      <a href="/en-us/heroes/bruiser/deathwing.html">English</a>
-    </div>
   </nav>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12" data-aos="zoom-in">
         <img src="/image/heroes/Deathwing/bgm.jpg" alt="" class="headerm">
       </div>
       <div class="col-12">
@@ -43,7 +39,7 @@
           living things.</em>
       </div>
       <div>
-        <div class="col-12">
+        <div class="col-12" data-aos="zoom-in">
           <video src="/image/heroes/Deathwing/bg.webm" class="header headv" loop muted autoplay
             poster="/image/home/bg-poster.jpg">
           </video>
@@ -56,7 +52,7 @@
         <a class="source source-1 target target-2 switch">World Breaker</a>
       </div>
       <div class="w-100"></div>
-      <div class="col">
+      <div class="col" data-aos="fade-right">
         <ul>
           <li>
             <span class="text" id="dmg"></span>
@@ -125,7 +121,7 @@
         </ul>
       </div>
       <div class="w-100 min510"></div>
-      <div class="col">
+      <div class="col" data-aos="fade-right">
         <ul>
           <li class="bicon">
             Bruiser
@@ -136,7 +132,7 @@
         </ul>
       </div>
       <div class="w-100 min1030"></div>
-      <div class="col">
+      <div class="col" data-aos="fade-left">
         <ul>
           <li class="ab" id="heroic"></li>
           <li>
@@ -144,7 +140,7 @@
           </li>
         </ul>
       </div>
-      <div class="col">
+      <div class="col" data-aos="fade-left">
         <ul>
           <li class="ab" id="basic"></li>
           <li class="target target-1">
@@ -165,7 +161,7 @@
         </ul>
       </div>
       <div class="w-100"></div>
-      <div class="col" id="ab1">
+      <div class="col" data-aos="fade-right" id="ab1">
         <ul>
           <li>
             <img src="/image/heroes/Deathwing/img-a1.png" alt="" class="img-ab">
@@ -179,7 +175,7 @@
           </li>
         </ul>
       </div>
-      <div class="col" id="ab2">
+      <div class="col" data-aos="fade-down" id="ab2">
         <ul class="target target-1">
           <li>
             <img src="/image/heroes/Deathwing/img-a2r.png" alt="" class="img-ab">
@@ -204,7 +200,7 @@
           </li>
         </ul>
       </div>
-      <div class="col" id="ab3">
+      <div class="col" data-aos="fade-left" id="ab3">
         <ul class="target target-1">
           <li>
             <img src="/image/heroes/Deathwing/img-a3r.png" alt="" class="img-ab">
@@ -231,7 +227,7 @@
         </ul>
       </div>
       <div class="w-100"></div>
-      <div class="col" id="h1">
+      <div class="col" data-aos="fade-right" id="h1">
         <ul>
           <li>
             <img src="/image/heroes/Deathwing/img-h1.png" alt="" class="img-ab">
@@ -245,7 +241,7 @@
           </li>
         </ul>
       </div>
-      <div class="col" id="ab">
+      <div class="col" data-aos="fade-up" id="ab">
         <ul>
           <li>
             <img src="/image/heroes/Deathwing/img-d.png" alt="" class="img-ab">
@@ -262,7 +258,7 @@
           </li>
         </ul>
       </div>
-      <div class="col" id="z">
+      <div class="col" data-aos="fade-left" id="z">
         <ul>
           <li>
             <img src="/image/heroes/Deathwing/img-z.jpg" alt="" class="img-ab">
@@ -285,10 +281,10 @@
     <div class="lang">
       <a class="lang-item" href="javascript:void(0);" tabindex="1">Language</a>
       <ul class="lang-menu">
-          <li class="langLi"><a href="/en-us/heroes/bruiser/deathwing.html">English</a></li>
-          <li class="langLi"><a href="/ru/heroes/bruiser/deathwing.html">Русский</a></li>
+        <li class="langLi"><a href="/en-us/heroes/bruiser/deathwing.html">English</a></li>
+        <li class="langLi"><a href="/ru/heroes/bruiser/deathwing.html">Русский</a></li>
       </ul>
-  </div>
+    </div>
     <div id="disqus_thread"></div>
     <script>
 
@@ -312,6 +308,7 @@
   <footer id="footer">
   </footer>
   <a class="back_to_top" title="Top">↑</a>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="/en-us/additem_en.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -324,7 +321,7 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <script src="/top.js"></script>
-  <script src="script.js"></script>
+  <script src="/switch.js"></script>
 </body>
 
 </html>

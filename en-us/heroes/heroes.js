@@ -1,13 +1,13 @@
 //Search
 jQuery(document).ready(function() {
-    let minlen = 2;
-    let paddingtop = 150;
-    let scrollspeed = 200;
-    let keyint = 1000;
-    let term = '';
-    let n = 0;
-    let time_keyup = 0;
-    let time_search = 0;
+    var minlen = 2;
+    var paddingtop = 150;
+    var scrollspeed = 200;
+    var keyint = 1000;
+    var term = '';
+    var n = 0;
+    var time_keyup = 0;
+    var time_search = 0;
 
     jQuery('body').delegate('#spgo', 'click', function() {
         jQuery('body,html').animate({ scrollTop: jQuery('span.highlight:first').offset().top - paddingtop }, scrollspeed);

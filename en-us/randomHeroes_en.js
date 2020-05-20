@@ -1,5 +1,5 @@
 //Array of heroes
-let heroes = [];
+var heroes = [];
 
 heroes[0] = `<div class="rdmHeroes col-3" data-aos="flip-left">
     <a href="/en-us/heroes/heal/anduin.html"><img src="/image/heroes/Anduin/anduinbgm.jpg" alt="" class="rdmImg">
@@ -443,7 +443,7 @@ heroes[87] = `<div class="rdmHeroes col-3" data-aos="flip-left">
 </div>`;
 
 //Random hero selection without repetition
-let selestedHeroes = [];
+var selestedHeroes = [];
 
 for (let i = 0; i < 4; i++) {
   let index = Math.floor(Math.random() * heroes.length);

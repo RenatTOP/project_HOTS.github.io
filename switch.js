@@ -1,8 +1,8 @@
-let HIDDEN_CLASS_NAME = 'hidden'
-let TARGET_CLASS_NAME = 'target'
-let SOURCE_CLASS_NAME = 'source'
+var HIDDEN_CLASS_NAME = 'hidden'
+var TARGET_CLASS_NAME = 'target'
+var SOURCE_CLASS_NAME = 'source'
 
-let targetIdToShow = 1
+var targetIdToShow = 1
 
 function main() {
 	let targets = getElements(TARGET_CLASS_NAME)

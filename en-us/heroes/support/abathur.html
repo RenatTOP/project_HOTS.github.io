@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="/footer.css">
   <link rel="stylesheet" href="/en-us/navbar.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
@@ -23,15 +24,10 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-    <div>
-      <a href="/ru/heroes/support/abathur.html">Русский</a>
-      <br>
-      <a href="/en-us/heroes/support/abathur.html">English</a>
-    </div>
   </nav>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12" data-aos="zoom-in">
         <img src="/image/heroes/Abathur/abathurbgm.jpg" alt="" class="headerm">
       </div>
       <div class="col-12">
@@ -39,12 +35,12 @@
         <h3>Evolution Master</h3><em>Abathur, the Evolution Master of Kerrigan's Swarm, works ceaselessly to improve the
           zerg from the genetic level up. His hate for chaos and imperfection almost rivals his hatred of pronouns.</em>
       </div>
-      <div class="col-12">
+      <div class="col-12" data-aos="zoom-in">
         <video src="/image/heroes/Abathur/abathurbg.webm" class="header" loop muted autoplay>
         </video>
       </div>
       <div class="w-100"></div>
-      <div class="col">
+      <div class="col" data-aos="fade-right">
         <ul>
           <li>
             <span class="text" id="dmg"></span>
@@ -113,7 +109,7 @@
         </ul>
       </div>
       <div class="w-100 min510"></div>
-      <div class="col">
+      <div class="col" data-aos="fade-right">
         <ul>
           <li class="bicon">
             Support
@@ -124,7 +120,7 @@
         </ul>
       </div>
       <div class="w-100 min1030"></div>
-      <div class="col">
+      <div class="col" data-aos="fade-left">
         <ul>
           <li class="ab" id="heroic"></li>
           <li>
@@ -134,7 +130,7 @@
         </ul>
       </div>
       <div class="col- min1400"></div>
-      <div class="col">
+      <div class="col" data-aos="fade-left">
         <ul>
           <li class="ab" id="basic"></li>
           <li>
@@ -150,7 +146,7 @@
       </div>
       <div class="w-100"></div>
 
-      <div class="col" id="ab1">
+      <div class="col" data-aos="fade-right" id="ab1">
         <ul>
           <li>
             <img src="/image/heroes/Abathur/img-a1.jpg" alt="" class="img-ab">
@@ -164,7 +160,7 @@
           </li>
         </ul>
       </div>
-      <div class="col" id="ab2">
+      <div class="col" data-aos="fade-down" id="ab2">
         <ul>
           <li>
             <img src="/image/heroes/Abathur/img-a2.jpg" alt="" class="img-ab">
@@ -180,7 +176,7 @@
       </div>
       <div class="col zero"></div>
       <div class="w-100"></div>
-      <div class="col" id="h1">
+      <div class="col" data-aos="fade-right" id="h1">
         <ul>
           <li>
             <img src="/image/heroes/Abathur/img-h1.jpg" alt="" class="img-ab">
@@ -195,7 +191,7 @@
           </li>
         </ul>
       </div>
-      <div class="col" id="h2">
+      <div class="col" data-aos="fade-up" id="h2">
         <ul>
           <li>
             <img src="/image/heroes/Abathur/img-h2.jpg" alt="" class="img-ab">
@@ -212,15 +208,15 @@
           </li>
         </ul>
       </div>
-      <div class="col" id="ab">
+      <div class="col" data-aos="fade-left" id="ab">
         <ul>
           <li>
             <img src="/image/heroes/Abathur/ab.png" alt="" class="mab">
           </li>
           <li>
-            <h3>Подвид саранчид</h3><em>Раз в 15 сек. порождает саранчида с 350 ед. здоровья, атакующего ближайшую
-              линию. Саранчид существует 16 сек. и наносит 46 ед. урона с каждой автоатакой, при этом нанося на 50%
-              больше урона строениям.</em>
+            <h3>Locust Strain</h3><em>Spawns a Locust to attack down the nearest lane every 15 seconds. Locusts last for
+              16 seconds, have 350 health and deal 46 damage with each Basic Attack, dealing 25% bonus damage to enemy
+              Structures.</em>
           </li>
         </ul>
       </div>
@@ -259,6 +255,7 @@
   <footer id="footer">
   </footer>
   <a class="back_to_top" title="Top">↑</a>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="/en-us/additem_en.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
