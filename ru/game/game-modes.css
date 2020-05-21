@@ -9,7 +9,20 @@ div {
     display: block;
 }
 
-.containers {
+.head {
+    background: url(/image/game/modes/mode-game.jpg) center no-repeat;
+}
+
+.header {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: #bdd3ff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+}
+
+.page-container {
     display: grid;
     grid-template-columns: 1200px;
     margin-right: 10%;
@@ -17,13 +30,13 @@ div {
 }
 
 @media (max-width:2000px) {
-    .containers {
+    .page-container {
         grid-template-columns: 100%;
     }
 }
 
 @media (max-width:1400px) {
-    .containers {
+    .page-container {
         margin-right: 1%;
         margin-left: 1%;
     }
@@ -79,19 +92,6 @@ div {
         padding-right: 10% !important;
         padding-left: 10% !important;
     }
-}
-
-.head {
-    background: url(/image/game/modes/mode-game.jpg) center no-repeat;
-}
-
-.header {
-    text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
-    color: #bdd3ff;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.3rem;
 }
 
 .big-con {

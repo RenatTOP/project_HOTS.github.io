@@ -20,38 +20,41 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/ru/home.html"><img src="/image/home/logo.png" alt="" id="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/ru/home.html"><img src="/image/home/logo.png" alt="" id="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Игра
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/ru/game/roles.html">Роли</a>
-                        <a class="dropdown-item" href="/ru/game/game-modes.html">Режимы</a>
-                        <a class="dropdown-item" href="/ru/game/brawl.html">Потасовка</a>
-                        <a class="dropdown-item" href="/ru/game/battlefield.html">Поля боя</a>
-                        <a class="dropdown-item" href="/ru/game/rating_matches.html">Рейтинговые матчи</a>
-                    </div>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="/ru/heroes/heroes.html">Герои<span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-        </div>
-        <input id="spterm" type="text" name="spterm" placeholder="Поиск"><br />
-        <br><br>
-        <div id="spresult">&nbsp;</div>
-    </nav>
-    <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Игра
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/ru/game/roles.html">Роли</a>
+                            <a class="dropdown-item" href="/ru/game/game-modes.html">Режимы</a>
+                            <a class="dropdown-item" href="/ru/game/brawl.html">Потасовка</a>
+                            <a class="dropdown-item" href="/ru/game/battlefield.html">Поля боя</a>
+                            <a class="dropdown-item" href="/ru/game/rating_matches.html">Рейтинговые матчи</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/ru/heroes/heroes.html">Герои<span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+            <input id="spterm" type="text" name="spterm" placeholder="Поиск"><br />
+            <br><br>
+            <div id="spresult">&nbsp;</div>
+        </nav>
+    </header>
+    <main class="container-fluid">
         <div>
             <h1>Герои</h1>
         </div>
@@ -621,6 +624,13 @@
                 </a>
             </div>
         </div>
+        <div class="lang">
+            <a class="lang-item" href="javascript:void(0);" tabindex="1">Язык</a>
+            <ul class="lang-menu">
+                <li><a href="/en-us/heroes/heroes.html">English</a></li>
+                <li><a href="/ru/heroes/heroes.html">Русский</a></li>
+            </ul>
+        </div>
         <div id="disqus_thread"></div>
         <script>
             /**
@@ -640,14 +650,7 @@
                 (d.head || d.body).appendChild(s);
             })();
         </script>
-    </div>
-    <div class="lang">
-        <a class="lang-item" href="javascript:void(0);" tabindex="1">Язык</a>
-        <ul class="lang-menu">
-            <li><a href="/en-us/heroes/heroes.html">English</a></li>
-            <li><a href="/ru/heroes/heroes.html">Русский</a></li>
-        </ul>
-    </div>
+    </main>
     <footer id="footer">
     </footer>
     <a class="back_to_top" title="Наверх">↑</a>

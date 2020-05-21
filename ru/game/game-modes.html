@@ -21,9 +21,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-    </nav>
-    <div class="containers">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        </nav>
+    </header>
+    <main class="containers">
         <div class="head">
             <h1>Режимы игры</h1>
             <p class="header">Нексус предлагает на выбор множество способов погрузиться в напряженную и
@@ -96,33 +98,33 @@
                 <img src="/image/game/modes/own-game.jpg" alt="" class="img-own-game">
             </p>
         </div>
-    </div>
-    <div class="lang">
-        <a class="lang-item" href="javascript:void(0);" tabindex="1">Язык</a>
-        <ul class="lang-menu">
-            <li><a href="/en-us/game/game-modes.html">English</a></li>
-            <li><a href="/ru/game/game-modes.html">Русский</a></li>
-        </ul>
-    </div>
-    <div id="disqus_thread"></div>
-    <script>
+        <div class="lang">
+            <a class="lang-item" href="javascript:void(0);" tabindex="1">Язык</a>
+            <ul class="lang-menu">
+                <li><a href="/en-us/game/game-modes.html">English</a></li>
+                <li><a href="/ru/game/game-modes.html">Русский</a></li>
+            </ul>
+        </div>
+        <div id="disqus_thread"></div>
+        <script>
 
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-        /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function () { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://renattop-me.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-    </script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function () { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://renattop-me.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+    </main>
     <footer id="footer">
     </footer>
     <a class="back_to_top" title="Наверх">↑</a>

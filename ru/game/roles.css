@@ -5,7 +5,7 @@ body {
     margin: 0 auto !important;
 }
 
-.head {
+.page-container {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 3.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -52,7 +52,7 @@ p {
     h1 {
         font-size: 2rem !important;
     }
-    .head {
+    .page-container {
         grid-template-rows: 0fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     .type {
