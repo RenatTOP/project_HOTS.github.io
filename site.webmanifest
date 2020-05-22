@@ -1,0 +1,19 @@
+{
+    "name": "Fan site of the game Heroes of the Storm",
+    "short_name": "Fan site",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#08000f",
+    "background_color": "#08000f",
+    "display": "standalone"
+}
