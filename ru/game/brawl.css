@@ -16,9 +16,7 @@ div {
     margin-right: 0;
     margin-left: 0;
     background: #08000f;
-    background: url(/image/game/brawl/intro-bg.jpg) center no-repeat;
     background-size: cover;
-    ;
 }
 
 @media (max-width:2300px) {
@@ -27,15 +25,20 @@ div {
     }
 }
 
+.head {
+    background: url(/image/game/brawl/intro-bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
 @media (max-width:800px) {
-    .page-container {
+    .head {
         background: url(/image/game/brawl/intro-bg-tablet.jpg) top center no-repeat;
         background-size: cover;
     }
 }
 
 @media (max-width:400px) {
-    .page-container {
+    .head {
         background: url(/image/game/brawl/intro-bg-mobile.jpg) top center no-repeat;
         background-size: cover;
     }
