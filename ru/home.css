@@ -3,6 +3,7 @@ body {
     max-width: 2000px;
     display: block !important;
     margin: 0 auto !important;
+    cursor: url(/cursors/cursor.cur), default !important;
 }
 
 .head {
@@ -133,6 +134,7 @@ img:hover {
 a {
     text-decoration: none !important;
     color: white !important;
+    cursor: url(/cursors/pointer.cur),pointer  !important;
 }
 
 .lang {

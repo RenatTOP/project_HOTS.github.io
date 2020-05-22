@@ -3,6 +3,7 @@ body {
     max-width: 2000px;
     display: block !important;
     margin: 0 auto !important;
+    cursor: url(/cursors/cursor.cur), default !important;
 }
 
 div {
@@ -40,6 +41,7 @@ a {
     color: white !important;
     text-shadow: 0 0 1rem #009cff;
     text-transform: uppercase;
+    cursor: url(/cursors/pointer.cur),pointer  !important;
 }
 
 .top {

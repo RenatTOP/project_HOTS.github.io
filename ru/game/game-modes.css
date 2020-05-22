@@ -3,6 +3,7 @@ body {
     max-width: 2000px;
     display: block !important;
     margin: 0 auto !important;
+    cursor: url(/cursors/cursor.cur), default !important;
 }
 
 div {
@@ -40,6 +41,46 @@ div {
         margin-right: 1%;
         margin-left: 1%;
     }
+}
+
+a {
+    cursor: url(/cursors/pointer.cur), pointer !important;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20%;
+    color: white !important;
+    font-size: 3.3em !important;
+    text-shadow: 0 0 1rem #009cff;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.4rem !important;
+    text-transform: uppercase;
+    color: white !important;
+    text-shadow: 0 0 1rem #009cff;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5%;
+}
+
+h3 {
+    font-size: 2rem !important;
+    text-transform: uppercase;
+    color: white !important;
+    text-shadow: 0 0 1rem #009cff;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5%;
+}
+
+h4 {
+    font-size: 1.35rem !important;
+    color: #58baff !important;
+    font-style: italic;
+    font-weight: 400 !important;
 }
 
 @media (max-width:1110px) {
@@ -134,42 +175,6 @@ div {
     width: 100%;
     margin-top: 3em;
     border: 2px solid #8332cd !important;
-}
-
-h1 {
-    text-align: center;
-    padding-top: 20%;
-    color: white !important;
-    font-size: 3.3em !important;
-    text-shadow: 0 0 1rem #009cff;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
-}
-
-h2 {
-    text-align: center;
-    font-size: 2.4rem !important;
-    text-transform: uppercase;
-    color: white !important;
-    text-shadow: 0 0 1rem #009cff;
-    font-family: 'Open Sans', sans-serif;
-    padding-top: 5%;
-}
-
-h3 {
-    font-size: 2rem !important;
-    text-transform: uppercase;
-    color: white !important;
-    text-shadow: 0 0 1rem #009cff;
-    font-family: 'Open Sans', sans-serif;
-    padding-top: 5%;
-}
-
-h4 {
-    font-size: 1.35rem !important;
-    color: #58baff !important;
-    font-style: italic;
-    font-weight: 400 !important;
 }
 
 p {

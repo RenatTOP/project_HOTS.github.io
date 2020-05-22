@@ -3,6 +3,11 @@ body {
     max-width: 2000px;
     display: block !important;
     margin: 0 auto !important;
+    cursor: url(/cursors/cursor.cur), default !important;
+}
+
+a {
+    cursor: url(/cursors/pointer.cur), pointer !important;
 }
 
 h1 {

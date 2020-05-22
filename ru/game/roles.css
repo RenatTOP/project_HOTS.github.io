@@ -3,6 +3,7 @@ body {
     max-width: 2000px;
     display: block !important;
     margin: 0 auto !important;
+    cursor: url(/cursors/cursor.cur), default !important;
 }
 
 .page-container {
@@ -13,6 +14,10 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 5%;
+}
+
+a {
+    cursor: url(/cursors/pointer.cur), pointer !important;
 }
 
 h1 {

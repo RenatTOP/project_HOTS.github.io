@@ -3,6 +3,7 @@ body {
     max-width: 2000px;
     display: block !important;
     margin: 0 auto !important;
+    cursor: url(/cursors/cursor.cur), default !important;
 }
 
 div {
@@ -15,6 +16,8 @@ div {
     margin-right: 0;
     margin-left: 0;
     background: #08000f;
+    background: url(/image/game/brawl/intro-bg.jpg) center no-repeat;
+    background-size: cover;
     ;
 }
 
@@ -24,22 +27,51 @@ div {
     }
 }
 
-.head {
-    background: url(/image/game/brawl/intro-bg.jpg) center no-repeat;
-    background-size: cover;
-}
-
 @media (max-width:800px) {
-    .head {
+    .page-container {
         background: url(/image/game/brawl/intro-bg-tablet.jpg) top center no-repeat;
         background-size: cover;
     }
 }
 
 @media (max-width:400px) {
-    .head {
+    .page-container {
         background: url(/image/game/brawl/intro-bg-mobile.jpg) top center no-repeat;
         background-size: cover;
+    }
+}
+
+a {
+    cursor: url(/cursors/pointer.cur), pointer !important;
+}
+
+h1 {
+    padding-top: 1em !important;
+    text-align: center;
+    font-size: 3.5rem !important;
+    color: white !important;
+    text-shadow: 0 0 1rem #009cff;
+    text-transform: uppercase;
+}
+
+@media (max-width:400px) {
+    h1 {
+        font-size: 2.5rem !important;
+    }
+}
+
+h2 {
+    text-align: center;
+    color: white !important;
+    text-shadow: 0 0 1rem #009cff;
+    font-size: 3.2rem !important;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+@media (max-width:400px) {
+    h2 {
+        font-size: 2.1rem !important;
     }
 }
 
@@ -73,36 +105,6 @@ div {
 
 .event {
     background: url(/image/game/brawl/rewards-bg-top.jpg) top center no-repeat;
-}
-
-h1 {
-    padding-top: 1em !important;
-    text-align: center;
-    font-size: 3.5rem !important;
-    color: white !important;
-    text-shadow: 0 0 1rem #009cff;
-    text-transform: uppercase;
-}
-
-@media (max-width:400px) {
-    h1 {
-        font-size: 2.5rem !important;
-    }
-}
-
-h2 {
-    text-align: center;
-    color: white !important;
-    text-shadow: 0 0 1rem #009cff;
-    font-size: 3.2rem !important;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-}
-
-@media (max-width:400px) {
-    h2 {
-        font-size: 2.1rem !important;
-    }
 }
 
 p {

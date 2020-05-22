@@ -3,6 +3,7 @@ body {
     max-width: 2000px;
     display: block !important;
     margin: 0 auto !important;
+    cursor: url(/cursors/cursor.cur), default !important;
 }
 
 div {
@@ -22,6 +23,10 @@ div {
     .page-container {
         grid-template-columns: 100%;
     }
+}
+
+a {
+    cursor: url(/cursors/pointer.cur), pointer !important;
 }
 
 h1 {
