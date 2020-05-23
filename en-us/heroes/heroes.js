@@ -1,67 +1,9 @@
 //Search
-jQuery(document).ready(function() {
-    var minlen = 2;
-    var paddingtop = 150;
-    var scrollspeed = 200;
-    var keyint = 1000;
-    var term = '';
-    var n = 0;
-    var time_keyup = 0;
-    var time_search = 0;
-
-    jQuery('body').delegate('#spgo', 'click', function() {
-        jQuery('body,html').animate({ scrollTop: jQuery('span.highlight:first').offset().top - paddingtop }, scrollspeed);
+jQuery(function ($) {
+    $('#content').lookingfor({
+        input: $('input[name="query"]'),
+        items: 'div'
     });
-
-    function dosearch() {
-        term = jQuery('#spterm').val();
-        jQuery('span.highlight').each(function() {
-            jQuery(this).after(jQuery(this).html()).remove();
-        });
-        let t = '';
-        jQuery('div#content').each(function() {
-            jQuery(this).html(jQuery(this).html().replace(new RegExp(term, 'ig'), '<span class="highlight">$&</span>'));
-            n = jQuery('span.highlight').length;
-            console.log('n = ' + n);
-            if (n == 0)
-                jQuery('#spresult').html('Not found');
-            else
-                jQuery('#spresult').html('Results: ' + n + '. <br> <span class="splink" id="spgo">&nbsp;&nbsp;&nbsp;Go to</span > ');
-            if (n > 1) {
-                let i = 0;
-                jQuery('span.highlight').each(function(i) {
-                    jQuery(this).attr('n', i++);
-                });
-                jQuery('span.highlight').not(':last').attr({ title: 'Click to go to the next fragment' }).click(function() {
-                    jQuery('body,html').animate({ scrollTop: jQuery('span.highlight:gt(' + jQuery(this).attr('n') + '):first').offset().top - paddingtop }, scrollspeed);
-                });
-                jQuery('span.highlight:last').attr({ title: 'Click to return to the search form.' }).click(function() {
-                    jQuery('body,html').animate({ scrollTop: jQuery('#spterm').offset().top - paddingtop }, scrollspeed);
-                });
-            }
-        });
-    }
-
-    jQuery('#spterm').keyup(function() {
-        let d1 = new Date();
-        time_keyup = d1.getTime();
-        if (jQuery('#spterm').val() != term)
-            if (jQuery('#spterm').val().length >= minlen) {
-                setTimeout(function() {
-                    let d2 = new Date();
-                    time_search = d2.getTime();
-                    if (time_search - time_keyup >= keyint)
-                        dosearch();
-                }, keyint);
-            } else
-                jQuery('#spresult').html('&nbsp');
-    });
-
-    if (window.location.hash != "") {
-        let t = window.location.hash.substr(1, 50);
-        jQuery('#spterm').val(t).keyup();
-        jQuery('#spgo').click();
-    }
 });
 
 //Sorting
