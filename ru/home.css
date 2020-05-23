@@ -134,7 +134,7 @@ img:hover {
 a {
     text-decoration: none !important;
     color: white !important;
-    cursor: url(/cursors/pointer.cur),pointer  !important;
+    cursor: url(/cursors/pointer.cur), pointer !important;
 }
 
 .lang {
