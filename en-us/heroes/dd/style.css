@@ -14,6 +14,7 @@ div {
 .container-fluid {
     background-color: #08000f;
     padding: 3% !important;
+    overflow-x: hidden;
 }
 
 .headt {
