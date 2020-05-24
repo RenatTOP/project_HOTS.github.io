@@ -9,22 +9,6 @@ body {
     cursor: url(/cursors/cursor.cur), default !important;
 }
 
-span.highlight {
-    background-color: #302363;
-    border-radius: 5px;
-    border: 5px double #311246;
-    cursor: pointer;
-}
-
-span.splink {
-    color: #0A5794;
-    cursor: pointer;
-}
-
-#spresult {
-    color: white;
-}
-
 h1 {
     text-align: center;
     color: #cce5ff !important;
@@ -50,41 +34,83 @@ img {
     height: 140px;
     box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.5);
     border-radius: 100px;
-    cursor: pointer;
+    cursor: url(/cursors/pointer.cur), pointer !important;
 }
 
 a {
     color: #cce5ff !important;
     text-decoration: none !important;
-    cursor: url(/cursors/pointer.cur),pointer  !important;
+    cursor: url(/cursors/pointer.cur), pointer !important;
 }
 
 a:hover {
     text-shadow: 0px 1px 1px rgba(229, 234, 255, 1);
 }
 
+form {
+    margin: 100px;
+}
+
+.i16 {
+    position: relative;
+    line-height: 30px;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #d3d3d3;
+    transition: 0.2s all;
+    cursor: text;
+}
+input {
+    border-radius: 10px;
+    width: 100%;
+}
+input:invalid {
+    outline: 0;
+    color: #0e0520;
+    border-color: #0e0520;
+}
+
+input:focus, input:valid {
+    border-color: #2704c2;
+}
+
+input:focus~label, input:valid~label {
+    font-size: 16px;
+    top: -26px;
+    color: #1d0d68;
+}
+
 p {
     color: white;
 }
 
+svg {
+    cursor: url(/cursors/pointer.cur), pointer !important;
+}
+
 .icons {
     display: grid;
-    grid-template-areas: 'i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 i13 i14 i15';
+    grid-template-areas: 'i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 i13 i14 i15 i16';
     text-align: center;
     color: #cce5ff;
     margin: 0;
     padding: 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .icons {
-        grid-template-areas: 'i1 i2 i3 i4 i5 i6 i7 i8' 'i9 i10 i11 i12 i13 i14 i15 .';
+        grid-template-areas: 'i1 i2 i3 i4 i5 i6 i7 i8' 'i9 i10 i11 i12 i13 i14 i15 .' '. . i16 i16 i16 i16 . .';
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
     .icons {
-        grid-template-areas: '. i1 .' 'i2 i3 i4' 'i5 i6 i7' '. i8 .' '. i9 . ' 'i10 i11 i12' 'i13 i14 i15';
+        grid-template-areas: '. i1 .' 'i2 i3 i4' 'i5 i6 i7' '. i8 .' '. i9 . ' 'i10 i11 i12' 'i13 i14 i15' 'i16 i16 i16';
     }
 }
 
@@ -312,4 +338,8 @@ svg {
 
 .i15 {
     grid-area: i15;
+}
+
+.i16 {
+    grid-area: i16;
 }

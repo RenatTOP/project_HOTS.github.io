@@ -1,6 +1,6 @@
 body {
     background-color: #08000f !important;
-    max-width: 2000px;
+    max-width: 2500px;
     display: block !important;
     margin: 0 auto !important;
     overflow-x: hidden;
@@ -26,6 +26,7 @@ div {
 }
 
 .header {
+    margin-top: 30px;
     left: 0;
     top: 0;
     width: 100%;
@@ -115,7 +116,7 @@ a {
 
 h1 {
     color: #cce5ff !important;
-    font-size: 1.5rem;
+    font-size: calc(1em + 2vw) !important;
     font-family: 'Lora', serif;
     text-align: center;
     text-transform: uppercase !important;
@@ -126,20 +127,26 @@ h2 {
     text-align: center;
     color: #cce5ff !important;
     text-shadow: 0 0 1rem #009cff;
-}
-
-h2 {
-    text-align: center;
-    color: #cce5ff;
-    text-shadow: 0 0 1rem #009cff;
+    font-size: calc(1em + 2.3vw) !important;
 }
 
 h3 {
     color: #cce5ff !important;
-    font-size: 1rem;
+    font-size: calc(1em + 1vw) !important;
     font-family: 'Lora', serif;
     text-shadow: 0 0 1rem #009cff;
     text-align: center;
+    text-transform: none;
+}
+
+.rdmheroesh3 {
+    font-size: calc(1em + 1.6vw) !important;
+}
+
+span {
+    color: #cce5ff;
+    font: 1.1rem;
+    text-shadow: 0 0 1rem #009cff;
 }
 
 ul {
@@ -158,18 +165,20 @@ li {
     font-family: 'Lora', serif;
 }
 
-span {
-    vertical-align: top !important;
-    color: #cce5ff;
-    font: 1.1rem;
-    text-shadow: 0 0 1rem #009cff;
+em {
+    text-transform: none;
+    color: #7f7de9;
+    font-size: calc(1em + 0.3vw) !important;
+    font-family: 'Lora', serif;
+    text-shadow: 0 0 1rem #57b1e9;
 }
 
 .text {
+    color: #cce5ff;
     vertical-align: bottom !important;
     margin-left: 40% !important;
     text-shadow: 0 0 1rem #009cff;
-    font-size: 1.4rem;
+    font-size: calc(1em + 0.4vw) !important;
 }
 
 @media (max-width:1150px) {
@@ -177,7 +186,7 @@ span {
         vertical-align: bottom !important;
         margin-left: 40% !important;
         text-shadow: 0 0 1rem #009cff;
-        font-size: 0.9rem;
+        ;
     }
 }
 
@@ -186,7 +195,6 @@ span {
         vertical-align: bottom !important;
         margin-left: 40% !important;
         text-shadow: 0 0 1rem #009cff;
-        font-size: 1rem;
     }
 }
 
@@ -244,7 +252,7 @@ span {
 }
 
 p {
-    width: 13px;
+    width: 5%;
     height: 9px;
     display: inline-block;
     margin-right: 3px;
@@ -254,7 +262,7 @@ p {
 
 @media (max-width:1450px) {
     p {
-        width: 12px;
+        width: 5%;
         height: 9px;
         display: inline-block;
         margin-right: -2px;
@@ -266,7 +274,7 @@ p {
 
 @media (max-width:1150px) {
     p {
-        width: 10px;
+        width: 5%;
         height: 8px;
         display: inline-block;
         margin-right: -2px;
@@ -276,9 +284,18 @@ p {
     }
 }
 
+@media (max-width:1030px) {
+    p {
+        width: 5% !important;
+        height: 10px !important;
+        display: inline-block;
+        margin-right: 0px !important;
+    }
+}
+
 @media (max-width:620px) {
     p {
-        width: 10px !important;
+        width: 5% !important;
         height: 8px !important;
         display: inline-block;
         margin-right: -2px !important;
@@ -287,7 +304,7 @@ p {
 
 @media (max-width:350px) {
     p {
-        width: 8px !important;
+        width: 5% !important;
         height: 7px !important;
         display: inline-block;
         margin-right: -2px !important;
@@ -304,15 +321,6 @@ p {
 @media (max-width:1030px) {
     .min1030 {
         display: block;
-    }
-    p {
-        width: 13px !important;
-        height: 10px !important;
-        display: inline-block;
-        margin-right: 0px !important;
-    }
-    .rdmHeroes h3 {
-        font-size: 1.5rem !important;
     }
 }
 
@@ -339,7 +347,7 @@ p {
 
 .ab, .bicon {
     color: #cce5ff;
-    font-size: 1.5rem;
+    font-size: calc(1em + 0.6vw) !important;
     font-family: 'Lora', serif;
     text-shadow: 0 0 1rem #009cff;
     text-align: center;
@@ -361,7 +369,6 @@ p {
 }
 
 .img-ab {
-    max-width: 460px;
     min-width: 250px;
     width: 100%;
     height: auto;
@@ -383,13 +390,6 @@ p {
     .mab {
         max-width: 75px;
     }
-}
-
-em {
-    color: #7f7de9;
-    font-size: 1rem;
-    font-family: 'Lora', serif;
-    text-shadow: 0 0 1rem #57b1e9;
 }
 
 .hidden {
