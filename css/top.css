@@ -5,24 +5,21 @@
     bottom: 80px;
     right: 40px;
     z-index: 9999;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     line-height: 40px;
-    background: #09035f;
-    color: #fff !important;
+    background: url(/image/home/navigation_arrow_up.svg);
     cursor: pointer;
     display: none;
-    border-radius: 50px;
-}
-
-.back_to_top:hover {
-    border: 1px solid white;
+    font-size: 0px;
 }
 
 .back_to_top-show {
     display: block;
 }
+
+/*Скроллбар*/
 
 ::-webkit-scrollbar-button {
     background-image: url('');

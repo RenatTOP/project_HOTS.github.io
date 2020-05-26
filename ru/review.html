@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Форма обратной связи">
+    <link rel="canonical" href="https://renattop.me/ru/heroes/heroes.html" />
+    <link rel="alternate" hreflang="ru" href="https://renattop.me/ru/heroes/heroes.html" />
+    <link rel="alternate" hreflang="en" href="https://renattop.me/en-us/heroes/heroes.html" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="theme-color" content="#08000f">
+    <link rel="stylesheet" href="/css/top.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/ru/navbar.css">
+    <link rel="stylesheet" href="/css/review.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>Форма обратной связи</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        </nav>
+    </header>
+    <main>
+        <form action="https://getform.io/f/c09d50c5-06a7-4651-ae6f-f5c82e38e85a" method="POST"
+            enctype="multipart/form-data" id="ajaxForm">
+            <h1>Форма обратной связи</h1>
+            <div class="input-form">
+                <input type="text" name="name" id="name" required><label for="name">Имя</label>
+            </div>
+            <div class="input-form">
+                <input type="email" name="email" id="email" required><label for="email">E-mail</label>
+            </div>
+            <div class="input-form">
+                <textarea name="comment" id="comment"></textarea><label for="comment">Напишите сообщение</label>
+            </div>
+            <div class="form-captcha">
+                <div class="g-recaptcha" data-sitekey="6LfVfPwUAAAAAPwFHQO0hkHXzng5C2qgGW3nToGE">
+                </div>
+            </div>
+            <button type="submit">Отправить</button>
+            <div class="success">Мы получили ваше сообщение, спасибо!</div>
+        </form>
+    </main>
+    <footer id="footer">
+    </footer>
+    <a class="back_to_top" title="Наверх">↑</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="/js/review.js"></script>
+    <script src="/ru/additem.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=reCaptchaOnLoadCallback&render=explicit"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/top.js"></script>
+    <script>
+        function reCaptcha(selector) {
+            var $wg = $(selector); // Обращаемся к селектору (описан ниже в "вызове", в нашем случае это form-captcha)
+            $wg.each(function () { // Делаем проход по этому селектору
+                var id = randomString(10), // Задаем переменную для id (рандомная строка, ее функция ниже)
+                    $form = $(this).closest('form'); // Проходим по всей форме
+                $form.find('button[type="submit"]').prop('disabled', true); // Изначально даем кнопке disabled (нельзя нажать)
+                $(this).append($('<div class="g-recaptcha" id="' + id + '"></div>')); // Добавляем в form-captcha еще блок с рандомным id
+                grecaptcha.render(id, { // Используем функции самой рекапчи
+                    sitekey: $(this).find('.g-recaptcha').data('sitekey') || '', // Находим элемент с нашим дата-атрибутом
+                    callback: function (response) {
+                        if (!!response) {
+                            $form.find('button[type="submit"]').prop('disabled', false); // Если условие (нажатие галочки) выполнено, убираем disabled у кнопки
+                        }
+                    }
+                });
+            });
+        };
+
+        // Функция рандомной строки как id
+        function randomString(length) {
+            var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split(''),
+                result = '';
+            length = !length ? Math.floor(Math.random() * chars.length) : length;
+            for (var i = 0; i < length; i++) {
+                result += chars[Math.floor(Math.random() * chars.length)];
+            }
+            return result;
+        }
+        //Вызов  
+        var reCaptchaOnLoadCallback = function () {
+            reCaptcha('.form-captcha');
+        };
+    </script>
+</body>
+
+</html>
