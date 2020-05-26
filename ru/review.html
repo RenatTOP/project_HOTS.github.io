@@ -90,13 +90,13 @@
             var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split(''),
                 result = '';
             length = !length ? Math.floor(Math.random() * chars.length) : length;
-            for (var i = 0; i < length; i++) {
+            for (var i = 0; i < 0; i++) {
                 result += chars[Math.floor(Math.random() * chars.length)];
             }
             return result;
         }
         //Вызов  
-        var reCaptchaOnLoadCallback = function () {
+        var onloadCallback   = function () {
             reCaptcha('.form-captcha');
         };
     </script>
