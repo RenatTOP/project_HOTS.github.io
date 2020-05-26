@@ -1,0 +1,36 @@
+body {
+    background-color: #08000f !important;
+}
+
+main {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    min-height: 80vh;
+}
+
+@media(max-width:800px) {
+    main {
+        width: 95%;
+    }
+}
+
+.gs-webResult.gs-result a.gs-title:visited, .gs-webResult.gs-result a.gs-title:visited b, .gs-imageResult a.gs-title:visited, .gs-imageResult a.gs-title:visited b {
+    color: #9900FF !important;
+}
+
+.gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
+    color: #48069C !important;
+}
+
+.gs-result .gs-title, .gs-result .gs-title * {
+    color: #15C !important;
+}
+
+.gs-result .gs-title, .gs-result .gs-title * {
+    color: #00c !important;
+}
+
+.gsc-adBlock, .gsc-adBlockVertical, .gsc-adBlockInvisible {
+    display: none !important;
+}
