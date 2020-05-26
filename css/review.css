@@ -81,8 +81,7 @@ button {
     width: 100%;
     height: 40px;
     border-radius: 10px !important;
-    border-color: #170e41;
-    background: #27176d;
+    background: linear-gradient(#27176d, #3318ac) ;
     color: white;
 }
 
