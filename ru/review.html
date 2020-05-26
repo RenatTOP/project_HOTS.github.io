@@ -45,7 +45,7 @@
                 <textarea name="comment" id="comment"></textarea><label for="comment">Напишите сообщение</label>
             </div>
             <div class="form-captcha">
-                <div class="g-recaptcha form-captcha" data-sitekey="6LfVfPwUAAAAAPwFHQO0hkHXzng5C2qgGW3nToGE">
+                <div class="g-recaptcha" data-sitekey="6LfVfPwUAAAAAPwFHQO0hkHXzng5C2qgGW3nToGE">
                 </div>
             </div>
             <button type="submit">Отправить</button>
@@ -90,13 +90,13 @@
             var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split(''),
                 result = '';
             length = !length ? Math.floor(Math.random() * chars.length) : length;
-            for (var i = 0; i < 0; i++) {
+            for (var i = 0; i < length; i++) {
                 result += chars[Math.floor(Math.random() * chars.length)];
             }
             return result;
         }
         //Вызов  
-        var onloadCallback   = function () {
+        var reCaptchaOnLoadCallback = function () {
             reCaptcha('.form-captcha');
         };
     </script>
