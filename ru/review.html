@@ -33,7 +33,7 @@
     </header>
     <main>
         <form action="https://getform.io/f/c09d50c5-06a7-4651-ae6f-f5c82e38e85a" method="POST"
-            enctype="multipart/form-data" id="ajaxForm">
+            enctype="multipart/form-data" id="ajaxForm" class="form">
             <h1>Форма обратной связи</h1>
             <div class="input-form">
                 <input type="text" name="name" id="name" required><label for="name">Имя</label>
@@ -45,10 +45,9 @@
                 <textarea name="comment" id="comment"></textarea><label for="comment">Напишите сообщение</label>
             </div>
             <div class="form-captcha">
-                <div class="g-recaptcha" data-sitekey="6LfVfPwUAAAAAPwFHQO0hkHXzng5C2qgGW3nToGE">
-                </div>
+            <div class="g-recaptcha" data-sitekey="6LfVfPwUAAAAAPwFHQO0hkHXzng5C2qgGW3nToGE"></div>
             </div>
-            <button type="submit">Отправить</button>
+            <button type="submit" class="btn">Отправить</button>
             <div class="success">Мы получили ваше сообщение, спасибо!</div>
         </form>
     </main>
@@ -58,7 +57,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="/js/review.js"></script>
     <script src="/ru/additem.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=reCaptchaOnLoadCallback&render=explicit"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
@@ -72,8 +71,7 @@
             $wg.each(function () { // Делаем проход по этому селектору
                 var id = randomString(10), // Задаем переменную для id (рандомная строка, ее функция ниже)
                     $form = $(this).closest('form'); // Проходим по всей форме
-                $form.find('button[type="submit"]').prop('disabled', true); // Изначально даем кнопке disabled (нельзя нажать)
-                $(this).append($('<div class="g-recaptcha" id="' + id + '"></div>')); // Добавляем в form-captcha еще блок с рандомным id
+                $form.find('button[type="submit"]').prop('disabled', true); // Изначально даем кнопке disabled (нельзя нажать)// Добавляем в form-captcha еще блок с рандомным id
                 grecaptcha.render(id, { // Используем функции самой рекапчи
                     sitekey: $(this).find('.g-recaptcha').data('sitekey') || '', // Находим элемент с нашим дата-атрибутом
                     callback: function (response) {
