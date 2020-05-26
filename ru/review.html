@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="/css/review.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Форма обратной связи</title>
 </head>
 
@@ -45,7 +44,8 @@
                 <textarea name="comment" id="comment"></textarea><label for="comment">Напишите сообщение</label>
             </div>
             <div class="form-captcha">
-            <div class="g-recaptcha" data-sitekey="6LfVfPwUAAAAAPwFHQO0hkHXzng5C2qgGW3nToGE"></div>
+                <div class="g-recaptcha" data-sitekey="6LfVfPwUAAAAAPwFHQO0hkHXzng5C2qgGW3nToGE">
+                </div>
             </div>
             <button type="submit" class="btn">Отправить</button>
             <div class="success">Мы получили ваше сообщение, спасибо!</div>
@@ -57,7 +57,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="/js/review.js"></script>
     <script src="/ru/additem.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?onload=reCaptchaOnLoadCallback&render=explicit"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
@@ -65,18 +64,20 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <script src="/js/top.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=reCaptchaOnLoadCallback&render=explicit"></script>
     <script>
         function reCaptcha(selector) {
-            var $wg = $(selector); // Обращаемся к селектору (описан ниже в "вызове", в нашем случае это form-captcha)
-            $wg.each(function () { // Делаем проход по этому селектору
-                var id = randomString(10), // Задаем переменную для id (рандомная строка, ее функция ниже)
-                    $form = $(this).closest('form'); // Проходим по всей форме
-                $form.find('button[type="submit"]').prop('disabled', true); // Изначально даем кнопке disabled (нельзя нажать)// Добавляем в form-captcha еще блок с рандомным id
-                grecaptcha.render(id, { // Используем функции самой рекапчи
-                    sitekey: $(this).find('.g-recaptcha').data('sitekey') || '', // Находим элемент с нашим дата-атрибутом
+            var $wg = $(selector);
+            $wg.each(function () {
+                var id = randomString(10),
+                    $form = $(this).closest('form');
+                $form.find('button[type="submit"]').prop('disabled', true);
+                $(this).append($('<div class="g-recaptcha" id="' + id + '"></div>'));
+                grecaptcha.render(id, {
+                    sitekey: $(this).find('.g-recaptcha').data('sitekey') || '',
                     callback: function (response) {
                         if (!!response) {
-                            $form.find('button[type="submit"]').prop('disabled', false); // Если условие (нажатие галочки) выполнено, убираем disabled у кнопки
+                            $form.find('button[type="submit"]').prop('disabled', false);
                         }
                     }
                 });
@@ -93,7 +94,9 @@
             }
             return result;
         }
-        //Вызов  
+
+        //Вызов
+
         var reCaptchaOnLoadCallback = function () {
             reCaptcha('.form-captcha');
         };
