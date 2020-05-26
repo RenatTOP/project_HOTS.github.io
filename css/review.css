@@ -1,5 +1,7 @@
 body {
     background-color: #08000f !important;
+    margin: 0 auto !important;
+    max-width: 2500px;
 }
 h1 {
     font-size: 2.2rem !important;
@@ -9,17 +11,21 @@ h1 {
 }
 form {
     display: grid;
-    margin-top: 50px;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
     max-width: 420px;
     padding: 50px;
     border: 2px solid #08000f;
     border-radius: 20px;
     background: linear-gradient(to top, #0e0520, #1b1146);
-    margin-bottom: 50px;
 }
-
+@media (max-width:420px) {
+    form {
+        padding: 20px;
+    }
+}
 .input-form {
     position: relative;
     line-height: 35px;
@@ -35,7 +41,7 @@ textarea {
 }
 
 input {
-    max-width: 350px;
+    max-width: 400px;
     width: 100%;
     border-radius: 10px;
     margin-top: 50px !important;

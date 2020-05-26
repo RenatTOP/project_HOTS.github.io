@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Форма обратной связи">
+    <meta name="description" content="Feedback form">
     <link rel="canonical" href="https://renattop.me/ru/review.html" />
     <link rel="alternate" hreflang="ru" href="https://renattop.me/ru/review.html" />
     <link rel="alternate" hreflang="en" href="https://renattop.me/en-us/review.html" />
@@ -18,11 +18,11 @@
     <meta name="theme-color" content="#08000f">
     <link rel="stylesheet" href="/css/top.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/ru/navbar.css">
+    <link rel="stylesheet" href="/en-us/navbar.css">
     <link rel="stylesheet" href="/css/review.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Форма обратной связи</title>
+    <title>Feedback form</title>
 </head>
 
 <body>
@@ -33,30 +33,30 @@
     <main>
         <form action="https://getform.io/f/c09d50c5-06a7-4651-ae6f-f5c82e38e85a" method="POST"
             enctype="multipart/form-data" id="ajaxForm" class="form">
-            <h1>Форма обратной связи</h1>
+            <h1>Feedback form</h1>
             <div class="input-form">
-                <input type="text" name="name" id="name" required><label for="name">Имя</label>
+                <input type="text" name="name" id="name" required><label for="name">Name</label>
             </div>
             <div class="input-form">
                 <input type="email" name="email" id="email" required><label for="email">E-mail</label>
             </div>
             <div class="input-form">
-                <textarea name="comment" id="comment"></textarea><label for="comment">Напишите сообщение</label>
+                <textarea name="comment" id="comment"></textarea><label for="comment">Write a message</label>
             </div>
             <div class="form-captcha">
                 <div class="g-recaptcha" data-sitekey="6LfVfPwUAAAAAPwFHQO0hkHXzng5C2qgGW3nToGE">
                 </div>
             </div>
-            <button type="submit" class="btn">Отправить</button>
-            <div class="success">Мы получили ваше сообщение, спасибо!</div>
+            <button type="submit" class="btn">Send to</button>
+            <div class="success">We received your submission, thank you!</div>
         </form>
     </main>
     <footer id="footer">
     </footer>
-    <a class="back_to_top" title="Наверх"></a>
+    <a class="back_to_top" title="Top"></a>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="/js/review.js"></script>
-    <script src="/ru/additem.js"></script>
+    <script src="/en-us/additem_en.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
@@ -65,7 +65,7 @@
         crossorigin="anonymous"></script>
     <script src="/js/top.js"></script>
     <script src="https://www.google.com/recaptcha/api.js?onload=reCaptchaOnLoadCallback&render=explicit"></script>
-    <!-- Проверка рекапчи -->
+    <!-- Check reCaptcha -->
     <script>
         function reCaptcha(selector) {
             var $wg = $(selector);

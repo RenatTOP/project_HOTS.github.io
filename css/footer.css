@@ -3,12 +3,6 @@ footer {
     height: 200px;
 }
 
-@media(max-width:860px) {
-    footer {
-        height: 220px;
-    }
-}
-
 @media(max-width:630px) {
     footer {
         height: 410px;
@@ -102,7 +96,7 @@ footer {
     .contacts {
         top: 100%;
         left: 50%;
-        margin-left: -130px;
+        margin-left: -62px;
     }
 }
 
@@ -167,7 +161,7 @@ footer {
     .terms_en {
         top: 160%;
         left: 50%;
-        margin-left: -83px;
+        margin-left: -78px;
     }
     .copyright_en {
         top: 200%;
@@ -182,7 +176,7 @@ footer {
     .contacts_en {
         top: 100%;
         left: 50%;
-        margin-left: -130px;
+        margin-left: -38px;
     }
 }
 
