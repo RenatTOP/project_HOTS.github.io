@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Форма обратной связи">
-    <link rel="canonical" href="https://renattop.me/ru/heroes/heroes.html" />
-    <link rel="alternate" hreflang="ru" href="https://renattop.me/ru/heroes/heroes.html" />
-    <link rel="alternate" hreflang="en" href="https://renattop.me/en-us/heroes/heroes.html" />
+    <link rel="canonical" href="https://renattop.me/ru/review.html" />
+    <link rel="alternate" hreflang="ru" href="https://renattop.me/ru/review.html" />
+    <link rel="alternate" hreflang="en" href="https://renattop.me/en-us/review.html" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -65,6 +65,7 @@
         crossorigin="anonymous"></script>
     <script src="/js/top.js"></script>
     <script src="https://www.google.com/recaptcha/api.js?onload=reCaptchaOnLoadCallback&render=explicit"></script>
+    <!-- Проверка рекапчи -->
     <script>
         function reCaptcha(selector) {
             var $wg = $(selector);
@@ -84,7 +85,6 @@
             });
         };
 
-        // Функция рандомной строки как id
         function randomString(length) {
             var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split(''),
                 result = '';
@@ -94,8 +94,6 @@
             }
             return result;
         }
-
-        //Вызов
 
         var reCaptchaOnLoadCallback = function () {
             reCaptcha('.form-captcha');
