@@ -52,7 +52,7 @@ footer {
 .contacts {
     position: absolute;
     top: 90%;
-    left: 80%;
+    left: 89%;
     color: white;
 }
 
@@ -65,7 +65,7 @@ footer {
 .map {
     position: absolute;
     top: 50%;
-    left: 80%;
+    left: 89%;
 }
 
 @media(max-width:1280px) {
@@ -132,7 +132,7 @@ footer {
 .contacts_en {
     position: absolute;
     top: 90%;
-    left: 80%;
+    left: 92%;
     color: white;
 }
 
@@ -145,7 +145,7 @@ footer {
 .map_en {
     position: absolute;
     top: 50%;
-    left: 80%;
+    left: 92%;
 }
 
 @media(max-width:1280px) {

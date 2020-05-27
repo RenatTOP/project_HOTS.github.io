@@ -16,9 +16,9 @@ $("#ajaxForm").submit(function (e) {
   })
     .done(function () {
       $(".success").addClass("is-active");
-      setTimeout(() => history.go(-1), 4000);
+      setTimeout(() => history.go(-1), 3500);
     })
     .fail(function () {
-      alert("An error occurred please try again later.");
+      alert("Error, please try again later.");
     });
 });
