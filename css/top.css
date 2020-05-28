@@ -33,6 +33,18 @@ button {
     cursor: url(/cursors/pointer.cur), pointer !important;
 }
 
+/* Navbar fixation for scrolling */
+
+.container-fluid, .page-container {
+    padding-top: 155px !important;
+}
+
+@media(max-width:449px) {
+    .container-fluid, .page-container {
+        padding-top: 90px !important;
+    }
+}
+
 /* Scrollbar */
 
 ::-webkit-scrollbar-button {

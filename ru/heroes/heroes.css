@@ -1,10 +1,10 @@
 body {
     display: block;
     background: url(/image/game/bg.jpg) top center no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-color: #000d1a !important;
     padding: 0;
-    max-width: 2400px;
+    max-width: 2500px;
     margin: 0 auto !important;
     cursor: url(/cursors/cursor.cur), default !important;
 }

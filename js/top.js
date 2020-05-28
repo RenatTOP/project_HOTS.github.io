@@ -1,29 +1,40 @@
-//Кнопка "Наверх"
-(function() {
-    'use strict';
-  
-    function trackScroll() {
-      var scrolled = window.pageYOffset;
-      var coords = document.documentElement.clientHeight;
-  
-      if (scrolled > coords) {
-        goTopBtn.classList.add('back_to_top-show');
-      }
-      if (scrolled < coords) {
-        goTopBtn.classList.remove('back_to_top-show');
-      }
+//Button "Back to top"
+
+(function () {
+  "use strict";
+
+  function trackScroll() {
+    var scrolled = window.pageYOffset;
+    var coords = document.documentElement.clientHeight;
+
+    if (scrolled > coords) {
+      goTopBtn.classList.add("back_to_top-show");
     }
-  
-    function backToTop() {
-      var scrollStep = window.pageYOffset / 40;
-      if (window.pageYOffset > 0) {
-      window.scrollBy(0, -(scrollStep));
+    if (scrolled < coords) {
+      goTopBtn.classList.remove("back_to_top-show");
+    }
+  }
+
+  function backToTop() {
+    var scrollStep = window.pageYOffset / 40;
+    if (window.pageYOffset > 0) {
+      window.scrollBy(0, -scrollStep);
       setTimeout(backToTop, 0);
-      }
-      }
-  
-    var goTopBtn = document.querySelector('.back_to_top');
-  
-    window.addEventListener('scroll', trackScroll);
-    goTopBtn.addEventListener('click', backToTop);
-  })();
+    }
+  }
+
+  var goTopBtn = document.querySelector(".back_to_top");
+
+  window.addEventListener("scroll", trackScroll);
+  goTopBtn.addEventListener("click", backToTop);
+})();
+
+//Navbar fixation for scrolling
+
+$(window).scroll(function () {
+  if ($(window).scrollTop() > 50) {
+    $(".navbar").addClass("scroll");
+  } else {
+    $(".navbar").removeClass("scroll");
+  }
+});
