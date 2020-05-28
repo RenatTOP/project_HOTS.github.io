@@ -1,4 +1,4 @@
-/*Кнопка "Наверх"*/
+/*Button "Back to top"*/
 
 .back_to_top {
     position: fixed;
@@ -19,7 +19,7 @@
     display: block;
 }
 
-/*Кастомные курсоры*/
+/* Customs cursors */
 
 body {
     cursor: url(/cursors/cursor.cur), default !important;
@@ -29,7 +29,11 @@ a {
     cursor: url(/cursors/pointer.cur), pointer !important;
 }
 
-/*Скроллбар*/
+button {
+    cursor: url(/cursors/pointer.cur), pointer !important;
+}
+
+/* Scrollbar */
 
 ::-webkit-scrollbar-button {
     background-image: url('');

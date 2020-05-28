@@ -10,12 +10,14 @@ h1 {
     color: #cce5ff !important;
     text-shadow: 0 0 1rem #009cff;
 }
+
 h2 {
     font-size: 1.8rem !important;
     text-align: center;
     color: #cce5ff !important;
     text-shadow: 0 0 1rem #009cff;
 }
+
 form {
     display: grid;
     margin-top: 60px;
@@ -102,6 +104,10 @@ button {
     border-radius: 10px !important;
     background: linear-gradient(#27176d, #3318ac);
     color: white;
+}
+
+.navbar-toggler {
+    background: transparent !important;
 }
 
 .success {

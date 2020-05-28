@@ -7,18 +7,6 @@
    z-index: 2;
 }
 
-@media (min-width: 700px) {
-   .navbar-expand-lg {
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-      flex-flow: row nowrap;
-      -webkit-box-pack: start;
-      -ms-flex-pack: start;
-      justify-content: flex-start;
-   }
-}
-
 a {
    text-decoration: none !important;
    color: white !important;
