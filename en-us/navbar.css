@@ -22,9 +22,18 @@
    padding-left: 50px !important;
 }
 
-.navbar.scroll>.navbar-brand img {
-   width: 200px !important;
-   height: 100px !important;
+@media(min-width:769px) {
+   .navbar.scroll>.navbar-brand img {
+      width: 200px !important;
+      height: 100px !important;
+   }
+}
+
+@media(max-width:768px) {
+   .navbar.scroll>.navbar-brand img {
+      width: 120px !important;
+      height: 60px !important;
+   }
 }
 
 a {
