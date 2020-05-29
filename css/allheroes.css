@@ -63,12 +63,17 @@ div {
 }
 
 .col {
-    background: linear-gradient(to top, #0e0520, #1b1146);
+    background: linear-gradient(-45deg, #030330, #0f0735, #1d073a, #1d043f);
+    background-size: 400%;
     padding: 5rem;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;  
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     margin-top: 3.5rem;
     border: 1px solid black;
+    border-radius: 30px 10px 30px 10px;
 }
 
 .zero {
@@ -96,6 +101,7 @@ div {
 
 .rdmImg {
     background: linear-gradient(#08000f, #6316d6);
+    border-radius: 0px 0px 10px 10px;
     padding-right: 3px;
     padding-left: 3px;
     padding-bottom: 3px;
@@ -365,6 +371,7 @@ p {
 }
 
 .img-ab {
+    border-radius: 20px 7px 20px 7px;
     min-width: 250px;
     width: 100%;
     height: auto;
