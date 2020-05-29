@@ -68,7 +68,7 @@ div {
     padding: 5rem;
     -webkit-animation: Gradient 10s ease infinite;
     -moz-animation: Gradient 10s ease infinite;
-    animation: Gradient 10s ease infinite;  
+    animation: Gradient 10s ease infinite;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     margin-top: 3.5rem;
@@ -375,10 +375,24 @@ p {
     min-width: 250px;
     width: 100%;
     height: auto;
-    background: linear-gradient(#14324e, #6316d6);
+    background: linear-gradient(60deg, #14324e, #6316d6, #5073b8, #1098ad, #097264);
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
     padding: 3px;
     display: block;
     margin: 0 auto;
+}
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .mab {
