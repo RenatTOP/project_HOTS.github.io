@@ -115,3 +115,38 @@ button {
         background-position: 0% 50%
     }
 }
+
+/* Preloader */
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: linear-gradient(60deg, #04043a, #12093d, #210644, #2c0546, #340444);
+    background-size: 200% 200%;
+    animation: Gradient 1s infinite linear;
+    z-index: 10000;
+}
+
+.preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 170px;
+    margin-top: -85px;
+    margin-left: -100px;
+    text-align: center;
+}
+
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+
+.loaded .preloader {
+    display: none;
+}
