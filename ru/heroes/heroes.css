@@ -47,11 +47,20 @@ a:hover {
     text-shadow: 0px 1px 1px rgba(229, 234, 255, 1);
 }
 
+button {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+button:focus {
+    outline: transparent !important;
+}
+
 form {
     margin: 100px;
 }
 
-.i16 {
+.search {
     position: relative;
     line-height: 30px;
 }
@@ -65,10 +74,12 @@ label {
     transition: 0.2s all;
     cursor: text;
 }
+
 input {
     border-radius: 10px;
     width: 100%;
 }
+
 input:invalid {
     outline: 0;
     color: #0e0520;
@@ -95,42 +106,29 @@ svg {
 
 .icons {
     display: grid;
-    grid-template-areas: 'i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 i13 i14 i15 i16';
+    grid-template-areas: '. i1 role . i2 universe . search .';
     text-align: center;
     color: #cce5ff;
-    margin: 0;
+    margin-top: 50px;
     padding: 0;
 }
 
-@media (max-width: 900px) {
+@media(max-width:1027px) {
     .icons {
-        grid-template-areas: 'i1 i2 i3 i4 i5 i6 i7 i8' 'i9 i10 i11 i12 i13 i14 i15 .' '. . i16 i16 i16 i16 . .';
+        grid-template-areas: '. i1 role . .' '. i2 universe . .' '. . search . .';
     }
 }
 
-@media (max-width: 430px) {
+@media(max-width:489px) {
     .icons {
-        grid-template-areas: '. i1 .' 'i2 i3 i4' 'i5 i6 i7' '. i8 .' '. i9 . ' 'i10 i11 i12' 'i13 i14 i15' 'i16 i16 i16';
+        grid-template-areas: '. i1 .' 'role role role' '. i2 .' 'universe universe universe' 'search search search';
     }
-}
-
-#searchb {
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-#searcho {
-    display: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-#search {
-    display: none;
-}
-
-.search {
-    color: #fff;
+    .i1 {
+        padding-bottom: 10px;
+    }
+    .i2 {
+        padding-bottom: 10px;
+    }
 }
 
 .lang {
@@ -158,188 +156,31 @@ svg {
     cursor: pointer;
 }
 
-.all svg:hover * {
-    fill: blue !important;
-    transition: all .7s ease;
-}
-
-.i3 svg:hover * {
-    fill: rgb(255, 215, 0) !important;
-    transition: all .7s ease;
-}
-
-.i4 svg:hover * {
-    fill: rgb(255, 140, 0) !important;
-    transition: all .7s ease;
-}
-
-.i5 svg:hover * {
-    fill: rgb(220, 20, 60) !important;
-    transition: all .7s ease;
-}
-
-.i6 svg:hover * {
-    fill: rgb(153, 50, 204) !important;
-    transition: all .7s ease;
-}
-
-.i7 svg:hover * {
-    fill: rgb(65, 105, 225) !important;
-    transition: all .7s ease;
-}
-
-.i8 svg:hover * {
-    fill: rgb(0, 255, 0) !important;
-    transition: all .7s ease;
-}
-
-.i11 svg:hover #war1col {
-    fill: #92611e !important;
-    transition: all .7s ease;
-}
-
-.i11 svg:hover #war2col {
-    fill: #dba801 !important;
-    transition: all .7s ease;
-}
-
-.i12 svg:hover #sc1col {
-    fill: #8A9597 !important;
-    transition: all .7s ease;
-}
-
-.i12 svg:hover #sc2col {
-    fill: rgb(212, 210, 210) !important;
-    transition: all .7s ease;
-}
-
-.i12 svg:hover #sc3col {
-    fill: rgb(212, 210, 210) !important;
-    transition: all .7s ease;
-}
-
-.i12 svg:hover #sc4col {
-    fill: #7891a7 !important;
-    transition: all .7s ease;
-}
-
-.i12 svg:hover #sc7col {
-    fill: #7891a7 !important;
-    transition: all .7s ease;
-}
-
-.i12 svg:hover #sc5col {
-    fill: #577889 !important;
-    transition: all .7s ease;
-}
-
-.i12 svg:hover #sc6col {
-    fill: #577889 !important;
-    transition: all .7s ease;
-}
-
-.i13 svg:hover #diablo1col {
-    fill: #B32428 !important;
-    transition: all .7s ease;
-}
-
-.i13 svg:hover #diablo2col {
-    fill: #d89953 !important;
-    transition: all .7s ease;
-}
-
-.i14 svg:hover #over1col {
-    fill: #f99d2a !important;
-    transition: all .7s ease;
-}
-
-.i14 svg:hover #over2col {
-    fill: #c4c4c4 !important;
-    transition: all .7s ease;
-}
-
-.i15 svg:hover #nexus1col {
-    fill: #6250ff !important;
-    transition: all .7s ease;
-}
-
-.i15 svg:hover #nexus2col {
-    fill: #be9665 !important;
-    transition: all .7s ease;
-}
-
-.i15 svg:hover #nexus3col {
-    fill: #be9665 !important;
-    transition: all .7s ease;
-}
-
-.i15 svg:hover #nexus4col {
-    fill: #be9665 !important;
-    transition: all .7s ease;
+.off svg * {
+    fill: #cce5ff !important;
 }
 
 .i1 {
     grid-area: i1;
-    padding: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.role {
+    grid-area: role;
 }
 
 .i2 {
     grid-area: i2;
+    padding-top: 10px;
+    text-transform: uppercase;
 }
 
-.i3 {
-    grid-area: i3;
-    ;
+.universe {
+    grid-area: universe;
 }
 
-.i4 {
-    grid-area: i4;
-}
-
-.i5 {
-    grid-area: i5;
-}
-
-.i6 {
-    grid-area: i6;
-}
-
-.i7 {
-    grid-area: i7;
-}
-
-.i8 {
-    grid-area: i8;
-}
-
-.i9 {
-    grid-area: i9;
-}
-
-.i10 {
-    grid-area: i10;
-}
-
-.i11 {
-    grid-area: i11;
-}
-
-.i12 {
-    grid-area: i12;
-}
-
-.i13 {
-    grid-area: i13;
-}
-
-.i14 {
-    grid-area: i14;
-}
-
-.i15 {
-    grid-area: i15;
-}
-
-.i16 {
-    grid-area: i16;
+.search {
+    grid-area: search;
+    margin-top: 3px;
 }
