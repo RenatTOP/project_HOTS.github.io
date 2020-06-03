@@ -13,7 +13,7 @@ footer {
     position: relative;
 }
 
-.logo, .preloader__image {
+.logo, .preloader__image, .flag {
     max-width: 200px;
     width: 100%;
     height: auto;
@@ -21,7 +21,7 @@ footer {
     border-radius: 0px;
 }
 
-.logo:hover {
+.logo:hover, .preloader__image:hover, .flag:hover {
     animation: none !important;
     border: none;
     border-radius: none;

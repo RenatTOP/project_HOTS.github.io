@@ -131,33 +131,66 @@ svg {
     }
 }
 
-.lang {
-    font-size: 1.5rem;
-    padding-top: 4em;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    width: 90px;
-}
+/* Tooltip */
 
-.lang-menu {
-    display: none;
-    list-style-type: none;
-    text-align: center;
-    font-size: 1.2rem;
-    padding: 4px;
-}
-
-.lang-item:focus~.lang-menu, .lang-item:active~.lang-menu, .lang-menu:hover {
-    display: block;
-}
-
-svg {
+[data-tooltip] {
+    position: relative;
     cursor: pointer;
 }
 
-.off svg * {
-    fill: #cce5ff !important;
+[data-tooltip]:before, [data-tooltip]:after {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+[data-tooltip]:before {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    margin-bottom: 5px;
+    margin-left: -80px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px outset black;
+    background: linear-gradient(-60deg, #04043a, #12093d, #210644, #2c0546, #340444);
+    background-size: 300% 300%;
+    -webkit-animation: Gradient 2s ease infinite;
+    -moz-animation: Gradient 2s ease infinite;
+    animation: Gradient 2s ease infinite;
+    color: #cce5ff;
+    content: attr(data-tooltip);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.2;
+    z-index: 2;
+}
+
+[data-tooltip]:after {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-left: -5px;
+    width: 0;
+    border-bottom: 5px solid #000;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+}
+
+[data-tooltip]:hover:before, [data-tooltip]:hover:after {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Icons */
+
+svg {
+    cursor: pointer;
 }
 
 .i1 {
@@ -183,4 +216,122 @@ svg {
 .search {
     grid-area: search;
     margin-top: 3px;
+}
+
+/* ___Role___ */
+
+/* Target Tank */
+
+#tank.mixitup-control-active svg * {
+    fill: rgb(255, 215, 0) !important;
+}
+
+/* Target Bruiser */
+
+#bruiser.mixitup-control-active svg * {
+    fill: rgb(255, 140, 0) !important;
+}
+
+/* Target Melee Assassin */
+
+#dd.mixitup-control-active svg * {
+    fill: rgb(220, 20, 60) !important;
+}
+
+/* Target Ranged Assassin */
+
+#rdd.mixitup-control-active svg * {
+    fill: rgb(153, 50, 204) !important;
+}
+
+/* Target Support */
+
+#support.mixitup-control-active svg * {
+    fill: rgb(65, 105, 225) !important;
+}
+
+/* Target Heal */
+
+#heal.mixitup-control-active svg * {
+    fill: rgb(0, 255, 0) !important;
+}
+
+/* ___Universe___ */
+
+/* Target Warcraft */
+
+#war.mixitup-control-active .war1Color {
+    fill: #92611e !important;
+}
+
+#war.mixitup-control-active .war2Color {
+    fill: #dba801 !important;
+}
+
+/* Target StarCraft */
+
+#sc.mixitup-control-active .sc1Color {
+    fill: #8A9597 !important;
+}
+
+#sc.mixitup-control-active .sc2Color {
+    fill: rgb(212, 210, 210) !important;
+}
+
+#sc.mixitup-control-active .sc3Color {
+    fill: rgb(212, 210, 210) !important;
+}
+
+#sc.mixitup-control-active .sc4Color {
+    fill: #7891a7 !important;
+}
+
+#sc.mixitup-control-active .sc5Color {
+    fill: #577889 !important;
+}
+
+#sc.mixitup-control-active .sc6Color {
+    fill: #577889 !important;
+}
+
+#sc.mixitup-control-active .sc7Color {
+    fill: #7891a7 !important;
+}
+
+/* Target Diablo */
+
+#diablo.mixitup-control-active .diablo1Color {
+    fill: #B32428 !important;
+}
+
+#diablo.mixitup-control-active .diablo2Color {
+    fill: #d89953 !important;
+}
+
+/* Target Overwatch */
+
+#over.mixitup-control-active .over1Color {
+    fill: #f99d2a !important;
+}
+
+#over.mixitup-control-active .over2Color {
+    fill: #c4c4c4 !important;
+}
+
+#nexus.mixitup-control-active .nexus1Color {
+    fill: #6250ff !important;
+}
+
+/* Target Nexus */
+
+#nexus.mixitup-control-active .nexus2Color {
+    fill: #be9665 !important;
+}
+
+#nexus.mixitup-control-active .nexus3Color {
+    fill: #be9665 !important;
+}
+
+#nexus.mixitup-control-active .nexus4Color {
+    fill: #be9665 !important;
 }

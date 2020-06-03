@@ -157,30 +157,3 @@ p {
         margin-top: 45em;
     }
 }
-
-.lang {
-    font-size: 1.5rem;
-    padding-top: 12rem;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    width: 90px;
-}
-
-@media(max-width:340px) {
-    .lang {
-        padding-top: 15rem;
-    }
-}
-
-.lang-menu {
-    display: none;
-    list-style-type: none;
-    text-align: center;
-    font-size: 1.2rem;
-    padding: 4px;
-}
-
-.lang-item:focus~.lang-menu, .lang-item:active~.lang-menu, .lang-menu:hover {
-    display: block;
-}

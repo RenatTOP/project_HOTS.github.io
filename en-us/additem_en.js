@@ -28,6 +28,12 @@ jQuery.ajax({
   },
 });
 
+let enUrl = window.location.href;
+let ruUrl = enUrl.replace("en-us", "ru");
+let uaUrl = enUrl.replace("en-us", "ua");
+setTimeout(() => document.getElementById("en").innerHTML = "<a href= " + enUrl + "><img class=\"flag\"src=\"/image/flags/us.svg\" alt=\"English\"></a>", 100);
+setTimeout(() => document.getElementById("ru").innerHTML = "<a href= " + ruUrl + "><img class=\"flag\"src=\"/image/flags/ru.svg\" alt=\"Русский\"></a>", 100);
+
 //AOS Effect
 
 AOS.init();
