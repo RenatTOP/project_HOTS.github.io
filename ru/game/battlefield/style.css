@@ -37,7 +37,6 @@ h1 {
     font-weight: 700;
     text-shadow: 0 0 1rem #009cff;
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
 }
 
 @media(max-width:400px) {
@@ -52,7 +51,6 @@ h2 {
     text-shadow: 0 0 1rem #009cff;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
@@ -60,7 +58,6 @@ h3 {
     text-shadow: 0 0 1rem #009cff;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
     margin-top: 15px;
 }
 
@@ -68,7 +65,6 @@ p {
     color: rgb(210, 210, 223);
     text-shadow: 0 0 1rem #89d2ff;
     font-size: 1.2rem;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .obj {
@@ -101,25 +97,4 @@ p {
 a {
     text-decoration: none !important;
     cursor: url(/cursors/pointer.cur),pointer  !important;
-}
-
-.lang {
-    font-size: 1.5rem;
-    padding-top: 4em;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    width: 90px;
-}
-
-.lang-menu {
-    display: none;
-    list-style-type: none;
-    text-align: center;
-    font-size: 1.2rem;
-    padding: 4px;
-}
-
-.lang-item:focus~.lang-menu, .lang-item:active~.lang-menu, .lang-menu:hover {
-    display: block;
 }

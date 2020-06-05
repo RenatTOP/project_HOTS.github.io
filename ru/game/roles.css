@@ -32,7 +32,6 @@ h1 {
     text-shadow: 0 0 1rem #009cff;
     font-size: calc(1em + 3vw) !important;
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif !important;
 }
 
 .header {
@@ -52,7 +51,6 @@ h1 {
 p {
     font-size: calc(0.5em + 0.6vw) !important;
     padding-top: 4%;
-    font-family: 'Open Sans', sans-serif;
     color: rgb(211, 207, 207);
     text-shadow: 0 0 1rem #009cff;
 }

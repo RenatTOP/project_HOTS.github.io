@@ -54,7 +54,6 @@ h1 {
     font-size: calc(1.4em + 2.1vw) !important;
     text-shadow: 0 0 1rem #009cff;
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
@@ -62,8 +61,6 @@ h2 {
     font-size: calc(1.3em + 1.2vw) !important;
     text-transform: uppercase;
     color: white !important;
-    text-shadow: 0 0 1rem #009cff;
-    font-family: 'Open Sans', sans-serif;
     padding-top: 5%;
 }
 
@@ -72,7 +69,6 @@ h3 {
     text-transform: uppercase;
     color: white !important;
     text-shadow: 0 0 1rem #009cff;
-    font-family: 'Open Sans', sans-serif;
     padding-top: 5%;
 }
 

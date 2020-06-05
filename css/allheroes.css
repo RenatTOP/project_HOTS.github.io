@@ -124,7 +124,6 @@ a {
 h1 {
     color: #cce5ff !important;
     font-size: calc(1em + 2vw) !important;
-    font-family: 'Lora', serif;
     text-shadow: 0 0 1rem #009cff;
     text-align: center;
     text-transform: uppercase !important;
@@ -141,7 +140,6 @@ h2 {
 h3 {
     color: #cce5ff !important;
     font-size: calc(1em + 1vw) !important;
-    font-family: 'Lora', serif;
     text-shadow: 0 0 1rem #009cff;
     text-align: center;
     text-transform: none;
@@ -164,14 +162,12 @@ ul {
 
 li {
     text-transform: uppercase;
-    font-family: 'Lora', serif;
 }
 
 em {
     text-transform: none;
     color: #7f7de9;
     font-size: calc(1em + 0.3vw) !important;
-    font-family: 'Lora', serif;
     text-shadow: 0 0 1rem #57b1e9;
 }
 

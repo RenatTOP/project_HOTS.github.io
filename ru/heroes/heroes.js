@@ -14,5 +14,5 @@ var containerEl = document.querySelector(".row");
 var mixer = mixitup(containerEl, {
   multifilter: {
     enable: true,
-  }
+  },
 });

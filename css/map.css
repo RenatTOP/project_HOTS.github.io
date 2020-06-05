@@ -11,12 +11,10 @@ h1 {
     text-shadow: 0 0 1rem #009cff;
     font-size: 3rem !important;
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif !important;
 }
 
 p {
     padding-top: 4%;
-    font-family: 'Open Sans', sans-serif;
     color: rgb(211, 207, 207);
     text-shadow: 0 0 1rem #009cff;
     margin-left: 2%;
