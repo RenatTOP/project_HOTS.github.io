@@ -76,7 +76,7 @@ div {
     border-radius: 30px 10px 30px 10px;
 }
 
-.mana {
+.ab-mana {
     color: #0082FF !important;
     margin-bottom: 10px;
     text-align: left !important;
@@ -165,7 +165,7 @@ h3 {
     font-size: calc(1em + 1.6vw) !important;
 }
 
-ul {
+.col ul {
     list-style-type: none !important;
     margin: 0;
     display: block;
@@ -212,6 +212,26 @@ em {
     }
 }
 
+.stats {
+    color: #cce5ff;
+    text-shadow: 0 0 1rem #009cff;
+    font-size: calc(1em + 0.4vw) !important;
+    padding-top: 10px;
+}
+
+#stat-lvl.stats {
+    padding-top: 0px;
+}
+
+#stat-lvl {
+    text-align: center;
+}
+#lvl {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
 .stat-icon {
     max-width: 80px;
     width: auto;
@@ -361,10 +381,10 @@ p {
 }
 
 .heroic {
-    max-width: 120px;
+    max-width: 100px;
     width: auto;
     height: auto;
-    cursor: pointer;
+    cursor: url(/cursors/pointer.cur), pointer !important;
 }
 
 .ab, .bicon {
@@ -386,7 +406,7 @@ p {
     max-width: 100px;
     width: auto;
     height: auto;
-    cursor: pointer;
+    cursor: url(/cursors/pointer.cur), pointer !important;
 }
 
 .img-ab {
