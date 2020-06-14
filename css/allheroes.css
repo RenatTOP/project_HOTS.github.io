@@ -167,7 +167,6 @@ h3 {
 .col ul {
     list-style-type: none !important;
     margin: 0;
-    display: block;
     margin-block-start: -4em !important;
     margin-block-end: -3em !important;
     margin-inline-start: 0px !important;
