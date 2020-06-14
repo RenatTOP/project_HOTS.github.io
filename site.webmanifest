@@ -15,5 +15,6 @@
     ],
     "theme_color": "#48069c",
     "background_color": "#48069c",
-    "display": "standalone"
+    "display": "standalone",
+    "start_url":"https://renattop.me/"
 }
