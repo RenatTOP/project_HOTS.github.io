@@ -50,7 +50,7 @@
         </video>
       </div>
       <div class="w-100"></div>
-      <div class="col" data-aos="fade-right">
+      <div class="col" data-aos="fade-left">
         <ul>
           <li>
             <span class="text" id="dmg"></span>
@@ -119,7 +119,7 @@
         </ul>
       </div>
       <div class="w-100 min510"></div>
-      <div class="col" data-aos="fade-right">
+      <div class="col" data-aos="fade-left">
         <ul>
           <li class="bicon">
             Рубака
@@ -130,33 +130,47 @@
         </ul>
       </div>
       <div class="w-100 min1030"></div>
-      <div class="col" data-aos="fade-left">
-        <ul>
-          <li class="ab" id="heroic"></li>
-          <li>
-            <a href="#h1"><img src="/image/heroes/Artanis/h1.png" alt="" class="heroic"></a>
-            <a href="#h2"><img src="/image/heroes/Artanis/h2.png" alt="" class="heroic"></a>
-          </li>
-        </ul>
-      </div>
-      <div class="col- min1400"></div>
-      <div class="col" data-aos="fade-left">
+      <div class="col" data-aos="fade-right">
         <ul>
           <li class="ab" id="basic"></li>
           <li>
-            <a href="#ab1"><img src="/image/heroes/Artanis/a1.png" alt="" class="base"></a>
-            <a href="#ab2"><img src="/image/heroes/Artanis/a2.png" alt="" class="base"></a>
-            <a href="#ab3"><img src="/image/heroes/Artanis/a3.png" alt="" class="base"></a>
+            <a href="#ab1" data-tooltip="Молниеносные клинки"><img src="/image/heroes/Artanis/a1.png" alt="" class="base"></a>
+            <a href="#ab2" data-tooltip="Парные клинки"><img src="/image/heroes/Artanis/a2.png" alt="" class="base"></a>
+            <a href="#ab3" data-tooltip="Фазовая призма"><img src="/image/heroes/Artanis/a3.png" alt="" class="base"></a>
+          </li>
+          <li class="ab" id="heroic"></li>
+          <li>
+            <a href="#h1" data-tooltip="Подавляющий импульс"><img src="/image/heroes/Artanis/h1.png" alt="" class="heroic"></a>
+            <a href="#h2" data-tooltip="Луч воздаяния"><img src="/image/heroes/Artanis/h2.png" alt="" class="heroic"></a>
           </li>
           <li class="ab" id="trait"></li>
           <li>
-            <a href="#ab"><img src="/image/heroes/Artanis/ab.png" alt="" class="base"></a>
+            <a href="#ab" data-tooltip="Перегрузка щита"><img src="/image/heroes/Artanis/ab.png" alt="" class="base"></a>
           </li>
+        </ul>
+      </div>
+      <div class="w-100 min510"></div>
+      <div class="col" data-aos="fade-right">
+        <ul>
+          <li class="stats" id="stat-lvl">
+            Уровень: <span class="lvl">0</span>
+          </li>
+          <li>
+            <input type="range" id="lvl" oninput="Lvl()" min="0" max="30" step="1" value="0">
+          </li>
+          <li class="stats" id="health"></li>
+          <li class="stats" id="regen-hp"></li>
+          <li class="stats" id="mana"></li>
+          <li class="stats" id="regen-m"></li>
+          <li class="stats" id="dpa"></li>
+          <li class="stats" id="speed-dmg"></li>
+          <li class="stats" id="dps"></li>
+          <li class="stats" id="range"></li>
         </ul>
       </div>
       <div class="w-100"></div>
 
-      <div class="col" data-aos="fade-right" id="ab1">
+      <div class="col" data-aos="fade-left" id="ab1">
         <ul>
           <li>
             <img src="/image/heroes/Artanis/img-a1.jpg" alt="" class="img-ab">
@@ -164,7 +178,9 @@
           <li><img src="/image/heroes/Artanis/a1.png" alt="" class="mab">
           </li>
           <li>
-            <h3>Молниеносные клинки</h3><em>Артанис совершает рывок, нанося 57 ед. урона пораженным противникам,
+            <h3>Молниеносные клинки</h3>
+            <!-- <em class="ab-mana" id="mana1"></em><em class="cooldown" id="cooldown1"></em> -->
+            <em>Артанис совершает рывок, нанося 57 ед. урона пораженным противникам,
               и возвращается в исходную точку, нанося 171 ед. урона. Каждое попадание по противнику сокращает
               время восстановления «Перегрузки щита» на 1 сек., а попадание по герою – на 2 сек.</em>
           </li>
@@ -179,13 +195,15 @@
             <img src="/image/heroes/Artanis/a2.png" alt="" class="mab">
           </li>
           <li>
-            <h3>Парные клинки</h3><em>При следующей автоатаке Артанис совершит короткий рывок к цели и нанесет 2
+            <h3>Парные клинки</h3>
+            <!-- <em class="ab-mana" id="mana2"></em><em class="cooldown" id="cooldown2"></em> -->
+            <em>При следующей автоатаке Артанис совершит короткий рывок к цели и нанесет 2
               удара.</em>
           </li>
         </ul>
       </div>
 
-      <div class="col" data-aos="fade-left" id="ab3">
+      <div class="col" data-aos="fade-right" id="ab3">
         <ul>
           <li>
             <img src="/image/heroes/Artanis/img-a3.jpg" alt="" class="img-ab">
@@ -194,7 +212,9 @@
             <img src="/image/heroes/Artanis/a3.png" alt="" class="mab">
           </li>
           <li>
-            <h3>Фазовая призма</h3><em>Запускает фазовую призму, наносящую первому вражескому герою на своем пути
+            <h3>Фазовая призма</h3>
+            <!-- <em class="ab-mana" id="mana3"></em><em class="cooldown" id="cooldown3"></em> -->
+            <em>Запускает фазовую призму, наносящую первому вражескому герою на своем пути
               66 ед. урона и меняющую его и Артаниса местами. Эту способность можно использовать во время
               действия «Молниеносных клинков».</em>
           </li>
@@ -202,7 +222,7 @@
       </div>
       <div class="w-100"></div>
 
-      <div class="col" data-aos="fade-right" id="h1">
+      <div class="col" data-aos="fade-left" id="h1">
         <ul>
           <li>
             <img src="/image/heroes/Artanis/img-h1.jpg" alt="" class="img-ab">
@@ -211,7 +231,9 @@
             <img src="/image/heroes/Artanis/h1.png" alt="" class="mab">
           </li>
           <li>
-            <h3>Подавляющий импульс</h3><em>«Копье Адуна» генерирует импульс энергии, наносящий противникам
+            <h3>Подавляющий импульс</h3>
+            <!-- <em class="ab-mana" id="mana4"></em><em class="cooldown" id="cooldown4"></em> -->
+            <em>«Копье Адуна» генерирует импульс энергии, наносящий противникам
               в большой области 114 ед. урона и ослепляющий их на 4 сек. Дальность действия не ограничена.</em>
           </li>
         </ul>
@@ -225,19 +247,23 @@
             <img src="/image/heroes/Artanis/h2.png" alt="" class="mab">
           </li>
           <li>
-            <h3>Луч воздаяния</h3><em>Орбитальный луч «Копья Адуна» нацеливается на вражеского героя, нанося ему
+            <h3>Луч воздаяния</h3>
+            <!-- <em class="ab-mana" id="mana5"></em><em class="cooldown" id="cooldown5"></em> -->
+            <em>Орбитальный луч «Копья Адуна» нацеливается на вражеского героя, нанося ему
               184 ед. урона в секунду в течение 8 сек. При перемещении цели луч движется за ней. Дальность
               действия не ограничена.</em>
           </li>
         </ul>
       </div>
-      <div class="col" data-aos="fade-left" id="ab">
+      <div class="col" data-aos="fade-right" id="ab">
         <ul>
           <li>
             <img src="/image/heroes/Artanis/ab.png" alt="" class="mab">
           </li>
           <li>
-            <h3>Перегрузка щита</h3><em>Если Артанис получает урон при уровне здоровья ниже 75%, он получает щит
+            <h3>Перегрузка щита</h3>
+            <!-- <em class="ab-mana" id="mana6"></em><em class="cooldown" id="cooldown6"></em> -->
+            <em>Если Артанис получает урон при уровне здоровья ниже 75%, он получает щит
               прочностью 375 ед. на 5 сек. Каждая автоатака сокращает время восстановления «Перегрузки щита» на 4
               сек.</em>
           </li>
@@ -271,6 +297,10 @@
   <footer id="footer">
   </footer>
   <a class="back_to_top" title="Наверх">↑</a>
+  <script src="/js/allheroes.js"></script>
+  <script>
+    let array = artanis;
+  </script>
   <script src="/js/aos.js"></script>
   <script src="/js/jquery-1.9.1.js"></script>
   <script src="/ru/additem.js"></script>

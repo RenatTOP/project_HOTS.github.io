@@ -50,7 +50,7 @@
         </video>
       </div>
       <div class="w-100"></div>
-      <div class="col" data-aos="fade-right">
+      <div class="col" data-aos="fade-left">
         <ul>
           <li>
             <span class="text" id="dmg"></span>
@@ -119,7 +119,7 @@
         </ul>
       </div>
       <div class="w-100 min510"></div>
-      <div class="col" data-aos="fade-right">
+      <div class="col" data-aos="fade-left">
         <ul>
           <li class="bicon">
             Bruiser
@@ -130,17 +130,7 @@
         </ul>
       </div>
       <div class="w-100 min1030"></div>
-      <div class="col" data-aos="fade-left">
-        <ul>
-          <li class="ab" id="heroic"></li>
-          <li>
-            <a href="#h1"><img src="/image/heroes/Artanis/h1.png" alt="" class="heroic"></a>
-            <a href="#h2"><img src="/image/heroes/Artanis/h2.png" alt="" class="heroic"></a>
-          </li>
-        </ul>
-      </div>
-      <div class="col- min1400"></div>
-      <div class="col" data-aos="fade-left">
+      <div class="col" data-aos="fade-right">
         <ul>
           <li class="ab" id="basic"></li>
           <li>
@@ -148,15 +138,39 @@
             <a href="#ab2"><img src="/image/heroes/Artanis/a2.png" alt="" class="base"></a>
             <a href="#ab3"><img src="/image/heroes/Artanis/a3.png" alt="" class="base"></a>
           </li>
+          <li class="ab" id="heroic"></li>
+          <li>
+            <a href="#h1"><img src="/image/heroes/Artanis/h1.png" alt="" class="heroic"></a>
+            <a href="#h2"><img src="/image/heroes/Artanis/h2.png" alt="" class="heroic"></a>
+          </li>
           <li class="ab" id="trait"></li>
           <li>
             <a href="#ab"><img src="/image/heroes/Artanis/ab.png" alt="" class="base"></a>
           </li>
         </ul>
       </div>
+      <div class="col- min1400"></div>
+      <div class="col" data-aos="fade-right">
+        <ul>
+          <li class="stats" id="stat-lvl">
+            Уровень: <span class="lvl">0</span>
+          </li>
+          <li>
+            <input type="range" id="lvl" oninput="Lvl()" min="0" max="30" step="1" value="0">
+          </li>
+          <li class="stats" id="health"></li>
+          <li class="stats" id="regen-hp"></li>
+          <li class="stats" id="mana"></li>
+          <li class="stats" id="regen-m"></li>
+          <li class="stats" id="dpa"></li>
+          <li class="stats" id="speed-dmg"></li>
+          <li class="stats" id="dps"></li>
+          <li class="stats" id="range"></li>
+        </ul>
+      </div>
       <div class="w-100"></div>
 
-      <div class="col" id="ab1" data-aos="fade-right">
+      <div class="col" id="ab1" data-aos="fade-left">
         <ul>
           <li>
             <img src="/image/heroes/Artanis/img-a1.jpg" alt="" class="img-ab">
@@ -164,7 +178,7 @@
           <li><img src="/image/heroes/Artanis/a1.png" alt="" class="mab">
           </li>
           <li>
-            <h3>МBlade Dash</h3><em>Dash forward and deal 57 damage to enemies, then return and deal 171 damage. Every
+            <h3>Blade Dash</h3><em>Dash forward and deal 57 damage to enemies, then return and deal 171 damage. Every
               enemy hit reduces the cooldown on Shield Overload by 1 second, and Heroes by 2 seconds.</em>
           </li>
         </ul>
@@ -183,8 +197,7 @@
           </li>
         </ul>
       </div>
-      <div class="gradient-border" id="box"></div>
-      <div class="col" id="ab3" data-aos="fade-left">
+      <div class="col" id="ab3" data-aos="fade-right">
         <ul>
           <li>
             <img src="/image/heroes/Artanis/img-a3.jpg" alt="" class="img-ab">
@@ -200,7 +213,7 @@
       </div>
       <div class="w-100"></div>
 
-      <div class="col" id="h1" data-aos="fade-right">
+      <div class="col" id="h1" data-aos="fade-left">
         <ul>
           <li>
             <img src="/image/heroes/Artanis/img-h1.jpg" alt="" class="img-ab">
@@ -228,7 +241,7 @@
           </li>
         </ul>
       </div>
-      <div class="col" id="ab" data-aos="fade-left">
+      <div class="col" id="ab" data-aos="fade-right">
         <ul>
           <li>
             <img src="/image/heroes/Artanis/ab.png" alt="" class="mab">
@@ -266,7 +279,11 @@
   </main>
   <footer id="footer">
   </footer>
-  <a class="back_to_top" title="Top">↑</a>
+  <a class="back_to_top" title="Top"></a>
+  <script src="/js/allheroes.js"></script>
+  <script>
+    let array = artanis;
+  </script>
   <script src="/js/aos.js"></script>
   <script src="/js/jquery-1.9.1.js"></script>
   <script src="/en-us/additem_en.js"></script>

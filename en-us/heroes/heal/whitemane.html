@@ -51,7 +51,7 @@
         </video>
       </div>
       <div class="w-100"></div>
-      <div class="col" data-aos="fade-right">
+      <div class="col" data-aos="fade-left">
         <ul>
           <li>
             <span class="text" id="dmg"></span>
@@ -120,7 +120,7 @@
         </ul>
       </div>
       <div class="w-100 min510"></div>
-      <div class="col" data-aos="fade-right">
+      <div class="col" data-aos="fade-left">
         <ul>
           <li class="bicon">
             Healer
@@ -131,25 +131,19 @@
         </ul>
       </div>
       <div class="w-100 min1030"></div>
-      <div class="col" data-aos="fade-left">
-        <ul>
-          <li class="ab" id="heroic"></li>
-          <li>
-            <a href="#h1"><img src="/image/heroes/Whitemane/h1.png" alt="" class="heroic"></a>
-            <a href="#h2"><img src="/image/heroes/Whitemane/h2.png" alt="" class="heroic"></a>
-          </li>
-        </ul>
-      </div>
-      <div class="col- min1400"></div>
-      <div class="col" data-aos="fade-left">
+      <div class="col" data-aos="fade-right">
         <ul>
           <li class="ab" id="basic"></li>
           <li>
             <a href="#ab1"><img src="/image/heroes/Whitemane/a1.png" alt="" class="base"></a>
             <a href="#ab2"><img src="/image/heroes/Whitemane/a2.png" alt="" class="base"></a>
             <a href="#ab3"><img src="/image/heroes/Whitemane/a3.png" alt="" class="base"></a>
-
             <a href="#ab4"><img src="/image/heroes/Whitemane/a4.png" alt="" class="base"></a>
+          </li>
+          <li class="ab" id="heroic"></li>
+          <li>
+            <a href="#h1"><img src="/image/heroes/Whitemane/h1.png" alt="" class="heroic"></a>
+            <a href="#h2"><img src="/image/heroes/Whitemane/h2.png" alt="" class="heroic"></a>
           </li>
           <li class="ab" id="trait"></li>
           <li>
@@ -157,8 +151,27 @@
           </li>
         </ul>
       </div>
+      <div class="col- min1400"></div>
+      <div class="col" data-aos="fade-right">
+        <ul>
+          <li class="stats" id="stat-lvl">
+            Уровень: <span class="lvl">0</span>
+          </li>
+          <li>
+            <input type="range" id="lvl" oninput="Lvl()" min="0" max="30" step="1" value="0">
+          </li>
+          <li class="stats" id="health"></li>
+          <li class="stats" id="regen-hp"></li>
+          <li class="stats" id="mana"></li>
+          <li class="stats" id="regen-m"></li>
+          <li class="stats" id="dpa"></li>
+          <li class="stats" id="speed-dmg"></li>
+          <li class="stats" id="dps"></li>
+          <li class="stats" id="range"></li>
+        </ul>
+      </div>
       <div class="w-100"></div>
-      <div class="col" data-aos="fade-right" id="ab1">
+      <div class="col" data-aos="fade-left" id="ab1">
         <ul>
           <li>
             <img src="/image/heroes/Whitemane/img-a1.jpg" alt="" class="img-ab">
@@ -185,7 +198,7 @@
           </li>
         </ul>
       </div>
-      <div class="col" data-aos="fade-left" id="ab3">
+      <div class="col" data-aos="fade-right" id="ab3">
         <ul>
           <li>
             <img src="/image/heroes/Whitemane/img-a3.jpg" alt="" class="img-ab">
@@ -217,7 +230,7 @@
       </div>
       <div class="col zero"></div>
       <div class="w-100"></div>
-      <div class="col" data-aos="fade-right" id="h1">
+      <div class="col" data-aos="fade-left" id="h1">
         <ul>
           <li>
             <img src="/image/heroes/Whitemane/img-h1.jpg" alt="" class="img-ab">
@@ -245,7 +258,7 @@
           </li>
         </ul>
       </div>
-      <div class="col" data-aos="fade-left" id="ab">
+      <div class="col" data-aos="fade-right" id="ab">
         <ul>
           <li>
             <img src="/image/heroes/Whitemane/ab.png" alt="" class="mab">
@@ -284,7 +297,11 @@
   </main>
   <footer id="footer">
   </footer>
-  <a class="back_to_top" title="Top">↑</a>
+  <a class="back_to_top" title="Top"></a>
+  <script src="/js/allheroes.js"></script>
+  <script>
+    let array = whitemane;
+  </script>
   <script src="/js/aos.js"></script>
   <script src="/js/jquery-1.9.1.js"></script>
   <script src="/en-us/additem_en.js"></script>

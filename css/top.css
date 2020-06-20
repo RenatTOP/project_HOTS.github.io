@@ -3,7 +3,7 @@
     src: url(/MinionPro-SemiboldIt.otf);
 }
 
-h1, h2, h3, h4, h5, p, span, li, a, em, div {
+* {
     font-family: MinionPro-SemiboldIt !important;
 }
 
