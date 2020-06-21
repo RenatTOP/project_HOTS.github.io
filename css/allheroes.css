@@ -15,6 +15,7 @@ div {
     background-color: #08000f;
     padding-left: 3% !important;
     padding-right: 3% !important;
+    overflow-x: hidden;
 }
 
 .headt {
