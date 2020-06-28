@@ -80,9 +80,6 @@ h4 {
 }
 
 @media (max-width:1110px) {
-    .training {
-        background: url(/image/game/modes/no-ratingme.jpg) no-repeat !important;
-    }
     .quick {
         background: url(/image/game/modes/quick-gameme.jpg) no-repeat !important;
     }
@@ -103,10 +100,6 @@ h4 {
     }
     .head {
         background: url(/image/game/modes/mode-game.jpg) top center no-repeat !important;
-        background-size: 80% !important;
-    }
-    .training {
-        background: url(/image/game/modes/no-ratingm.jpg) top center no-repeat !important;
         background-size: 80% !important;
     }
     .quick {
@@ -133,10 +126,6 @@ h4 {
 
 .big-con {
     background: url(/image/game/modes/divider.png) top center no-repeat;
-}
-
-.training {
-    background: url(/image/game/modes/no-rating.jpg) no-repeat;
 }
 
 .ii {

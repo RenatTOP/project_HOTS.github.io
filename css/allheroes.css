@@ -155,14 +155,10 @@ h2 {
 
 h3 {
     color: #cce5ff !important;
-    font-size: calc(1em + 1vw) !important;
+    font-size: calc(1em + 1.6vw) !important;;
     text-shadow: 0 0 1rem #009cff;
     text-align: center;
     text-transform: none;
-}
-
-.rdmheroesh3 {
-    font-size: calc(1em + 1.6vw) !important;
 }
 
 .col ul {

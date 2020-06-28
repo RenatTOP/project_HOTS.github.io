@@ -450,4 +450,5 @@ for (let i = 0; i < 4; i++) {
   selestedHeroes.push(heroes[index]);
   heroes.splice(index, 1);
 }
-document.write(selestedHeroes);
+document.querySelectorAll(".randomHeroes")[0].innerHTML =
+  "<h2>Other heroes</h2>" + selestedHeroes;
