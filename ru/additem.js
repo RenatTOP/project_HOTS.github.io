@@ -49,6 +49,7 @@ let addLang = setInterval(
 setTimeout(() => {
   clearInterval(addLang);
 }, 2000);
+
 //AOS Еффекты
 try {
   AOS.init();
@@ -60,6 +61,7 @@ try {
     mirror: false,
   });
 } catch (e) {}
+
 try {
   //Stats
 
@@ -76,50 +78,49 @@ try {
 } catch (e) {}
 //All stats
 try {
-  let health = array[0][0];
-  let regenHp = array[0][1];
-  let mana = array[1][0];
-  let regenM = array[1][1];
-  let dpa = array[2][0];
-  let speedDmg = array[2][1];
-  let dps = array[3][0];
-  let range = array[3][1];
-  let mana1 = array[4][0];
-  let cooldown1 = array[4][1];
-  let mana2 = array[5][0];
-  let cooldown2 = array[5][1];
-  let mana3 = array[6][0];
-  let cooldown3 = array[6][1];
-  let mana4 = array[7][0];
-  let cooldown4 = array[7][1];
-  let mana5 = array[8][0];
-  let cooldown5 = array[8][1];
-  let mana6 = array[9][0];
-  let cooldown6 = array[9][1];
+  var health = array[0][0];
+  var regenHp = array[0][1];
+  var mana = array[1][0];
+  var regenM = array[1][1];
+  var dpa = array[2][0];
+  var speedDmg = array[2][1];
+  var dps = array[3][0];
+  var range = array[3][1];
+  var mana1 = array[4][0];
+  var cooldown1 = array[4][1];
+  var mana2 = array[5][0];
+  var cooldown2 = array[5][1];
+  var mana3 = array[6][0];
+  var cooldown3 = array[6][1];
+  var mana4 = array[7][0];
+  var cooldown4 = array[7][1];
+  var mana5 = array[8][0];
+  var cooldown5 = array[8][1];
+  var mana6 = array[9][0];
+  var cooldown6 = array[9][1];
   
-    //Basic
-    document.getElementById("mana1").textContent = "Мана: " + mana1;
-    document.getElementById("cooldown1").textContent =
-      "Перезарядка: " + cooldown1 + "с";
-    document.getElementById("mana2").textContent = "Мана: " + mana2;
-    document.getElementById("cooldown2").textContent =
-      "Перезарядка: " + cooldown2 + "с";
-    document.getElementById("mana3").textContent = "Мана: " + mana3;
-    document.getElementById("cooldown3").textContent =
-      "Перезарядка: " + cooldown3 + "с";
-    //Heroic
-    document.getElementById("mana4").textContent = "Мана: " + mana4;
-    document.getElementById("cooldown4").textContent =
-      "Перезарядка: " + cooldown4 + "с";
-    document.getElementById("mana5").textContent = "Мана: " + mana5;
-    document.getElementById("cooldown5").textContent =
-      "Перезарядка: " + cooldown5 + "с";
-    //Trait
-    document.getElementById("mana6").textContent = "Мана: " + mana6;
-    document.getElementById("cooldown6").textContent =
-      "Перезарядка: " + cooldown6 + "с";
+    // //Basic
+    // document.getElementById("mana1").textContent = "Мана: " + mana1;
+    // document.getElementById("cooldown1").textContent =
+    //   "Перезарядка: " + cooldown1 + "с";
+    // document.getElementById("mana2").textContent = "Мана: " + mana2;
+    // document.getElementById("cooldown2").textContent =
+    //   "Перезарядка: " + cooldown2 + "с";
+    // document.getElementById("mana3").textContent = "Мана: " + mana3;
+    // document.getElementById("cooldown3").textContent =
+    //   "Перезарядка: " + cooldown3 + "с";
+    // //Heroic
+    // document.getElementById("mana4").textContent = "Мана: " + mana4;
+    // document.getElementById("cooldown4").textContent =
+    //   "Перезарядка: " + cooldown4 + "с";
+    // document.getElementById("mana5").textContent = "Мана: " + mana5;
+    // document.getElementById("cooldown5").textContent =
+    //   "Перезарядка: " + cooldown5 + "с";
+    // //Trait
+    // document.getElementById("mana6").textContent = "Мана: " + mana6;
+    // document.getElementById("cooldown6").textContent =
+    //   "Перезарядка: " + cooldown6 + "с";
   
-
     document.getElementById("health").innerHTML =
       'Здоровье: <span id="hp-p">' + health + "</span>";
     document.getElementById("regen-hp").innerHTML =
@@ -136,99 +137,99 @@ try {
       'Урон в секунду: <span id="dps-p">' + dps + "</span>";
     document.getElementById("range").innerHTML =
       'Дальность атаки: <span id="r-p">' + range + "</span>";
-    } catch (e) {}
-    
-  function Lvl() {
-    let lvl = document.querySelector("#lvl");
-    let vLvl = document.querySelector(".lvl");
-    vLvl.innerHTML = lvl.value;
+} catch (e) {}
 
-    let hpP = document.querySelector("#hp-p");
-    let rgHpP = document.querySelector("#rg-hp-p");
-    let mP = document.querySelector("#m-p");
-    let rgMP = document.querySelector("#rg-m-p");
-    let dpaP = document.querySelector("#dpa-p");
-    let dpsP = document.querySelector("#dps-p");
-    let lvlValue = Number(lvl.value);
+function Lvl() {
+  let lvl = document.querySelector("#lvl");
+  let vLvl = document.querySelector(".lvl");
+  vLvl.innerHTML = lvl.value;
 
-    let allValueLvlStats = (hpP.textContent = Math.round(
-      array[0][0] * (1 + 4 / 100) ** lvlValue
-    ));
-    rgHpP.textContent =
-      Math.round(array[0][1] * (1 + 4 / 100) ** lvlValue * 100) / 100;
-    mP.textContent = array[1][0] + lvlValue * 10;
-    rgMP.textContent = Math.round((array[1][1] + lvlValue / 10) * 100) / 100;
-    dpaP.textContent =
-      Math.round(array[2][0] * (1 + 4 / 100) ** lvlValue * 10) / 10;
-    dpsP.textContent =
-      Math.round(array[3][0] * (1 + 4 / 100) ** lvlValue * 10) / 10;
+  let hpP = document.querySelector("#hp-p");
+  let rgHpP = document.querySelector("#rg-hp-p");
+  let mP = document.querySelector("#m-p");
+  let rgMP = document.querySelector("#rg-m-p");
+  let dpaP = document.querySelector("#dpa-p");
+  let dpsP = document.querySelector("#dps-p");
+  let lvlValue = Number(lvl.value);
 
-    if (lvlValue == 0) {
-      hpP.textContent = health;
-      rgHpP.textContent = regenHp;
-      mP.textContent = mana;
-      rgMP.textContent = regenM;
-      dpaP.textContent = dpa;
-      dpsP.textContent = dps;
-    } else if (lvlValue == 1) {
-      allValueLvlStats;
-    } else if (lvlValue == 2) {
-      allValueLvlStats;
-    } else if (lvlValue == 3) {
-      allValueLvlStats;
-    } else if (lvlValue == 4) {
-      allValueLvlStats;
-    } else if (lvlValue == 5) {
-      allValueLvlStats;
-    } else if (lvlValue == 6) {
-      allValueLvlStats;
-    } else if (lvlValue == 7) {
-      allValueLvlStats;
-    } else if (lvlValue == 8) {
-      allValueLvlStats;
-    } else if (lvlValue == 9) {
-      allValueLvlStats;
-    } else if (lvlValue == 10) {
-      allValueLvlStats;
-    } else if (lvlValue == 11) {
-      allValueLvlStats;
-    } else if (lvlValue == 12) {
-      allValueLvlStats;
-    } else if (lvlValue == 13) {
-      allValueLvlStats;
-    } else if (lvlValue == 14) {
-      allValueLvlStats;
-    } else if (lvlValue == 15) {
-      allValueLvlStats;
-    } else if (lvlValue == 16) {
-      allValueLvlStats;
-    } else if (lvlValue == 17) {
-      allValueLvlStats;
-    } else if (lvlValue == 18) {
-      allValueLvlStats;
-    } else if (lvlValue == 19) {
-      allValueLvlStats;
-    } else if (lvlValue == 20) {
-      allValueLvlStats;
-    } else if (lvlValue == 21) {
-      allValueLvlStats;
-    } else if (lvlValue == 22) {
-      allValueLvlStats;
-    } else if (lvlValue == 23) {
-      allValueLvlStats;
-    } else if (lvlValue == 24) {
-      allValueLvlStats;
-    } else if (lvlValue == 25) {
-      allValueLvlStats;
-    } else if (lvlValue == 26) {
-      allValueLvlStats;
-    } else if (lvlValue == 27) {
-      allValueLvlStats;
-    } else if (lvlValue == 28) {
-      allValueLvlStats;
-    } else if (lvlValue == 29) {
-      allValueLvlStats;
-    } else if (lvlValue == 30) {
-      allValueLvlStats;
-    }
+  let allValueLvlStats = (hpP.textContent = Math.round(
+    array[0][0] * (1 + 4 / 100) ** lvlValue
+  ));
+  rgHpP.textContent =
+    Math.round(array[0][1] * (1 + 4 / 100) ** lvlValue * 100) / 100;
+  mP.textContent = array[1][0] + lvlValue * 10;
+  rgMP.textContent = Math.round((array[1][1] + lvlValue / 10) * 100) / 100;
+  dpaP.textContent =
+    Math.round(array[2][0] * (1 + 4 / 100) ** lvlValue * 10) / 10;
+  dpsP.textContent =
+    Math.round(array[3][0] * (1 + 4 / 100) ** lvlValue * 10) / 10;
+
+  if (lvlValue == 0) {
+    hpP.textContent = health;
+    rgHpP.textContent = regenHp;
+    mP.textContent = mana;
+    rgMP.textContent = regenM;
+    dpaP.textContent = dpa;
+    dpsP.textContent = dps;
+  } else if (lvlValue == 1) {
+    allValueLvlStats;
+  } else if (lvlValue == 2) {
+    allValueLvlStats;
+  } else if (lvlValue == 3) {
+    allValueLvlStats;
+  } else if (lvlValue == 4) {
+    allValueLvlStats;
+  } else if (lvlValue == 5) {
+    allValueLvlStats;
+  } else if (lvlValue == 6) {
+    allValueLvlStats;
+  } else if (lvlValue == 7) {
+    allValueLvlStats;
+  } else if (lvlValue == 8) {
+    allValueLvlStats;
+  } else if (lvlValue == 9) {
+    allValueLvlStats;
+  } else if (lvlValue == 10) {
+    allValueLvlStats;
+  } else if (lvlValue == 11) {
+    allValueLvlStats;
+  } else if (lvlValue == 12) {
+    allValueLvlStats;
+  } else if (lvlValue == 13) {
+    allValueLvlStats;
+  } else if (lvlValue == 14) {
+    allValueLvlStats;
+  } else if (lvlValue == 15) {
+    allValueLvlStats;
+  } else if (lvlValue == 16) {
+    allValueLvlStats;
+  } else if (lvlValue == 17) {
+    allValueLvlStats;
+  } else if (lvlValue == 18) {
+    allValueLvlStats;
+  } else if (lvlValue == 19) {
+    allValueLvlStats;
+  } else if (lvlValue == 20) {
+    allValueLvlStats;
+  } else if (lvlValue == 21) {
+    allValueLvlStats;
+  } else if (lvlValue == 22) {
+    allValueLvlStats;
+  } else if (lvlValue == 23) {
+    allValueLvlStats;
+  } else if (lvlValue == 24) {
+    allValueLvlStats;
+  } else if (lvlValue == 25) {
+    allValueLvlStats;
+  } else if (lvlValue == 26) {
+    allValueLvlStats;
+  } else if (lvlValue == 27) {
+    allValueLvlStats;
+  } else if (lvlValue == 28) {
+    allValueLvlStats;
+  } else if (lvlValue == 29) {
+    allValueLvlStats;
+  } else if (lvlValue == 30) {
+    allValueLvlStats;
   }
+}
