@@ -62,7 +62,7 @@ let alexstrasza = [
   [50, 2, 75, 125, "", ""],
   [60, 60, 480, "", "", ""],
   [100, 100, 135, 300, "", ""],
-  [150, 500, 143, 43, "", ""],
+  [150, "", 500, 143, 43, ""],
   [
     `<div class="col mix war heal leg">
   <a href="/ru/heroes/heal/alexstrasza.html"><img src="/image/heroes/Alexstrasza/Alexstrasza.png" alt="">
@@ -90,7 +90,7 @@ let ana = [
   [50, 14, "", "", "", ""],
   [60, 70, 200, "", "", ""],
   [45, 60, 225, 135, "", ""],
-  [40, "", "", "", "", ""],
+  ["", "", 40, "", "", ""],
   [
     `<div class="col mix over heal leg">
   <a href="/ru/heroes/heal/ana.html"><img src="/image/heroes/Ana/Ana.png" alt="">
@@ -118,7 +118,7 @@ let anduin = [
   [40, 10, 155, "", "", ""],
   [70, 80, "", "", "", ""],
   [70, 60, 150, 165, "", ""],
-  [80, "", "", "", "", ""],
+  ["", 80, "", "", "", ""],
   [
     `<div class="col mix war heal leg">
   <a href="/ru/heroes/heal/anduin.html"><img src="/image/heroes/Anduin/anduin.jpg" alt="">
@@ -305,7 +305,6 @@ let butcher = [
   [40, 4, 110, "", "", ""],
   [60, 14, 37, "", "", ""],
   [50, 15, 119, "", "", ""],
-  [75, 60, 500, "", "", ""],
   [75, 60, 500, "", "", ""],
   [75, 90, 171, "", "", ""],
   ["", "", "", "", "", ""],
