@@ -65,6 +65,7 @@ div {
 .col {
     background: linear-gradient(-45deg, #030330, #0f0735, #1d073a, #1d043f);
     background-size: 400%;
+    min-width: 270px !important;
     padding: 5rem;
     -webkit-animation: Gradient 10s ease infinite;
     -moz-animation: Gradient 10s ease infinite;

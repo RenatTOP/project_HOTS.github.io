@@ -14,7 +14,7 @@ h1 {
     text-align: center;
     color: white !important;
     text-shadow: 0 0 1rem #009cff;
-    font-size: 3rem !important;
+    font-size: calc(1em + 2.5vw) !important;
     text-transform: uppercase;
 }
 
@@ -23,10 +23,5 @@ p {
     color: rgb(211, 207, 207);
     text-shadow: 0 0 1rem #009cff;
     margin-left: 2%;
-}
-
-@media (max-width:550px) {
-    h1 {
-        font-size: 2rem !important;
-    }
+    font-size: calc(1em + 0.3vw) !important;
 }
