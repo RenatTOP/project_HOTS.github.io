@@ -39,6 +39,11 @@ body {
     padding-left: 0 !important;
 }
 
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
 a {
     cursor: url(/cursors/pointer.cur), pointer !important;
 }
