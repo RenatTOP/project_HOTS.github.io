@@ -34,6 +34,11 @@ body {
     cursor: url(/cursors/cursor.cur), default !important;
 }
 
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
 a {
     cursor: url(/cursors/pointer.cur), pointer !important;
 }
