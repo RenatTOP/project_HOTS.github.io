@@ -7,7 +7,7 @@ heroes[0] = `<div class="rdmHeroes col-3" data-aos="flip-left">
     </a>
 </div>`;
 heroes[1] = `<div class="rdmHeroes col-3" data-aos="flip-left">
-    <a href="/ru/heroes/tank/anubarak.html"><img src="/image/heroes/Anubarak/anubarakbgm.jpg" alt="" class="rdmImg">
+    <a href="/ru/heroes/tank/anubarak.html"><img src="/image/heroes/Anub'arak/anubarakbgm.jpg" alt="" class="rdmImg">
         <h3 class="rdmheroesh3">Ануб'арак</h3>
     </a>
 </div>`;
