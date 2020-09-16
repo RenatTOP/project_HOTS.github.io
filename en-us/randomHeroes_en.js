@@ -2,22 +2,22 @@
 var heroes = [];
 
 heroes[0] = `<div class="rdmHeroes col-3" data-aos="flip-left">
-    <a href="/en-us/heroes/heal/anduin.html"><img src="/image/heroes/Anduin/anduinbgm.jpg" alt="" class="rdmImg">
+    <a href="/en-us/heroes/heal/anduin.html"><img src="/image/heroes/Anduin/bgm.jpg" alt="" class="rdmImg">
          <h3 class="rdmheroesh3">Anduin</h3>
     </a>
 </div>`;
 heroes[1] = `<div class="rdmHeroes col-3" data-aos="flip-left">
-    <a href="/en-us/heroes/tank/anubarak.html"><img src="/image/heroes/Anub'arak/anubarakbgm.jpg" alt="" class="rdmImg">
+    <a href="/en-us/heroes/tank/anubarak.html"><img src="/image/heroes/Anub'arak/bgm.jpg" alt="" class="rdmImg">
          <h3 class="rdmheroesh3">Anub'arak</h3>
     </a>
 </div>`;
 heroes[2] = `<div class="rdmHeroes col-3" data-aos="flip-left">
-    <a href="/en-us/heroes/bruiser/artanis.html"><img src="/image/heroes/Artanis/artanisbgm.jpg" alt="" class="rdmImg">
+    <a href="/en-us/heroes/bruiser/artanis.html"><img src="/image/heroes/Artanis/bgm.jpg" alt="" class="rdmImg">
          <h3 class="rdmheroesh3">Artanis</h3>
     </a>
 </div>`;
 heroes[3] = `<div class="rdmHeroes col-3" data-aos="flip-left">
-    <a href="/en-us/heroes/support/abathur.html"><img src="/image/heroes/Abathur/abathurbgm.jpg" alt="" class="rdmImg">
+    <a href="/en-us/heroes/support/abathur.html"><img src="/image/heroes/Abathur/bgm.jpg" alt="" class="rdmImg">
          <h3 class="rdmheroesh3">Abathur</h3>
     </a>
 </div>`;
@@ -27,27 +27,27 @@ heroes[4] = `<div class="rdmHeroes col-3" data-aos="flip-left">
     </a>
 </div>`;
 heroes[5] = `<div class="rdmHeroes col-3" data-aos="flip-left">
-    <a href="/en-us/heroes/dd/alarak.html"><img src="/image/heroes/Alarak/alarakbgm.jpg" alt="" class="rdmImg">
+    <a href="/en-us/heroes/dd/alarak.html"><img src="/image/heroes/Alarak/bgm.jpg" alt="" class="rdmImg">
          <h3 class="rdmheroesh3">Alarak</h3>
     </a>
 </div>`;
 heroes[6] = `<div class="rdmHeroes col-3" data-aos="flip-left">
-    <a href="/en-us/heroes/heal/alexstrasza.html"><img src="/image/heroes/Alexstrasza/alexstrazabgm.jpg" alt="" class="rdmImg">
+    <a href="/en-us/heroes/heal/alexstrasza.html"><img src="/image/heroes/Alexstrasza/bgm.jpg" alt="" class="rdmImg">
          <h3 class="rdmheroesh3">Alexstrasza</h3>
     </a>
 </div>`;
 heroes[7] = `<div class="rdmHeroes col-3" data-aos="flip-left">
-    <a href="/en-us/heroes/heal/ana.html"><img src="/image/heroes/Ana/anabgm.jpg" alt="" class="rdmImg">
+    <a href="/en-us/heroes/heal/ana.html"><img src="/image/heroes/Ana/bgm.jpg" alt="" class="rdmImg">
          <h3 class="rdmheroesh3">Ana</h3>
     </a>
 </div>`;
 heroes[8] = `<div class="rdmHeroes col-3" data-aos="flip-left">
-    <a href="/en-us/heroes/tank/arthas.html"><img src="/image/heroes/Arthas/arthasbgm.jpg" alt="" class="rdmImg">
+    <a href="/en-us/heroes/tank/arthas.html"><img src="/image/heroes/Arthas/bgm.jpg" alt="" class="rdmImg">
          <h3 class="rdmheroesh3">Arthas</h3>
     </a>
 </div>`;
 heroes[9] = `<div class="rdmHeroes col-3" data-aos="flip-left">
-    <a href="/en-us/heroes/heal/auriel.html"><img src="/image/heroes/Auriel/aurielbgm.jpg" alt="" class="rdmImg">
+    <a href="/en-us/heroes/heal/auriel.html"><img src="/image/heroes/Auriel/bgm.jpg" alt="" class="rdmImg">
          <h3 class="rdmheroesh3">Auriel</h3>
     </a>
 </div>`;
