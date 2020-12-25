@@ -11,7 +11,7 @@ window.onload = function () {
 // Navbar
 
 jQuery.ajax({
-  url: "/ru/navbar.html",
+  url: "../navbar.html",
   dataType: "html",
   success: function (response) {
     document.getElementById("navbar").innerHTML = response;
@@ -21,7 +21,7 @@ jQuery.ajax({
 //Footer
 
 jQuery.ajax({
-  url: "/ru/footer.html",
+  url: "../footer.html",
   dataType: "html",
   success: function (response) {
     document.getElementById("footer").innerHTML = response;
