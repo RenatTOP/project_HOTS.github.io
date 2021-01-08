@@ -11,7 +11,7 @@ let abathur = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix sc support leg">
-    <a href="/ru/heroes/support/abathur.html"><img src="/image/heroes/Abathur/Abathur.png" alt="">
+    <a href="../ru/heroes/support/abathur.html"><img src="../image/heroes/Abathur/Abathur.png" alt="">
         <h3>Абатур</h3>
     </a>
 </div>`,
@@ -19,7 +19,7 @@ let abathur = [
   [],
   [
     `<div class="col mix sc support leg">
-    <a href="/en-us/heroes/support/abathur.html"><img src="/image/heroes/Abathur/Abathur.png" alt="">
+    <a href="../en-us/heroes/support/abathur.html"><img src="../image/heroes/Abathur/Abathur.png" alt="">
         <h3>Abathur</h3>
     </a>
 </div>`,
@@ -38,7 +38,7 @@ let alarak = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix sc dd epic">
-  <a href="/ru/heroes/dd/alarak.html"><img src="/image/heroes/Alarak/Alarak.png" alt="">
+  <a href="../ru/heroes/dd/alarak.html"><img src="../image/heroes/Alarak/Alarak.png" alt="">
       <h3>Аларак</h3>
   </a>
 </div>`,
@@ -46,7 +46,7 @@ let alarak = [
   [],
   [
     `<div class="col mix sc dd epic">
-  <a href=" /en-us/heroes/dd/alarak.html"><img src="/image/heroes/Alarak/Alarak.png" alt="">
+  <a href=" ../en-us/heroes/dd/alarak.html"><img src="../image/heroes/Alarak/Alarak.png" alt="">
       <h3>Alarak</h3>
   </a>
 </div>`,
@@ -65,7 +65,7 @@ let alexstrasza = [
   [150, "", 500, 143, 43, ""],
   [
     `<div class="col mix war heal leg">
-  <a href="/ru/heroes/heal/alexstrasza.html"><img src="/image/heroes/Alexstrasza/Alexstrasza.png" alt="">
+  <a href="../ru/heroes/heal/alexstrasza.html"><img src="../image/heroes/Alexstrasza/Alexstrasza.png" alt="">
       <h3>Алекстраза</h3>
   </a>
 </div>`,
@@ -73,7 +73,7 @@ let alexstrasza = [
   [],
   [
     `<div class="col mix war heal leg">
-  <a href=" /en-us/heroes/heal/alexstrasza.html"><img src="/image/heroes/Alexstrasza/Alexstrasza.png"
+  <a href=" ../en-us/heroes/heal/alexstrasza.html"><img src="../image/heroes/Alexstrasza/Alexstrasza.png"
           alt="">
       <h3>Alexstrasza</h3>
   </a>
@@ -93,7 +93,7 @@ let ana = [
   ["", "", 40, "", "", ""],
   [
     `<div class="col mix over heal leg">
-  <a href="/ru/heroes/heal/ana.html"><img src="/image/heroes/Ana/Ana.png" alt="">
+  <a href="../ru/heroes/heal/ana.html"><img src="../image/heroes/Ana/Ana.png" alt="">
       <h3>Ана</h3>
   </a>
 </div>
@@ -102,7 +102,7 @@ let ana = [
   [],
   [
     `<div class="col mix over heal leg">
-  <a href=" /en-us/heroes/heal/ana.html"><img src="/image/heroes/Ana/Ana.png" alt="">
+  <a href=" ../en-us/heroes/heal/ana.html"><img src="../image/heroes/Ana/Ana.png" alt="">
       <h3>Ana</h3>
   </a>
 </div>`,
@@ -121,7 +121,7 @@ let anduin = [
   ["", 80, "", "", "", ""],
   [
     `<div class="col mix war heal leg">
-  <a href="/ru/heroes/heal/anduin.html"><img src="/image/heroes/Anduin/anduin.jpg" alt="">
+  <a href="../ru/heroes/heal/anduin.html"><img src="../image/heroes/Anduin/anduin.jpg" alt="">
       <h3>Андуин</h3>
   </a>
 </div>`,
@@ -129,7 +129,7 @@ let anduin = [
   [],
   [
     `<div class="col mix war heal leg">
-  <a href=" /en-us/heroes/heal/anduin.html"><img src="/image/heroes/Anduin/anduin.jpg" alt="">
+  <a href=" ../en-us/heroes/heal/anduin.html"><img src="../image/heroes/Anduin/anduin.jpg" alt="">
       <h3>Anduin</h3>
   </a>
 </div>`,
@@ -148,7 +148,7 @@ let anubarak = [
   [20, "", "", "", ""],
   [
     `<div class="col mix war tank epic">
-  <a href="/ru/heroes/tank/anubarak.html"><img src="/image/heroes/Anubarak/Anub'arak.png" alt="">
+  <a href="../ru/heroes/tank/anubarak.html"><img src="../image/heroes/Anubarak/Anub'arak.png" alt="">
       <h3>Ануб'арак</h3>
   </a>
 </div>`,
@@ -156,7 +156,7 @@ let anubarak = [
   [],
   [
     `<div class="col mix war tank epic">
-  <a href=" /en-us/heroes/tank/anubarak.html"><img src="/image/heroes/Anubarak/Anub'arak.png" alt="">
+  <a href=" ../en-us/heroes/tank/anubarak.html"><img src="../image/heroes/Anubarak/Anub'arak.png" alt="">
       <h3>Anub'arak</h3>
   </a>
 </div>`,
@@ -175,7 +175,7 @@ let artanis = [
   ["", 24, 375, "", "", ""],
   [
     `<div class="col mix sc bruiser epic">
-  <a href="/ru/heroes/bruiser/artanis.html"><img src="/image/heroes/Artanis/Artanis.png" alt="">
+  <a href="../ru/heroes/bruiser/artanis.html"><img src="../image/heroes/Artanis/Artanis.png" alt="">
       <h3>Артанис</h3>
   </a>
 </div>`,
@@ -183,7 +183,7 @@ let artanis = [
   [],
   [
     `<div class="col mix sc bruiser epic">
-  <a href=" /en-us/heroes/bruiser/artanis.html"><img src="/image/heroes/Artanis/Artanis.png" alt="">
+  <a href=" ../en-us/heroes/bruiser/artanis.html"><img src="../image/heroes/Artanis/Artanis.png" alt="">
       <h3>Artanis</h3>
   </a>
 </div>`,
@@ -202,7 +202,7 @@ let arthas = [
   [10, 99, 30, "", "", ""],
   [
     `<div class="col mix war tank epic">
-  <a href="/ru/heroes/tank/arthas.html"><img src="/image/heroes/Arthas/Arthas.png" alt="">
+  <a href="../ru/heroes/tank/arthas.html"><img src="../image/heroes/Arthas/Arthas.png" alt="">
       <h3>Артас</h3>
   </a>
 </div>`,
@@ -210,7 +210,7 @@ let arthas = [
   [],
   [
     `<div class="col mix war tank epic">
-  <a href=" /en-us/heroes/tank/arthas.html"><img src="/image/heroes/Arthas/Arthas.png" alt="">
+  <a href=" ../en-us/heroes/tank/arthas.html"><img src="../image/heroes/Arthas/Arthas.png" alt="">
       <h3>Arthas</h3>
   </a>
 </div>`,
@@ -229,7 +229,7 @@ let auriel = [
   ["", 2, 475, "", "", ""],
   [
     `<div class="col mix diablo heal leg">
-  <a href="/ru/heroes/heal/auriel.html"><img src="/image/heroes/Auriel/Auriel.png" alt="">
+  <a href="../ru/heroes/heal/auriel.html"><img src="../image/heroes/Auriel/Auriel.png" alt="">
       <h3>Ауриэль</h3>
   </a>
 </div>`,
@@ -237,7 +237,7 @@ let auriel = [
   [],
   [
     `<div class="col mix diablo heal leg">
-  <a href=" /en-us/heroes/heal/auriel.html"><img src="/image/heroes/Auriel/Auriel.png" alt="">
+  <a href=" ../en-us/heroes/heal/auriel.html"><img src="../image/heroes/Auriel/Auriel.png" alt="">
       <h3>Auriel</h3>
   </a>
 </div>`,
@@ -256,7 +256,7 @@ let azmodan = [
   [60, "", "", "", "", ""],
   [
     ` <div class="col mix diablo rdd rare">
-  <a href="/ru/heroes/rdd/azmodan.html"><img src="/image/heroes/Azmodan/Azmodan.png" alt="">
+  <a href="../ru/heroes/rdd/azmodan.html"><img src="../image/heroes/Azmodan/Azmodan.png" alt="">
       <h3>Азмодан</h3>
   </a>
 </div>`,
@@ -264,7 +264,7 @@ let azmodan = [
   [],
   [
     `<div class="col mix diablo rdd rare">
-  <a href=" /en-us/heroes/rdd/azmodan.html"><img src="/image/heroes/Azmodan/Azmodan.png" alt="">
+  <a href=" ../en-us/heroes/rdd/azmodan.html"><img src="../image/heroes/Azmodan/Azmodan.png" alt="">
       <h3>Azmodan</h3>
   </a>
 </div>`,
@@ -283,7 +283,7 @@ let blaze = [
   [90, 40, "", "", "", ""],
   [
     `<div class="col mix sc tank leg">
-  <a href="/ru/heroes/tank/blaze.html"><img src="/image/heroes/Blaze/Blaze.png" alt="">
+  <a href="../ru/heroes/tank/blaze.html"><img src="../image/heroes/Blaze/Blaze.png" alt="">
       <h3>Блейз</h3>
   </a>
 </div>`,
@@ -291,7 +291,7 @@ let blaze = [
   [],
   [
     `<div class="col mix sc tank leg">
-  <a href=" /en-us/heroes/tank/blaze.html"><img src="/image/heroes/Blaze/Blaze.png" alt="">
+  <a href=" ../en-us/heroes/tank/blaze.html"><img src="../image/heroes/Blaze/Blaze.png" alt="">
       <h3>Blaze</h3>
   </a>
 </div>`,
@@ -310,7 +310,7 @@ let butcher = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix diablo dd epic">
-  <a href="/ru/heroes/dd/butcher.html"><img src="/image/heroes/Butcher/Butcher.png" alt="">
+  <a href="../ru/heroes/dd/butcher.html"><img src="../image/heroes/Butcher/Butcher.png" alt="">
       <h3>Мясник</h3>
   </a>
 </div>`,
@@ -318,7 +318,7 @@ let butcher = [
   [],
   [
     `<div class="col mix diablo dd epic">
-  <a href=" /en-us/heroes/dd/butcher.html"><img src="/image/heroes/Butcher/Butcher.png" alt="">
+  <a href=" ../en-us/heroes/dd/butcher.html"><img src="../image/heroes/Butcher/Butcher.png" alt="">
       <h3>The Butcher</h3>
   </a>
 </div>`,
@@ -337,7 +337,7 @@ let brightwing = [
   [100, 105, "", "", "", ""],
   [
     `<div class="col mix war heal epic">
-  <a href="/ru/heroes/heal/brightwing.html"><img src="/image/heroes/Brightwing/Brightwing.png" alt="">
+  <a href="../ru/heroes/heal/brightwing.html"><img src="../image/heroes/Brightwing/Brightwing.png" alt="">
       <h3>Светик</h3>
   </a>
 </div>`,
@@ -345,7 +345,7 @@ let brightwing = [
   [],
   [
     `<div class="col mix war heal epic">
-  <a href=" /en-us/heroes/heal/brightwing.html"><img src="/image/heroes/Brightwing/Brightwing.png" alt="">
+  <a href=" ../en-us/heroes/heal/brightwing.html"><img src="../image/heroes/Brightwing/Brightwing.png" alt="">
       <h3>Brightwing</h3>
   </a>
 </div>`,
@@ -364,7 +364,7 @@ let cassia = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix diablo rdd leg">
-  <a href="/ru/heroes/rdd/cassia.html"><img src="/image/heroes/Cassia/Cassia.png" alt="">
+  <a href="../ru/heroes/rdd/cassia.html"><img src="../image/heroes/Cassia/Cassia.png" alt="">
       <h3>Кассия</h3>
   </a>
 </div>`,
@@ -372,7 +372,7 @@ let cassia = [
   [],
   [
     `<div class="col mix diablo rdd leg">
-  <a href=" /en-us/heroes/rdd/cassia.html"><img src="/image/heroes/Cassia/Cassia.png" alt="">
+  <a href=" ../en-us/heroes/rdd/cassia.html"><img src="../image/heroes/Cassia/Cassia.png" alt="">
       <h3>Cassia</h3>
   </a>
 </div>`,
@@ -391,7 +391,7 @@ let chen = [
   [7, 180, 540, "", "", ""],
   [
     `<div class="col mix war bruiser epic">
-  <a href="/ru/heroes/bruiser/chen.html"><img src="/image/heroes/Chen/Chen.jpg" alt="">
+  <a href="../ru/heroes/bruiser/chen.html"><img src="../image/heroes/Chen/Chen.jpg" alt="">
       <h3>Чэнь</h3>
   </a>
 </div>`,
@@ -399,7 +399,7 @@ let chen = [
   [],
   [
     `<div class="col mix war bruiser epic">
-  <a href=" /en-us/heroes/bruiser/chen.html"><img src="/image/heroes/Chen/Chen.jpg" alt="">
+  <a href=" ../en-us/heroes/bruiser/chen.html"><img src="../image/heroes/Chen/Chen.jpg" alt="">
       <h3>Chen</h3>
   </a>
 </div>`,
@@ -418,7 +418,7 @@ let cho = [
   [5, "", "", "", "", ""],
   [
     `<div class="col mix war tank leg">
-  <a href="/ru/heroes/unique/chogall.html"><img src="/image/heroes/Cho/Cho.png" alt="">
+  <a href="../ru/heroes/unique/chogall.html"><img src="../image/heroes/Cho/Cho.png" alt="">
       <h3>Чо</h3>
   </a>
 </div>`,
@@ -426,7 +426,7 @@ let cho = [
   [],
   [
     `<div class="col mix war tank leg">
-  <a href=" /en-us/heroes/unique/chogall.html"><img src="/image/heroes/Cho/Cho.png" alt="">
+  <a href=" ../en-us/heroes/unique/chogall.html"><img src="../image/heroes/Cho/Cho.png" alt="">
       <h3>Cho</h3>
   </a>
 </div>`,
@@ -445,7 +445,7 @@ let chromie = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war rdd leg">
-  <a href="/ru/heroes/rdd/chromie.html"><img src="/image/heroes/Chromie/Chromie.png" alt="">
+  <a href="../ru/heroes/rdd/chromie.html"><img src="../image/heroes/Chromie/Chromie.png" alt="">
       <h3>Хроми</h3>
   </a>
 </div>`,
@@ -453,7 +453,7 @@ let chromie = [
   [],
   [
     `<div class="col mix war rdd leg">
-  <a href=" /en-us/heroes/rdd/chromie.html"><img src="/image/heroes/Chromie/Chromie.png" alt="">
+  <a href=" ../en-us/heroes/rdd/chromie.html"><img src="../image/heroes/Chromie/Chromie.png" alt="">
       <h3>Chromie</h3>
   </a>
 </div>`,
@@ -472,7 +472,7 @@ let dva = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix over bruiser leg">
-  <a href="/ru/heroes/bruiser/dva.html"><img src="/image/heroes/Dva/dva.png" alt="">
+  <a href="../ru/heroes/bruiser/dva.html"><img src="../image/heroes/Dva/dva.png" alt="">
       <h3>D.Va</h3>
   </a>
 </div>`,
@@ -480,7 +480,7 @@ let dva = [
   [],
   [
     `<div class="col mix over bruiser leg">
-  <a href=" /en-us/heroes/bruiser/dva.html"><img src="/image/heroes/Dva/dva.png" alt="">
+  <a href=" ../en-us/heroes/bruiser/dva.html"><img src="../image/heroes/Dva/dva.png" alt="">
       <h3>D.Va</h3>
   </a>
 </div>`,
@@ -499,7 +499,7 @@ let deathwing = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war bruiser leg">
-  <a href="/ru/heroes/bruiser/deathwing.html"><img src="/image/heroes/Deathwing/Deathwing.jpg" alt="">
+  <a href="../ru/heroes/bruiser/deathwing.html"><img src="../image/heroes/Deathwing/Deathwing.jpg" alt="">
       <h3>Смертокрыл</h3>
   </a>
 </div>`,
@@ -507,7 +507,7 @@ let deathwing = [
   [],
   [
     `<div class="col mix war bruiser leg">
-  <a href=" /en-us/heroes/bruiser/deathwing.html"><img src="/image/heroes/Deathwing/Deathwing.jpg" alt="">
+  <a href=" ../en-us/heroes/bruiser/deathwing.html"><img src="../image/heroes/Deathwing/Deathwing.jpg" alt="">
       <h3>Deathwing</h3>
   </a>
 </div>`,
@@ -526,7 +526,7 @@ let deckard = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix diablo heal leg">
-  <a href="/ru/heroes/heal/deckard.html"><img src="/image/heroes/Deckard/Deckard.jpg" alt="">
+  <a href="../ru/heroes/heal/deckard.html"><img src="../image/heroes/Deckard/Deckard.jpg" alt="">
       <h3>Декард</h3>
   </a>
 </div>`,
@@ -534,7 +534,7 @@ let deckard = [
   [],
   [
     `<div class="col mix diablo heal leg">
-  <a href=" /en-us/heroes/heal/deckard.html"><img src="/image/heroes/Deckard/Deckard.jpg" alt="">
+  <a href=" ../en-us/heroes/heal/deckard.html"><img src="../image/heroes/Deckard/Deckard.jpg" alt="">
       <h3>Deckard</h3>
   </a>
 </div>`,
@@ -553,7 +553,7 @@ let dehaka = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix sc bruiser leg">
-  <a href="/ru/heroes/bruiser/dehaka.html"><img src="/image/heroes/Dehaka/Dehaka.png" alt="">
+  <a href="../ru/heroes/bruiser/dehaka.html"><img src="../image/heroes/Dehaka/Dehaka.png" alt="">
       <h3>Дехака</h3>
   </a>
 </div>`,
@@ -561,7 +561,7 @@ let dehaka = [
   [],
   [
     `<div class="col mix sc bruiser leg">
-  <a href=" /en-us/heroes/bruiser/dehaka.html"><img src="/image/heroes/Dehaka/Dehaka.png" alt="">
+  <a href=" ../en-us/heroes/bruiser/dehaka.html"><img src="../image/heroes/Dehaka/Dehaka.png" alt="">
       <h3>Dehaka</h3>
   </a>
 </div>`,
@@ -580,7 +580,7 @@ let diablo = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix diablo tank rare">
-  <a href="/ru/heroes/tank/diablo.html"><img src="/image/heroes/Diablo/Diablo.png" alt="">
+  <a href="../ru/heroes/tank/diablo.html"><img src="../image/heroes/Diablo/Diablo.png" alt="">
       <h3>Диабло</h3>
   </a>
 </div>`,
@@ -588,7 +588,7 @@ let diablo = [
   [],
   [
     `<div class="col mix diablo tank rare">
-  <a href=" /en-us/heroes/tank/diablo.html"><img src="/image/heroes/Diablo/Diablo.png" alt="">
+  <a href=" ../en-us/heroes/tank/diablo.html"><img src="../image/heroes/Diablo/Diablo.png" alt="">
       <h3>Diablo</h3>
   </a>
 </div>`,
@@ -607,7 +607,7 @@ let etc = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war tank rare">
-  <a href="/ru/heroes/tank/etc.html"><img src="/image/heroes/E.T.C/E.T.C.png" alt="">
+  <a href="../ru/heroes/tank/etc.html"><img src="../image/heroes/E.T.C/E.T.C.png" alt="">
       <h3>Е.Т.С</h3>
   </a>
 </div>`,
@@ -615,7 +615,7 @@ let etc = [
   [],
   [
     `<div class="col mix war tank rare">
-  <a href=" /en-us/heroes/tank/etc.html"><img src="/image/heroes/E.T.C/E.T.C.png" alt="">
+  <a href=" ../en-us/heroes/tank/etc.html"><img src="../image/heroes/E.T.C/E.T.C.png" alt="">
       <h3>E.T.C.</h3>
   </a>
 </div>`,
@@ -634,7 +634,7 @@ let falstad = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war rdd epic">
-  <a href="/ru/heroes/rdd/falstad.html"><img src="/image/heroes/Falstad/Falstad.png" alt="">
+  <a href="../ru/heroes/rdd/falstad.html"><img src="../image/heroes/Falstad/Falstad.png" alt="">
       <h3>Фалстад</h3>
   </a>
 </div>`,
@@ -642,7 +642,7 @@ let falstad = [
   [],
   [
     `<div class="col mix war rdd epic">
-  <a href=" /en-us/heroes/rdd/falstad.html"><img src="/image/heroes/Falstad/Falstad.png" alt="">
+  <a href=" ../en-us/heroes/rdd/falstad.html"><img src="../image/heroes/Falstad/Falstad.png" alt="">
       <h3>Falstad</h3>
   </a>
 </div>`,
@@ -661,7 +661,7 @@ let fenix = [
   ["", 760, "", "", "", ""],
   [
     `<div class="col mix sc rdd leg">
-  <a href="/ru/heroes/rdd/feniks.html"><img src="/image/heroes/Fenix/Fenix.jpg" alt="">
+  <a href="../ru/heroes/rdd/feniks.html"><img src="../image/heroes/Fenix/Fenix.jpg" alt="">
       <h3>Феникс</h3>
   </a>
 </div>`,
@@ -669,7 +669,7 @@ let fenix = [
   [],
   [
     `<div class="col mix sc rdd leg">
-  <a href=" /en-us/heroes/rdd/feniks.html"><img src="/image/heroes/Fenix/Fenix.jpg" alt="">
+  <a href=" ../en-us/heroes/rdd/feniks.html"><img src="../image/heroes/Fenix/Fenix.jpg" alt="">
       <h3>Fenix</h3>
   </a>
 </div>`,
@@ -688,7 +688,7 @@ let gall = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war rdd leg">
-  <a href="/ru/heroes/unique/chogall.html"><img src="/image/heroes/Gall/Gall.png" alt="">
+  <a href="../ru/heroes/unique/chogall.html"><img src="../image/heroes/Gall/Gall.png" alt="">
       <h3>Галл</h3>
   </a>
 </div>`,
@@ -696,7 +696,7 @@ let gall = [
   [],
   [
     `<div class="col mix war rdd leg">
-  <a href=" /en-us/heroes/unique/chogall.html"><img src="/image/heroes/Gall/Gall.png" alt="">
+  <a href=" ../en-us/heroes/unique/chogall.html"><img src="../image/heroes/Gall/Gall.png" alt="">
       <h3>Gall</h3>
   </a>
 </div>`,
@@ -715,7 +715,7 @@ let garrosh = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war tank leg">
-  <a href="/ru/heroes/tank/garrosh.html"><img src="/image/heroes/Garrosh/Garrosh.png" alt="">
+  <a href="../ru/heroes/tank/garrosh.html"><img src="../image/heroes/Garrosh/Garrosh.png" alt="">
       <h3>Гаррош</h3>
   </a>
 </div>`,
@@ -723,7 +723,7 @@ let garrosh = [
   [],
   [
     `<div class="col mix war tank leg">
-  <a href=" /en-us/heroes/tank/garrosh.html"><img src="/image/heroes/Garrosh/Garrosh.png" alt="">
+  <a href=" ../en-us/heroes/tank/garrosh.html"><img src="../image/heroes/Garrosh/Garrosh.png" alt="">
       <h3>Garrosh</h3>
   </a>
 </div>`,
@@ -742,7 +742,7 @@ let gazlowe = [
   ["", 30, "", "", "", ""],
   [
     `<div class="col mix war dd rare">
-  <a href="/ru/heroes/dd/gazlowe.html"><img src="/image/heroes/Gazlowe/Gazlowe.png" alt="">
+  <a href="../ru/heroes/dd/gazlowe.html"><img src="../image/heroes/Gazlowe/Gazlowe.png" alt="">
       <h3>Газлоу</h3>
   </a>
 </div>`,
@@ -750,7 +750,7 @@ let gazlowe = [
   [],
   [
     `<div class="col mix war dd rare">
-  <a href=" /en-us/heroes/dd/gazlowe.html"><img src="/image/heroes/Gazlowe/Gazlowe.png" alt="">
+  <a href=" ../en-us/heroes/dd/gazlowe.html"><img src="../image/heroes/Gazlowe/Gazlowe.png" alt="">
       <h3>Gazlowe</h3>
   </a>
 </div>`,
@@ -769,7 +769,7 @@ let genji = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix over rdd leg">
-  <a href="/ru/heroes/rdd/genji.html"><img src="/image/heroes/Genji/Genji.png" alt="">
+  <a href="../ru/heroes/rdd/genji.html"><img src="../image/heroes/Genji/Genji.png" alt="">
       <h3>Гэндзи</h3>
   </a>
 </div>`,
@@ -777,7 +777,7 @@ let genji = [
   [],
   [
     `<div class="col mix over rdd leg">
-  <a href=" /en-us/heroes/rdd/genji.html"><img src="/image/heroes/Genji/Genji.png" alt="">
+  <a href=" ../en-us/heroes/rdd/genji.html"><img src="../image/heroes/Genji/Genji.png" alt="">
       <h3>Genji</h3>
   </a>
 </div>`,
@@ -796,7 +796,7 @@ let graymane = [
   [50, 30, "", "", "", ""],
   [
     `<div class="col mix war rdd epic">
-  <a href="/ru/heroes/rdd/graymane.html"><img src="/image/heroes/Greymane/Greymane.png" alt="">
+  <a href="../ru/heroes/rdd/graymane.html"><img src="../image/heroes/Greymane/Greymane.png" alt="">
       <h3>Седогрив</h3>
   </a>
 </div>`,
@@ -804,7 +804,7 @@ let graymane = [
   [],
   [
     `<div class="col mix war rdd epic">
-  <a href=" /en-us/heroes/rdd/graymane.html"><img src="/image/heroes/Greymane/Greymane.png" alt="">
+  <a href=" ../en-us/heroes/rdd/graymane.html"><img src="../image/heroes/Greymane/Greymane.png" alt="">
       <h3>Graymane</h3>
   </a>
 </div>`,
@@ -823,7 +823,7 @@ let guldan = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war rdd epic">
-  <a href="/ru/heroes/rdd/guldan.html"><img src="/image/heroes/Guldan/Gul'dan.png" alt="">
+  <a href="../ru/heroes/rdd/guldan.html"><img src="../image/heroes/Guldan/Gul'dan.png" alt="">
       <h3>Гул'дан</h3>
   </a>
 </div>`,
@@ -831,7 +831,7 @@ let guldan = [
   [],
   [
     `<div class="col mix war rdd epic">
-  <a href=" /en-us/heroes/rdd/guldan.html"><img src="/image/heroes/Guldan/Gul'dan.png" alt="">
+  <a href=" ../en-us/heroes/rdd/guldan.html"><img src="../image/heroes/Guldan/Gul'dan.png" alt="">
       <h3>Gul'dan</h3>
   </a>
 </div>`,
@@ -850,7 +850,7 @@ let hammer = [
   ["", 2, "", "", "", ""],
   [
     `<div class="col mix sc rdd epic">
-  <a href="/ru/heroes/rdd/hammer.html"><img src="/image/heroes/Sgthammer/Sgt.Hammer.png" alt="">
+  <a href="../ru/heroes/rdd/hammer.html"><img src="../image/heroes/Sgthammer/Sgt.Hammer.png" alt="">
       <h3>Серж.Кувалда</h3>
   </a>
 </div>`,
@@ -858,7 +858,7 @@ let hammer = [
   [],
   [
     `<div class="col mix sc rdd epic">
-  <a href=" /en-us/heroes/rdd/hammer.html"><img src="/image/heroes/Sgthammer/Sgt.Hammer.png" alt="">
+  <a href=" ../en-us/heroes/rdd/hammer.html"><img src="../image/heroes/Sgthammer/Sgt.Hammer.png" alt="">
       <h3>Sgt.Hammer</h3>
   </a>
 </div>`,
@@ -877,7 +877,7 @@ let hanzo = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix over rdd leg">
-  <a href="/ru/heroes/rdd/hanzo.html"><img src="/image/heroes/Hanzo/Hanzo.png" alt="">
+  <a href="../ru/heroes/rdd/hanzo.html"><img src="../image/heroes/Hanzo/Hanzo.png" alt="">
       <h3>Хандзо</h3>
   </a>
 </div>`,
@@ -885,7 +885,7 @@ let hanzo = [
   [],
   [
     `<div class="col mix over rdd leg">
-  <a href=" /en-us/heroes/rdd/hanzo.html"><img src="/image/heroes/Hanzo/Hanzo.png" alt="">
+  <a href=" ../en-us/heroes/rdd/hanzo.html"><img src="../image/heroes/Hanzo/Hanzo.png" alt="">
       <h3>Hanzo</h3>
   </a>
 </div>`,
@@ -904,7 +904,7 @@ let illidan = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war dd epic">
-  <a href="/ru/heroes/dd/illidan.html"><img src="/image/heroes/Illidan/Illidan.png" alt="">
+  <a href="../ru/heroes/dd/illidan.html"><img src="../image/heroes/Illidan/Illidan.png" alt="">
       <h3>Иллидан</h3>
   </a>
 </div>`,
@@ -912,7 +912,7 @@ let illidan = [
   [],
   [
     `<div class="col mix war dd epic">
-  <a href=" /en-us/heroes/dd/illidan.html"><img src="/image/heroes/Illidan/Illidan.png" alt="">
+  <a href=" ../en-us/heroes/dd/illidan.html"><img src="../image/heroes/Illidan/Illidan.png" alt="">
       <h3>Illidan</h3>
   </a>
 </div>`,
@@ -931,7 +931,7 @@ let imperius = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix diablo bruiser leg">
-  <a href="/ru/heroes/bruiser/imperius.html"><img src="/image/heroes/Imperius/Imperius.png" alt="">
+  <a href="../ru/heroes/bruiser/imperius.html"><img src="../image/heroes/Imperius/Imperius.png" alt="">
       <h3>Империй</h3>
   </a>
 </div>`,
@@ -939,7 +939,7 @@ let imperius = [
   [],
   [
     `<div class="col mix diablo bruiser leg">
-  <a href=" /en-us/heroes/bruiser/imperius.html"><img src="/image/heroes/Imperius/Imperius.png" alt="">
+  <a href=" ../en-us/heroes/bruiser/imperius.html"><img src="../image/heroes/Imperius/Imperius.png" alt="">
       <h3>Imperius</h3>
   </a>
 </div>`,
@@ -958,7 +958,7 @@ let jaina = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war rdd epic">
-  <a href="/ru/heroes/rdd/jaina.html"><img src="/image/heroes/Jaina/Jaina.png" alt="">
+  <a href="../ru/heroes/rdd/jaina.html"><img src="../image/heroes/Jaina/Jaina.png" alt="">
       <h3>Джайна</h3>
   </a>
 </div>`,
@@ -966,7 +966,7 @@ let jaina = [
   [],
   [
     `<div class="col mix war rdd epic">
-  <a href=" /en-us/heroes/rdd/jaina.html"><img src="/image/heroes/Jaina/Jaina.png" alt="">
+  <a href=" ../en-us/heroes/rdd/jaina.html"><img src="../image/heroes/Jaina/Jaina.png" alt="">
       <h3>Jaina</h3>
   </a>
 </div>`,
@@ -985,7 +985,7 @@ let johanna = [
   [20, 674, "", "", "", ""],
   [
     `<div class="col mix diablo tank epic">
-  <a href="/ru/heroes/tank/johanna.html"><img src="/image/heroes/Johanna/Johanna.png" alt="">
+  <a href="../ru/heroes/tank/johanna.html"><img src="../image/heroes/Johanna/Johanna.png" alt="">
       <h3>Джоанна</h3>
   </a>
 </div>`,
@@ -993,7 +993,7 @@ let johanna = [
   [],
   [
     `<div class="col mix diablo tank epic">
-  <a href=" /en-us/heroes/tank/johanna.html"><img src="/image/heroes/Johanna/Johanna.png" alt="">
+  <a href=" ../en-us/heroes/tank/johanna.html"><img src="../image/heroes/Johanna/Johanna.png" alt="">
       <h3>Johanna</h3>
   </a>
 </div>`,
@@ -1012,7 +1012,7 @@ let junkrat = [
   ["", 250, "", "", "", ""],
   [
     `<div class="col mix over rdd leg">
-  <a href="/ru/heroes/rdd/junkrat.html"><img src="/image/heroes/Junkrat/Junkrat.png" alt="">
+  <a href="../ru/heroes/rdd/junkrat.html"><img src="../image/heroes/Junkrat/Junkrat.png" alt="">
       <h3>Крысавчик</h3>
   </a>
 </div>`,
@@ -1020,7 +1020,7 @@ let junkrat = [
   [],
   [
     `<div class="col mix over rdd leg">
-  <a href=" /en-us/heroes/rdd/junkrat.html"><img src="/image/heroes/Junkrat/Junkrat.png" alt="">
+  <a href=" ../en-us/heroes/rdd/junkrat.html"><img src="../image/heroes/Junkrat/Junkrat.png" alt="">
       <h3>Junkrat</h3>
   </a>
 </div>`,
@@ -1039,7 +1039,7 @@ let kaelthas = [
   [6, "", "", "", "", ""],
   [
     `<div class="col mix war rdd epic">
-  <a href="/ru/heroes/rdd/kaelthas.html"><img src="/image/heroes/Kaelthas/Kael'thas.png" alt="">
+  <a href="../ru/heroes/rdd/kaelthas.html"><img src="../image/heroes/Kaelthas/Kael'thas.png" alt="">
       <h3>Кель'тас</h3>
   </a>
 </div>`,
@@ -1047,7 +1047,7 @@ let kaelthas = [
   [],
   [
     `<div class="col mix war rdd epic">
-  <a href=" /en-us/heroes/rdd/kaelthas.html"><img src="/image/heroes/Kaelthas/Kael'thas.png" alt="">
+  <a href=" ../en-us/heroes/rdd/kaelthas.html"><img src="../image/heroes/Kaelthas/Kael'thas.png" alt="">
       <h3>Kel'thas</h3>
   </a>
 </div>`,
@@ -1066,7 +1066,7 @@ let kelthuzad = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war rdd leg">
-  <a href="/ru/heroes/rdd/kelthuzad.html"><img src="/image/heroes/Kelthuzad/Kel'Thuzad.png" alt="">
+  <a href="../ru/heroes/rdd/kelthuzad.html"><img src="../image/heroes/Kelthuzad/Kel'Thuzad.png" alt="">
       <h3>Кел'Тузад</h3>
   </a>
 </div>`,
@@ -1074,7 +1074,7 @@ let kelthuzad = [
   [],
   [
     `<div class="col mix war rdd leg">
-  <a href=" /en-us/heroes/rdd/kelthuzad.html"><img src="/image/heroes/Kelthuzad/Kel'Thuzad.png" alt="">
+  <a href=" ../en-us/heroes/rdd/kelthuzad.html"><img src="../image/heroes/Kelthuzad/Kel'Thuzad.png" alt="">
       <h3>Kel'thuzad</h3>
   </a>
 </div>`,
@@ -1093,7 +1093,7 @@ let kerrigan = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix sc dd epic">
-  <a href="/ru/heroes/dd/kerrigan.html"><img src="/image/heroes/Kerrigan/Kerrigan.png" alt="">
+  <a href="../ru/heroes/dd/kerrigan.html"><img src="../image/heroes/Kerrigan/Kerrigan.png" alt="">
       <h3>Керриган</h3>
   </a>
 </div>`,
@@ -1101,7 +1101,7 @@ let kerrigan = [
   [],
   [
     `<div class="col mix sc dd epic">
-  <a href=" /en-us/heroes/dd/kerrigan.html"><img src="/image/heroes/Kerrigan/Kerrigan.png" alt="">
+  <a href=" ../en-us/heroes/dd/kerrigan.html"><img src="../image/heroes/Kerrigan/Kerrigan.png" alt="">
       <h3>Kerrigan</h3>
   </a>
 </div>`,
@@ -1120,7 +1120,7 @@ let kharazim = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix diablo heal epic">
-  <a href="/ru/heroes/heal/kharazim.html"><img src="/image/heroes/Kharazim/Kharazim.png" alt="">
+  <a href="../ru/heroes/heal/kharazim.html"><img src="../image/heroes/Kharazim/Kharazim.png" alt="">
       <h3>Каразим</h3>
   </a>
 </div>`,
@@ -1128,7 +1128,7 @@ let kharazim = [
   [],
   [
     `<div class="col mix diablo heal epic">
-  <a href=" /en-us/heroes/heal/kharazim.html"><img src="/image/heroes/Kharazim/Kharazim.png" alt="">
+  <a href=" ../en-us/heroes/heal/kharazim.html"><img src="../image/heroes/Kharazim/Kharazim.png" alt="">
       <h3>Kharazim</h3>
   </a>
 </div>`,
@@ -1147,7 +1147,7 @@ let leoric = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix diablo bruiser epic">
-  <a href="/ru/heroes/bruiser/leoric.html"><img src="/image/heroes/Leoric/Leoric.png" alt="">
+  <a href="../ru/heroes/bruiser/leoric.html"><img src="../image/heroes/Leoric/Leoric.png" alt="">
       <h3>Леорик</h3>
   </a>
 </div>`,
@@ -1155,7 +1155,7 @@ let leoric = [
   [],
   [
     `<div class="col mix diablo bruiser epic">
-  <a href=" /en-us/heroes/bruiser/leoric.html"><img src="/image/heroes/Leoric/Leoric.png" alt="">
+  <a href=" ../en-us/heroes/bruiser/leoric.html"><img src="../image/heroes/Leoric/Leoric.png" alt="">
       <h3>Leoric</h3>
   </a>
 </div>`,
@@ -1174,7 +1174,7 @@ let lili = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war heal rare">
-  <a href="/ru/heroes/heal/lili.html"><img src="/image/heroes/LiLi/LiLi.png" alt="">
+  <a href="../ru/heroes/heal/lili.html"><img src="../image/heroes/LiLi/LiLi.png" alt="">
       <h3>Ли Ли</h3>
   </a>
 </div>`,
@@ -1182,7 +1182,7 @@ let lili = [
   [],
   [
     `<div class="col mix war heal rare">
-  <a href=" /en-us/heroes/heal/lili.html"><img src="/image/heroes/LiLi/LiLi.png" alt="">
+  <a href=" ../en-us/heroes/heal/lili.html"><img src="../image/heroes/LiLi/LiLi.png" alt="">
       <h3>Li Li</h3>
   </a>
 </div>`,
@@ -1201,7 +1201,7 @@ let liming = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix diablo rdd epic">
-  <a href="/ru/heroes/rdd/liming.html"><img src="/image/heroes/Liming/Li-Ming.png" alt="">
+  <a href="../ru/heroes/rdd/liming.html"><img src="../image/heroes/Liming/Li-Ming.png" alt="">
       <h3>Ли-Мин</h3>
   </a>
 </div>`,
@@ -1209,7 +1209,7 @@ let liming = [
   [],
   [
     `<div class="col mix diablo rdd epic">
-  <a href=" /en-us/heroes/rdd/liming.html"><img src="/image/heroes/Liming/Li-Ming.png" alt="">
+  <a href=" ../en-us/heroes/rdd/liming.html"><img src="../image/heroes/Liming/Li-Ming.png" alt="">
       <h3>Li-Ming</h3>
   </a>
 </div>`,
@@ -1228,7 +1228,7 @@ let lucio = [
   ["", 20, 100, "", "", ""],
   [
     `<div class="col mix over heal leg">
-  <a href="/ru/heroes/heal/lucio.html"><img src="/image/heroes/Lucio/Lucio.png" alt="">
+  <a href="../ru/heroes/heal/lucio.html"><img src="../image/heroes/Lucio/Lucio.png" alt="">
       <h3>Лусио</h3>
   </a>
 </div>`,
@@ -1236,7 +1236,7 @@ let lucio = [
   [],
   [
     `<div class="col mix over heal leg">
-  <a href=" /en-us/heroes/heal/lucio.html"><img src="/image/heroes/Lucio/Lucio.png" alt="">
+  <a href=" ../en-us/heroes/heal/lucio.html"><img src="../image/heroes/Lucio/Lucio.png" alt="">
       <h3>Lucio</h3>
   </a>
 </div>`,
@@ -1255,7 +1255,7 @@ let lunara = [
   ["", 36, "", "", "", ""],
   [
     `<div class="col mix war rdd epic">
-  <a href="/ru/heroes/rdd/lunara.html"><img src="/image/heroes/Lunara/Lunara.png" alt="">
+  <a href="../ru/heroes/rdd/lunara.html"><img src="../image/heroes/Lunara/Lunara.png" alt="">
       <h3>Лунара</h3>
   </a>
 </div>`,
@@ -1263,7 +1263,7 @@ let lunara = [
   [],
   [
     `<div class="col mix war rdd epic">
-  <a href=" /en-us/heroes/rdd/lunara.html"><img src="/image/heroes/Lunara/Lunara.png" alt="">
+  <a href=" ../en-us/heroes/rdd/lunara.html"><img src="../image/heroes/Lunara/Lunara.png" alt="">
       <h3>Lunara</h3>
   </a>
 </div>`,
@@ -1282,7 +1282,7 @@ let maiev = [
   ["", 13, "", "", "", ""],
   [
     `<div class="col mix war dd leg">
-  <a href="/ru/heroes/dd/maiev.html"><img src="/image/heroes/Maiev/Maiev.png" alt="">
+  <a href="../ru/heroes/dd/maiev.html"><img src="../image/heroes/Maiev/Maiev.png" alt="">
       <h3>Майев</h3>
   </a>
 </div>`,
@@ -1290,7 +1290,7 @@ let maiev = [
   [],
   [
     `<div class="col mix war dd leg">
-  <a href=" /en-us/heroes/dd/maiev.html"><img src="/image/heroes/Maiev/Maiev.png" alt="">
+  <a href=" ../en-us/heroes/dd/maiev.html"><img src="../image/heroes/Maiev/Maiev.png" alt="">
       <h3>Maiev</h3>
   </a>
 </div>`,
@@ -1309,7 +1309,7 @@ let malganis = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war tank leg">
-  <a href="/ru/heroes/tank/malganis.html"><img src="/image/heroes/Malganis/Mal'Ganis.png" alt="">
+  <a href="../ru/heroes/tank/malganis.html"><img src="../image/heroes/Malganis/Mal'Ganis.png" alt="">
       <h3>Мал'Ганис</h3>
   </a>
 </div>`,
@@ -1317,7 +1317,7 @@ let malganis = [
   [],
   [
     `<div class="col mix war tank leg">
-  <a href=" /en-us/heroes/tank/malganis.html"><img src="/image/heroes/Malganis/Mal'Ganis.png" alt="">
+  <a href=" ../en-us/heroes/tank/malganis.html"><img src="../image/heroes/Malganis/Mal'Ganis.png" alt="">
       <h3>Malganis</h3>
   </a>
 </div>`,
@@ -1336,7 +1336,7 @@ let malfurion = [
   ["", 25, "", "", "", ""],
   [
     `<div class="col mix war heal rare">
-  <a href="/ru/heroes/heal/malfurion.html"><img src="/image/heroes/Malfurion/Malfurion.png" alt="">
+  <a href="../ru/heroes/heal/malfurion.html"><img src="../image/heroes/Malfurion/Malfurion.png" alt="">
       <h3>Малфурион</h3>
   </a>
 </div>`,
@@ -1344,7 +1344,7 @@ let malfurion = [
   [],
   [
     `<div class="col mix war heal rare">
-  <a href=" /en-us/heroes/heal/malfurion.html"><img src="/image/heroes/Malfurion/Malfurion.png" alt="">
+  <a href=" ../en-us/heroes/heal/malfurion.html"><img src="../image/heroes/Malfurion/Malfurion.png" alt="">
       <h3>Malfurion</h3>
   </a>
 </div>`,
@@ -1363,7 +1363,7 @@ let malthael = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix diablo bruiser leg">
-  <a href="/ru/heroes/bruiser/malthael.html"><img src="/image/heroes/Malthael/Malthael.png" alt="">
+  <a href="../ru/heroes/bruiser/malthael.html"><img src="../image/heroes/Malthael/Malthael.png" alt="">
       <h3>Малтаэль</h3>
   </a>
 </div>`,
@@ -1371,7 +1371,7 @@ let malthael = [
   [],
   [
     `<div class="col mix diablo bruiser leg">
-  <a href=" /en-us/heroes/bruiser/malthael.html"><img src="/image/heroes/Malthael/Malthael.png" alt="">
+  <a href=" ../en-us/heroes/bruiser/malthael.html"><img src="../image/heroes/Malthael/Malthael.png" alt="">
       <h3>Malthael</h3>
   </a>
 </div>`,
@@ -1390,7 +1390,7 @@ let medivh = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war support leg">
-  <a href="/ru/heroes/support/medivh.html"><img src="/image/heroes/Medivh/Medivh.png" alt="">
+  <a href="../ru/heroes/support/medivh.html"><img src="../image/heroes/Medivh/Medivh.png" alt="">
       <h3>Медив</h3>
   </a>
 </div>`,
@@ -1398,7 +1398,7 @@ let medivh = [
   [],
   [
     `<div class="col mix war support leg">
-  <a href=" /en-us/heroes/support/medivh.html"><img src="/image/heroes/Medivh/Medivh.png" alt="">
+  <a href=" ../en-us/heroes/support/medivh.html"><img src="../image/heroes/Medivh/Medivh.png" alt="">
       <h3>Medivh</h3>
   </a>
 </div>`,
@@ -1417,7 +1417,7 @@ let mephisto = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix diablo rdd leg">
-  <a href="/ru/heroes/rdd/mephisto.html"><img src="/image/heroes/Mephisto/Mephisto.png" alt="">
+  <a href="../ru/heroes/rdd/mephisto.html"><img src="../image/heroes/Mephisto/Mephisto.png" alt="">
       <h3>Мефисто</h3>
   </a>
 </div>`,
@@ -1425,7 +1425,7 @@ let mephisto = [
   [],
   [
     `<div class="col mix diablo rdd leg">
-  <a href=" /en-us/heroes/rdd/mephisto.html"><img src="/image/heroes/Mephisto/Mephisto.png" alt="">
+  <a href=" ../en-us/heroes/rdd/mephisto.html"><img src="../image/heroes/Mephisto/Mephisto.png" alt="">
       <h3>Mephisto</h3>
   </a>
 </div>`,
@@ -1444,7 +1444,7 @@ let mei = [
   ["", 2421, "", "", "", ""],
   [
     `<div class="col mix over tank epic">
-  <a href="/ru/heroes/tank/mei.html"><img src="/image/heroes/Mei/mei.png" alt="">
+  <a href="../ru/heroes/tank/mei.html"><img src="../image/heroes/Mei/mei.png" alt="">
       <h3>Мей</h3>
   </a>
 </div>`,
@@ -1452,7 +1452,7 @@ let mei = [
   [],
   [
     `<div class="col mix over tank epic">
-  <a href="/en-us/heroes/tank/mei.html"><img src="/image/heroes/Mei/mei.png" alt="">
+  <a href="../en-us/heroes/tank/mei.html"><img src="../image/heroes/Mei/mei.png" alt="">
       <h3>Mei</h3>
   </a>
 </div>`,
@@ -1471,7 +1471,7 @@ let morales = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix sc heal epic">
-  <a href="/ru/heroes/heal/morales.html"><img src="/image/heroes/Lt.Morales/Lt.Morales.png" alt="">
+  <a href="../ru/heroes/heal/morales.html"><img src="../image/heroes/Lt.Morales/Lt.Morales.png" alt="">
       <h3>Моралес</h3>
   </a>
 </div>`,
@@ -1479,7 +1479,7 @@ let morales = [
   [],
   [
     `<div class="col mix sc heal epic">
-  <a href=" /en-us/heroes/heal/morales.html"><img src="/image/heroes/Lt.Morales/Lt.Morales.png" alt="">
+  <a href=" ../en-us/heroes/heal/morales.html"><img src="../image/heroes/Lt.Morales/Lt.Morales.png" alt="">
       <h3>Lt.Morales</h3>
   </a>
 </div>`,
@@ -1498,7 +1498,7 @@ let muradin = [
   ["", 55, 111, "", "", ""],
   [
     `<div class="col mix war tank epic">
-  <a href="/ru/heroes/tank/muradin.html"><img src="/image/heroes/Muradin/Muradin.png" alt="">
+  <a href="../ru/heroes/tank/muradin.html"><img src="../image/heroes/Muradin/Muradin.png" alt="">
       <h3>Мурадин</h3>
   </a>
 </div>`,
@@ -1506,7 +1506,7 @@ let muradin = [
   [],
   [
     `<div class="col mix war tank epic">
-  <a href=" /en-us/heroes/tank/muradin.html"><img src="/image/heroes/Muradin/Muradin.png" alt="">
+  <a href=" ../en-us/heroes/tank/muradin.html"><img src="../image/heroes/Muradin/Muradin.png" alt="">
       <h3>Muradin</h3>
   </a>
 </div>`,
@@ -1525,7 +1525,7 @@ let murky = [
   ["", 15, "", "", "", ""],
   [
     `<div class="col mix war dd epic">
-  <a href="/ru/heroes/dd/murky.html"><img src="/image/heroes/Murky/Murky.png" alt="">
+  <a href="../ru/heroes/dd/murky.html"><img src="../image/heroes/Murky/Murky.png" alt="">
       <h3>Мурчаль</h3>
   </a>
 </div>`,
@@ -1533,7 +1533,7 @@ let murky = [
   [],
   [
     `<div class="col mix war dd epic">
-  <a href=" /en-us/heroes/dd/murky.html"><img src="/image/heroes/Murky/Murky.png" alt="">
+  <a href=" ../en-us/heroes/dd/murky.html"><img src="../image/heroes/Murky/Murky.png" alt="">
       <h3>Murky</h3>
   </a>
 </div>`,
@@ -1552,7 +1552,7 @@ let nazeebo = [
   ["", 67, "", "", "", ""],
   [
     `<div class="col mix diablo rdd epic">
-  <a href="/ru/heroes/rdd/nazeebo.html"><img src="/image/heroes/Nazeebo/Nazeebo.png" alt="">
+  <a href="../ru/heroes/rdd/nazeebo.html"><img src="../image/heroes/Nazeebo/Nazeebo.png" alt="">
       <h3>Назибо</h3>
   </a>
 </div>`,
@@ -1560,7 +1560,7 @@ let nazeebo = [
   [],
   [
     `<div class="col mix diablo rdd epic">
-  <a href=" /en-us/heroes/rdd/nazeebo.html"><img src="/image/heroes/Nazeebo/Nazeebo.png" alt="">
+  <a href=" ../en-us/heroes/rdd/nazeebo.html"><img src="../image/heroes/Nazeebo/Nazeebo.png" alt="">
       <h3>Nazeebo</h3>
   </a>
 </div>`,
@@ -1580,7 +1580,7 @@ let nova = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix sc rdd epic">
-  <a href="/ru/heroes/rdd/nova.html"><img src="/image/heroes/Nova/Nova.png" alt="">
+  <a href="../ru/heroes/rdd/nova.html"><img src="../image/heroes/Nova/Nova.png" alt="">
       <h3>Нова</h3>
   </a>
 </div>`,
@@ -1588,7 +1588,7 @@ let nova = [
   [],
   [
     `<div class="col mix sc rdd epic">
-  <a href=" /en-us/heroes/rdd/nova.html"><img src="/image/heroes/Nova/Nova.png" alt="">
+  <a href=" ../en-us/heroes/rdd/nova.html"><img src="../image/heroes/Nova/Nova.png" alt="">
       <h3>Nova</h3>
   </a>
 </div>`,
@@ -1606,7 +1606,7 @@ let orphea = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix nexus rdd leg">
-  <a href="/ru/heroes/rdd/orphea.html"><img src="/image/heroes/Orphea/Orphea.png" alt="">
+  <a href="../ru/heroes/rdd/orphea.html"><img src="../image/heroes/Orphea/Orphea.png" alt="">
       <h3>Орфея</h3>
   </a>
 </div>`,
@@ -1614,7 +1614,7 @@ let orphea = [
   [],
   [
     `<div class="col mix nexus rdd leg">
-  <a href=" /en-us/heroes/rdd/orphea.html"><img src="/image/heroes/Orphea/Orphea.png" alt="">
+  <a href=" ../en-us/heroes/rdd/orphea.html"><img src="../image/heroes/Orphea/Orphea.png" alt="">
       <h3>Orphea</h3>
   </a>
 </div>`,
@@ -1633,7 +1633,7 @@ let probius = [
   ["", 12, "", "", "", ""],
   [
     `<div class="col mix sc rdd leg">
-  <a href="/ru/heroes/rdd/probius.html"><img src="/image/heroes/Probius/Probius.png" alt="">
+  <a href="../ru/heroes/rdd/probius.html"><img src="../image/heroes/Probius/Probius.png" alt="">
       <h3>Пробиус</h3>
   </a>
 </div>`,
@@ -1641,7 +1641,7 @@ let probius = [
   [],
   [
     `<div class="col mix sc rdd leg">
-  <a href=" /en-us/heroes/rdd/probius.html"><img src="/image/heroes/Probius/Probius.png" alt="">
+  <a href=" ../en-us/heroes/rdd/probius.html"><img src="../image/heroes/Probius/Probius.png" alt="">
       <h3>Probius</h3>
   </a>
 </div>`,
@@ -1660,7 +1660,7 @@ let qhira = [
   ["", 25, 35, 108, "", ""],
   [
     `<div class="col mix nexus dd leg">
-  <a href="/ru/heroes/dd/qhira.html"><img src="/image/heroes/Qhira/Qhira.jpg" alt="">
+  <a href="../ru/heroes/dd/qhira.html"><img src="../image/heroes/Qhira/Qhira.jpg" alt="">
       <h3>Кахира</h3>
   </a>
 </div>`,
@@ -1668,7 +1668,7 @@ let qhira = [
   [],
   [
     `<div class="col mix nexus dd leg">
-  <a href=" /en-us/heroes/dd/qhira.html"><img src="/image/heroes/Qhira/Qhira.jpg" alt="">
+  <a href=" ../en-us/heroes/dd/qhira.html"><img src="../image/heroes/Qhira/Qhira.jpg" alt="">
       <h3>Qhira</h3>
   </a>
 </div>`,
@@ -1687,7 +1687,7 @@ let ragnaros = [
   ["", 120, 3996, "", "", ""],
   [
     `<div class="col mix war bruiser epic">
-  <a href="/ru/heroes/bruiser/ragnaros.html"><img src="/image/heroes/Ragnaros/Ragnaros.png" alt="">
+  <a href="../ru/heroes/bruiser/ragnaros.html"><img src="../image/heroes/Ragnaros/Ragnaros.png" alt="">
       <h3>Рагнарос</h3>
   </a>
 </div>`,
@@ -1695,7 +1695,7 @@ let ragnaros = [
   [],
   [
     `<div class="col mix war bruiser epic">
-  <a href=" /en-us/heroes/bruiser/ragnaros.html"><img src="/image/heroes/Ragnaros/Ragnaros.png" alt="">
+  <a href=" ../en-us/heroes/bruiser/ragnaros.html"><img src="../image/heroes/Ragnaros/Ragnaros.png" alt="">
       <h3>Ragnaros</h3>
   </a>
 </div>`,
@@ -1714,7 +1714,7 @@ let raynor = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix sc rdd rare">
-  <a href="/ru/heroes/rdd/raynor.html"><img src="/image/heroes/Raynor/Raynor.png" alt="">
+  <a href="../ru/heroes/rdd/raynor.html"><img src="../image/heroes/Raynor/Raynor.png" alt="">
       <h3>Рейнор</h3>
   </a>
 </div>`,
@@ -1722,7 +1722,7 @@ let raynor = [
   [],
   [
     `<div class="col mix sc rdd rare">
-  <a href=" /en-us/heroes/rdd/raynor.html"><img src="/image/heroes/Raynor/Raynor.png" alt="">
+  <a href=" ../en-us/heroes/rdd/raynor.html"><img src="../image/heroes/Raynor/Raynor.png" alt="">
       <h3>Raynor</h3>
   </a>
 </div>`,
@@ -1741,7 +1741,7 @@ let rehgar = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war heal epic">
-  <a href="/ru/heroes/heal/rehgar.html"><img src="/image/heroes/Rehgar/Rehgar.png" alt="">
+  <a href="../ru/heroes/heal/rehgar.html"><img src="../image/heroes/Rehgar/Rehgar.png" alt="">
       <h3>Регар</h3>
   </a>
 </div>`,
@@ -1749,7 +1749,7 @@ let rehgar = [
   [],
   [
     `<div class="col mix war heal epic">
-  <a href=" /en-us/heroes/heal/rehgar.html"><img src="/image/heroes/Rehgar/Rehgar.png" alt="">
+  <a href=" ../en-us/heroes/heal/rehgar.html"><img src="../image/heroes/Rehgar/Rehgar.png" alt="">
       <h3>Rehgar</h3>
   </a>
 </div>`,
@@ -1768,7 +1768,7 @@ let rexxar = [
   [0, "", "", "", "", ""],
   [
     `<div class="col mix war bruiser epic">
-  <a href="/ru/heroes/bruiser/rexxar.html"><img src="/image/heroes/Rexxar/Rexxar.png" alt="">
+  <a href="../ru/heroes/bruiser/rexxar.html"><img src="../image/heroes/Rexxar/Rexxar.png" alt="">
       <h3>Рексар</h3>
   </a>
 </div>`,
@@ -1776,7 +1776,7 @@ let rexxar = [
   [],
   [
     `<div class="col mix war bruiser epic">
-  <a href=" /en-us/heroes/bruiser/rexxar.html"><img src="/image/heroes/Rexxar/Rexxar.png" alt="">
+  <a href=" ../en-us/heroes/bruiser/rexxar.html"><img src="../image/heroes/Rexxar/Rexxar.png" alt="">
       <h3>Rexxar</h3>
   </a>
 </div>`,
@@ -1795,7 +1795,7 @@ let samuro = [
   ["", 14, "", "", "", ""],
   [
     `<div class="col mix war dd leg">
-  <a href="/ru/heroes/dd/samuro.html"><img src="/image/heroes/Samuro/Samuro.png" alt="">
+  <a href="../ru/heroes/dd/samuro.html"><img src="../image/heroes/Samuro/Samuro.png" alt="">
       <h3>Самуро</h3>
   </a>
 </div>`,
@@ -1803,7 +1803,7 @@ let samuro = [
   [],
   [
     `<div class="col mix war dd leg">
-  <a href=" /en-us/heroes/dd/samuro.html"><img src="/image/heroes/Samuro/Samuro.png" alt="">
+  <a href=" ../en-us/heroes/dd/samuro.html"><img src="../image/heroes/Samuro/Samuro.png" alt="">
       <h3>Samuro</h3>
   </a>
 </div>`,
@@ -1823,7 +1823,7 @@ let sonya = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix diablo bruiser epic">
-  <a href="/ru/heroes/bruiser/sonya.html"><img src="/image/heroes/Sonya/Sonya.png" alt="">
+  <a href="../ru/heroes/bruiser/sonya.html"><img src="../image/heroes/Sonya/Sonya.png" alt="">
       <h3>Соня</h3>
   </a>
 </div>`,
@@ -1831,7 +1831,7 @@ let sonya = [
   [],
   [
     `<div class="col mix diablo bruiser epic">
-  <a href=" /en-us/heroes/bruiser/sonya.html"><img src="/image/heroes/Sonya/Sonya.png" alt="">
+  <a href=" ../en-us/heroes/bruiser/sonya.html"><img src="../image/heroes/Sonya/Sonya.png" alt="">
       <h3>Sonya</h3>
   </a>
 </div>`,
@@ -1851,7 +1851,7 @@ let stitches = [
   ["", "", 45, "", "", ""],
   [
     `<div class="col mix war tank epic">
-  <a href="/ru/heroes/tank/stitches.html"><img src="/image/heroes/Stitches/Stitches.png" alt="">
+  <a href="../ru/heroes/tank/stitches.html"><img src="../image/heroes/Stitches/Stitches.png" alt="">
       <h3>Стежок</h3>
   </a>
 </div>`,
@@ -1859,7 +1859,7 @@ let stitches = [
   [],
   [
     `<div class="col mix war tank epic">
-  <a href=" /en-us/heroes/tank/stitches.html"><img src="/image/heroes/Stitches/Stitches.png" alt="">
+  <a href=" ../en-us/heroes/tank/stitches.html"><img src="../image/heroes/Stitches/Stitches.png" alt="">
       <h3>Stitches</h3>
   </a>
 </div>`,
@@ -1878,7 +1878,7 @@ let stukov = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix sc heal leg">
-  <a href="/ru/heroes/heal/stukov.html"><img src="/image/heroes/Stukov/Stukov.png" alt="">
+  <a href="../ru/heroes/heal/stukov.html"><img src="../image/heroes/Stukov/Stukov.png" alt="">
       <h3>Стуков</h3>
   </a>
 </div>`,
@@ -1886,7 +1886,7 @@ let stukov = [
   [],
   [
     `<div class="col mix sc heal leg">
-  <a href=" /en-us/heroes/heal/stukov.html"><img src="/image/heroes/Stukov/Stukov.png" alt="">
+  <a href=" ../en-us/heroes/heal/stukov.html"><img src="../image/heroes/Stukov/Stukov.png" alt="">
       <h3>Stukov</h3>
   </a>
 </div>`,
@@ -1905,7 +1905,7 @@ let sylvanas = [
   ["", 40, "", "", "", ""],
   [
     `<div class="col mix war rdd epic">
-  <a href="/ru/heroes/rdd/sylvanas.html"><img src="/image/heroes/Sylvanas/Sylvanas.png" alt="">
+  <a href="../ru/heroes/rdd/sylvanas.html"><img src="../image/heroes/Sylvanas/Sylvanas.png" alt="">
       <h3>Сильвана</h3>
   </a>
 </div>`,
@@ -1913,7 +1913,7 @@ let sylvanas = [
   [],
   [
     `<div class="col mix war rdd epic">
-  <a href=" /en-us/heroes/rdd/sylvanas.html"><img src="/image/heroes/Sylvanas/Sylvanas.png" alt="">
+  <a href=" ../en-us/heroes/rdd/sylvanas.html"><img src="../image/heroes/Sylvanas/Sylvanas.png" alt="">
       <h3>Sylvanas</h3>
   </a>
 </div>`,
@@ -1931,7 +1931,7 @@ let tassadar = [
   [80, 70, 310],
   [
     `<div class="col mix sc rdd epic">
-  <a href="/ru/heroes/rdd/tassadar.html"><img src="/image/heroes/Tassadar/Tassadar.png" alt="">
+  <a href="../ru/heroes/rdd/tassadar.html"><img src="../image/heroes/Tassadar/Tassadar.png" alt="">
       <h3>Тассадар</h3>
   </a>
 </div>`,
@@ -1939,7 +1939,7 @@ let tassadar = [
   [],
   [
     `<div class="col mix sc rdd epic">
-  <a href=" /en-us/heroes/rdd/tassadar.html"><img src="/image/heroes/Tassadar/Tassadar.png" alt="">
+  <a href=" ../en-us/heroes/rdd/tassadar.html"><img src="../image/heroes/Tassadar/Tassadar.png" alt="">
       <h3>Tassadar</h3>
   </a>
 </div>`,
@@ -1958,7 +1958,7 @@ let vikings = [
   [],
   [
     `<div class="col mix nexus support leg">
-<a href="/ru/heroes/support/vikings.html"><img src="/image/heroes/LostVikings/LostVikings.png" alt="">
+<a href="../ru/heroes/support/vikings.html"><img src="../image/heroes/LostVikings/LostVikings.png" alt="">
     <h3>Викинги</h3>
 </a>
 </div>`,
@@ -1966,7 +1966,7 @@ let vikings = [
   [],
   [
     `<div class="col mix nexus support leg">
-  <a href=" /en-us/heroes/support/vikings.html"><img src="/image/heroes/LostVikings/LostVikings.png"
+  <a href=" ../en-us/heroes/support/vikings.html"><img src="../image/heroes/LostVikings/LostVikings.png"
           alt="">
       <h3>Lost Vikings</h3>
   </a>
@@ -1986,7 +1986,7 @@ let thrall = [
   ["", "", 223, "", "", ""],
   [
     `<div class="col mix war bruiser epic">
-  <a href="/ru/heroes/bruiser/thrall.html"><img src="/image/heroes/Thrall/Thrall.png" alt="">
+  <a href="../ru/heroes/bruiser/thrall.html"><img src="../image/heroes/Thrall/Thrall.png" alt="">
       <h3>Тралл</h3>
   </a>
 </div>`,
@@ -1994,7 +1994,7 @@ let thrall = [
   [],
   [
     `<div class="col mix war bruiser epic">
-  <a href=" /en-us/heroes/bruiser/thrall.html"><img src="/image/heroes/Thrall/Thrall.png" alt="">
+  <a href=" ../en-us/heroes/bruiser/thrall.html"><img src="../image/heroes/Thrall/Thrall.png" alt="">
       <h3>Thrall</h3>
   </a>
 </div>`,
@@ -2013,7 +2013,7 @@ let tracer = [
   ["", 1, "", "", "", ""],
   [
     `<div class="col mix over rdd leg">
-  <a href="/ru/heroes/rdd/tracer.html"><img src="/image/heroes/Tracer/Tracer.png" alt="">
+  <a href="../ru/heroes/rdd/tracer.html"><img src="../image/heroes/Tracer/Tracer.png" alt="">
       <h3>Трейсер</h3>
   </a>
 </div>`,
@@ -2021,7 +2021,7 @@ let tracer = [
   [],
   [
     `<div class="col mix over rdd leg">
-    <a href=" /en-us/heroes/rdd/tracer.html"><img src="/image/heroes/Tracer/Tracer.png" alt="">
+    <a href=" ../en-us/heroes/rdd/tracer.html"><img src="../image/heroes/Tracer/Tracer.png" alt="">
         <h3>Tracer</h3>
     </a>
 </div>`,
@@ -2040,7 +2040,7 @@ let tychus = [
   ["", 12, "", "", "", ""],
   [
     `<div class="col mix sc rdd epic">
-  <a href="/ru/heroes/rdd/tychus.html"><img src="/image/heroes/Tychus/Tychus.png" alt="">
+  <a href="../ru/heroes/rdd/tychus.html"><img src="../image/heroes/Tychus/Tychus.png" alt="">
       <h3>Тайкус</h3>
   </a>
 </div>`,
@@ -2048,7 +2048,7 @@ let tychus = [
   [],
   [
     `<div class="col mix sc rdd epic">
-  <a href=" /en-us/heroes/rdd/tychus.html"><img src="/image/heroes/Tychus/Tychus.png" alt="">
+  <a href=" ../en-us/heroes/rdd/tychus.html"><img src="../image/heroes/Tychus/Tychus.png" alt="">
       <h3>Tychus</h3>
   </a>
 </div>`,
@@ -2067,7 +2067,7 @@ let tyrael = [
   ["", "", 550, "", "", ""],
   [
     `<div class="col mix diablo tank epic">
-  <a href="/ru/heroes/tank/tyrael.html"><img src="/image/heroes/Tyrael/Tyrael.png" alt="">
+  <a href="../ru/heroes/tank/tyrael.html"><img src="../image/heroes/Tyrael/Tyrael.png" alt="">
       <h3>Тираэль</h3>
   </a>
 </div>`,
@@ -2075,7 +2075,7 @@ let tyrael = [
   [],
   [
     `<div class="col mix war heal epic">
-  <a href=" /en-us/heroes/heal/tyrande.html"><img src="/image/heroes/Tyrande/Tyrande.png" alt="">
+  <a href=" ../en-us/heroes/heal/tyrande.html"><img src="../image/heroes/Tyrande/Tyrande.png" alt="">
       <h3>Tyrande</h3>
   </a>
 </div>`,
@@ -2094,7 +2094,7 @@ let tyrande = [
   ["", 20, "", "", "", ""],
   [
     `<div class="col mix war heal epic">
-  <a href="/ru/heroes/heal/tyrande.html"><img src="/image/heroes/Tyrande/Tyrande.png" alt="">
+  <a href="../ru/heroes/heal/tyrande.html"><img src="../image/heroes/Tyrande/Tyrande.png" alt="">
       <h3>Тиранда</h3>
   </a>
 </div>`,
@@ -2102,7 +2102,7 @@ let tyrande = [
   [],
   [
     `<div class="col mix diablo tank epic">
-  <a href=" /en-us/heroes/tank/tyrael.html"><img src="/image/heroes/Tyrael/Tyrael.png" alt="">
+  <a href=" ../en-us/heroes/tank/tyrael.html"><img src="../image/heroes/Tyrael/Tyrael.png" alt="">
       <h3>Tyrael</h3>
   </a>
 </div>`,
@@ -2121,7 +2121,7 @@ let uther = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war heal epic">
-  <a href="/ru/heroes/heal/uther.html"><img src="/image/heroes/Uther/Uther.png" alt="">
+  <a href="../ru/heroes/heal/uther.html"><img src="../image/heroes/Uther/Uther.png" alt="">
       <h3>Утер</h3>
   </a>
 </div>`,
@@ -2129,7 +2129,7 @@ let uther = [
   [],
   [
     `<div class="col mix war heal epic">
-  <a href=" /en-us/heroes/heal/uther.html"><img src="/image/heroes/Uther/Uther.png" alt="">
+  <a href=" ../en-us/heroes/heal/uther.html"><img src="../image/heroes/Uther/Uther.png" alt="">
       <h3>Uther</h3>
   </a>
 </div>`,
@@ -2148,7 +2148,7 @@ let valeera = [
   ["", 8, "", "", "", ""],
   [
     `<div class="col mix war dd leg">
-  <a href="/ru/heroes/dd/valeera.html"><img src="/image/heroes/Valeera/Valeera.png" alt="">
+  <a href="../ru/heroes/dd/valeera.html"><img src="../image/heroes/Valeera/Valeera.png" alt="">
       <h3>Валира</h3>
   </a>
 </div>`,
@@ -2156,7 +2156,7 @@ let valeera = [
   [],
   [
     `<div class="col mix war dd leg">
-  <a href=" /en-us/heroes/dd/valeera.html"><img src="/image/heroes/Valeera/Valeera.png" alt="">
+  <a href=" ../en-us/heroes/dd/valeera.html"><img src="../image/heroes/Valeera/Valeera.png" alt="">
       <h3>Valeera</h3>
   </a>
 </div>`,
@@ -2175,7 +2175,7 @@ let valla = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix diablo rdd rare">
-  <a href="/ru/heroes/rdd/valla.html"><img src="/image/heroes/Valla/Valla.png" alt="">
+  <a href="../ru/heroes/rdd/valla.html"><img src="../image/heroes/Valla/Valla.png" alt="">
       <h3>Валла</h3>
   </a>
 </div>`,
@@ -2183,7 +2183,7 @@ let valla = [
   [],
   [
     `<div class="col mix diablo rdd rare">
-  <a href=" /en-us/heroes/rdd/valla.html"><img src="/image/heroes/Valla/Valla.png" alt="">
+  <a href=" ../en-us/heroes/rdd/valla.html"><img src="../image/heroes/Valla/Valla.png" alt="">
       <h3>Valla</h3>
   </a>
 </div>`,
@@ -2202,7 +2202,7 @@ let varian = [
   ["", 18, 125, "", "", ""],
   [
     `<div class="col mix war bruiser leg">
-  <a href="/ru/heroes/bruiser/varian.html"><img src="/image/heroes/Varian/Varian.png" alt="">
+  <a href="../ru/heroes/bruiser/varian.html"><img src="../image/heroes/Varian/Varian.png" alt="">
       <h3>Вариан</h3>
   </a>
 </div>`,
@@ -2210,7 +2210,7 @@ let varian = [
   [],
   [
     `<div class="col mix war bruiser leg">
-  <a href=" /en-us/heroes/bruiser/varian.html"><img src="/image/heroes/Varian/Varian.png" alt="">
+  <a href=" ../en-us/heroes/bruiser/varian.html"><img src="../image/heroes/Varian/Varian.png" alt="">
       <h3>Varian</h3>
   </a>
 </div>`,
@@ -2229,7 +2229,7 @@ let whitemane = [
   ["", 60, "", "", "", ""],
   [
     `<div class="col mix war heal leg">
-  <a href="/ru/heroes/heal/whitemane.html"><img src="/image/heroes/Whitemane/Whitemane.png" alt="">
+  <a href="../ru/heroes/heal/whitemane.html"><img src="../image/heroes/Whitemane/Whitemane.png" alt="">
       <h3>Вайтмейн</h3>
   </a>
 </div>`,
@@ -2237,7 +2237,7 @@ let whitemane = [
   [],
   [
     `<div class="col mix war heal leg">
-  <a href=" /en-us/heroes/heal/whitemane.html"><img src="/image/heroes/Whitemane/Whitemane.png" alt="">
+  <a href=" ../en-us/heroes/heal/whitemane.html"><img src="../image/heroes/Whitemane/Whitemane.png" alt="">
       <h3>Whitemane</h3>
   </a>
 </div>`,
@@ -2256,7 +2256,7 @@ let xul = [
   ["", "", 240, 21, 46, ""],
   [
     `<div class="col mix diablo bruiser leg">
-  <a href="/ru/heroes/bruiser/xul.html"><img src="/image/heroes/Xul/Xul.png" alt="">
+  <a href="../ru/heroes/bruiser/xul.html"><img src="../image/heroes/Xul/Xul.png" alt="">
       <h3>Зул</h3>
   </a>
 </div>`,
@@ -2264,7 +2264,7 @@ let xul = [
   [],
   [
     `<div class="col mix diablo bruiser leg">
-  <a href=" /en-us/heroes/bruiser/xul.html"><img src="/image/heroes/Xul/Xul.png" alt="">
+  <a href=" ../en-us/heroes/bruiser/xul.html"><img src="../image/heroes/Xul/Xul.png" alt="">
       <h3>Xul</h3>
   </a>
 </div>`,
@@ -2283,7 +2283,7 @@ let yrel = [
   ["", 8, "", "", "", ""],
   [
     `<div class="col mix war bruiser leg">
-  <a href="/ru/heroes/bruiser/yrel.html"><img src="/image/heroes/Yrel/Yrel.png" alt="">
+  <a href="../ru/heroes/bruiser/yrel.html"><img src="../image/heroes/Yrel/Yrel.png" alt="">
       <h3>Ирель</h3>
   </a>
 </div>`,
@@ -2291,7 +2291,7 @@ let yrel = [
   [],
   [
     `<div class="col mix war bruiser leg">
-  <a href=" /en-us/heroes/bruiser/yrel.html"><img src="/image/heroes/Yrel/Yrel.png" alt="">
+  <a href=" ../en-us/heroes/bruiser/yrel.html"><img src="../image/heroes/Yrel/Yrel.png" alt="">
       <h3>Yrel</h3>
   </a>
 </div>`,
@@ -2310,7 +2310,7 @@ let zagara = [
   ["", 18, "", "", "", ""],
   [
     `<div class="col mix sc rdd epic">
-  <a href="/ru/heroes/rdd/zagara.html"><img src="/image/heroes/Zagara/Zagara.png" alt="">
+  <a href="../ru/heroes/rdd/zagara.html"><img src="../image/heroes/Zagara/Zagara.png" alt="">
       <h3>Загара</h3>
   </a>
 </div>`,
@@ -2318,7 +2318,7 @@ let zagara = [
   [],
   [
     `<div class="col mix sc rdd epic">
-  <a href=" /en-us/heroes/rdd/zagara.html"><img src="/image/heroes/Zagara/Zagara.png" alt="">
+  <a href=" ../en-us/heroes/rdd/zagara.html"><img src="../image/heroes/Zagara/Zagara.png" alt="">
       <h3>Zagara</h3>
   </a>
 </div>`,
@@ -2337,7 +2337,7 @@ let zarya = [
   ["", "", 9, "", "", ""],
   [
     `<div class="col mix over support epic">
-  <a href="/ru/heroes/support/zarya.html"><img src="/image/heroes/Zarya/Zarya.png" alt="">
+  <a href="../ru/heroes/support/zarya.html"><img src="../image/heroes/Zarya/Zarya.png" alt="">
       <h3>Заря</h3>
   </a>
 </div>`,
@@ -2345,7 +2345,7 @@ let zarya = [
   [],
   [
     `<div class="col mix over support epic">
-  <a href=" /en-us/heroes/support/zarya.html"><img src="/image/heroes/Zarya/Zarya.png" alt="">
+  <a href=" ../en-us/heroes/support/zarya.html"><img src="../image/heroes/Zarya/Zarya.png" alt="">
       <h3>Zarya</h3>
   </a>
 </div>`,
@@ -2364,7 +2364,7 @@ let zeratul = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix sc dd leg">
-  <a href="/ru/heroes/dd/zeratul.html"><img src="/image/heroes/Zeratul/Zeratul.png" alt="">
+  <a href="../ru/heroes/dd/zeratul.html"><img src="../image/heroes/Zeratul/Zeratul.png" alt="">
       <h3>Зератул</h3>
   </a>
 </div>`,
@@ -2372,7 +2372,7 @@ let zeratul = [
   [],
   [
     `<div class="col mix sc dd leg">
-  <a href=" /en-us/heroes/dd/zeratul.html"><img src="/image/heroes/Zeratul/Zeratul.png" alt="">
+  <a href=" ../en-us/heroes/dd/zeratul.html"><img src="../image/heroes/Zeratul/Zeratul.png" alt="">
       <h3>Zeratul</h3>
   </a>
 </div>`,
@@ -2391,7 +2391,7 @@ let zuljin = [
   ["", "", "", "", "", ""],
   [
     `<div class="col mix war rdd leg">
-  <a href="/ru/heroes/rdd/zuljin.html"><img src="/image/heroes/Zuljin/Zul'jin.png" alt="">
+  <a href="../ru/heroes/rdd/zuljin.html"><img src="../image/heroes/Zuljin/Zul'jin.png" alt="">
       <h3>Зул'джин</h3>
   </a>
 </div>`,
@@ -2399,7 +2399,7 @@ let zuljin = [
   [],
   [
     `<div class="col mix war rdd leg">
-  <a href=" /en-us/heroes/rdd/zuljin.html"><img src="/image/heroes/Zuljin/Zul'jin.png" alt="">
+  <a href=" ../en-us/heroes/rdd/zuljin.html"><img src="../image/heroes/Zuljin/Zul'jin.png" alt="">
       <h3>Zul'jin</h3>
   </a>
 </div>`,
