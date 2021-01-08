@@ -2,7 +2,7 @@ body {
     background-color: #08000f !important;
     max-width: 2500px;
     margin: 0 auto !important;
-    cursor: url(/cursors/cursor.cur), default !important;
+    cursor: url(../cursors/cursor.cur), default !important;
     overflow-x: hidden;
 }
 
@@ -38,7 +38,7 @@ h2 {
 }
 
 .header {
-    background: url(/image/home/bg.jpg) no-repeat;
+    background: url(../image/home/bg.jpg) no-repeat;
     background-size: cover !important;
     background-position: center center !important;
     min-width: 100%;
@@ -49,13 +49,13 @@ h2 {
 
 @media (max-width:1200px) {
     .header {
-        background: url(/image/home/mbg.jpg) no-repeat;
+        background: url(../image/home/mbg.jpg) no-repeat;
     }
 }
 
 @media (max-width:650px) {
     .header {
-        background: url(/image/home/bgm.jpg) no-repeat;
+        background: url(../image/home/bgm.jpg) no-repeat;
     }
 }
 
@@ -96,7 +96,7 @@ p {
 }
 
 .heroes {
-    background: url(/image/home/heroes-bg.jpg) no-repeat;
+    background: url(../image/home/heroes-bg.jpg) no-repeat;
     background-size: cover !important;
     position: relative;
     padding: 50px;
@@ -136,11 +136,11 @@ p {
     -webkit-box-shadow: 0 0 10px rgba(51, 153, 255, .5);
     box-shadow: 0 0 10px rgba(51, 153, 255, .5);
     border-radius: 100px;
-    cursor: url(/cursors/pointer.cur), pointer !important;
+    cursor: url(../cursors/pointer.cur), pointer !important;
 }
 
 .battlegrounds {
-    background: url(/image/home/battlegrounds-bg.jpg) no-repeat;
+    background: url(../image/home/battlegrounds-bg.jpg) no-repeat;
     background-size: cover !important;
     position: relative;
     padding: 50px;
@@ -156,7 +156,7 @@ p {
 }
 
 .game-modes {
-    background: url(/image/home/modes-bg.jpg) no-repeat;
+    background: url(../image/home/modes-bg.jpg) no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -205,7 +205,7 @@ p {
 }
 
 .battlegrounds-image {
-    background: url(/image/home/battlegrounds-image-bg.jpg) no-repeat;
+    background: url(../image/home/battlegrounds-image-bg.jpg) no-repeat;
     background-size: contain !important;
     padding-bottom: 50%;
     width: 100%;
@@ -233,7 +233,7 @@ p {
 a {
     text-decoration: none !important;
     color: white !important;
-    cursor: url(/cursors/pointer.cur), pointer !important;
+    cursor: url(../cursors/pointer.cur), pointer !important;
 }
 
 p button {
