@@ -37,11 +37,11 @@ let addLang = setInterval(
     (document.getElementById("en").innerHTML =
       "<a href= " +
       enUrl +
-      '><img class="flag"src="../../image/flags/us.svg" alt="English"></a>'),
+      '><img class="flag"src="../image/flags/us.svg" alt="English"></a>'),
     (document.getElementById("ru").innerHTML =
       "<a href= " +
       ruUrl +
-      '><img class="flag"src="../../image/flags/ru.svg" alt="Русский"></a>')
+      '><img class="flag"src="../image/flags/ru.svg" alt="Русский"></a>')
   ),
   100
 );
